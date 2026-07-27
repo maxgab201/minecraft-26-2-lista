@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft 26.2 — Todos los Bloques — Lista Completa</title>
+<link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <h1 data-i18n="title">MINECRAFT 26.2 — CHAOS CUBED</h1>
+  <p class="subtitle" data-i18n="subtitle">
+    Lista completa de los <strong>1,385 bloques y variantes</strong> conocidos en Minecraft 26.2 (Chaos Cubed, junio 2026). Incluye las familias nuevas <strong>Cinnabar</strong>, <strong>Sulfur</strong>, <strong>Potent Sulfur</strong>, <strong>Sulfur Spike</strong>, más todas las formas derivadas: losas (slab), escaleras (stairs), muros (wall), ladrillos (brick), pulidos, tallados, cortados, oxidados, encerados, expuestos y más de cada bloque base.
+  </p>
+  <div class="badge-row">
+    <span class="badge">26.2 Chaos Cubed</span>
+    <span class="badge" data-i18n="badge_total">1,385+ bloques y variantes</span>
+    <span class="badge" data-i18n="badge_new">Nuevos: Cinnabar · Sulfur</span>
+    <span class="badge" data-i18n="badge_all">Todas las formas incluidas</span>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Barra de acciones -->
+  <div class="actions-top">
+    <div class="left-btns">
+      <button class="btn" onclick="toggleAll(true)" data-i18n="btn_check">✓ Marcar todo</button>
+      <button class="btn secondary" onclick="toggleAll(false)" data-i18n="btn_uncheck">✗ Desmarcar todo</button>
+      <button class="btn secondary" onclick="window.print()" data-i18n="btn_print">🖨 Imprimir</button>
+      <button class="btn red" onclick="clearChecked()" data-i18n="btn_clear">🗑 Borrar marcados</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <div class="stats" data-i18n="stats_prefix">Marcados: <span id="count">0</span> / <span id="total">0</span></div>
+      <div class="lang-switch" aria-label="Selector de idioma">
+        <button class="active" onclick="setLang('es',this)" aria-label="Español">ES</button>
+        <button onclick="setLang('en',this)" aria-label="English">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Buscador -->
+  <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Buscar bloque..." oninput="filterBlocks(this.value)" data-i18n-placeholder="search_placeholder">
+    <button class="btn secondary" onclick="document.getElementById('searchInput').value='';filterBlocks('')" data-i18n="btn_clear_search">Limpiar</button>
+  </div>
+
+  <!-- Categoría: NUEVOS 26.2 -->
+  <section class="cat-section" aria-label="Nuevos 26.2">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #e85d5d, #b03030);">N</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_new_title">NUEVOS — 26.2 CHAOS CUBED</h2>
+        <p class="cat-desc" data-i18n="cat_new_desc">Familias Cinnabar y Sulfur con todas sus variantes (slab, stairs, wall, brick, polished, chiseled), Potent Sulfur y Sulfur Spike.</p>
+      </div>
+      <div class="cat-count"><span id="count_new">0</span> / <span id="total_new">0</span></div>
+    </div>
+    <div class="grid" id="cat-nuevos"></div>
+  </section>
+
+  <!-- Categoría: CONSTRUCCIÓN -->
+  <section class="cat-section" aria-label="Construcción" id="sec_construccion">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, var(--mc-accent), #7a6328);">C</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_build_title">CONSTRUCCIÓN</h2>
+        <p class="cat-desc" data-i18n="cat_build_desc">Piedras, ladrillos, losas, escaleras, muros, deepslate y variantes decorativas.</p>
+      </div>
+      <div class="cat-count"><span id="count_construccion">0</span> / <span id="total_construccion">0</span></div>
+    </div>
+    <div class="grid" id="cat-construccion"></div>
+  </section>
+
+  <!-- Categoría: MADERA -->
+  <section class="cat-section" aria-label="Madera" id="sec_madera">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #8b5a2b, #5c3a1e);">M</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_wood_title">MADERA</h2>
+        <p class="cat-desc" data-i18n="cat_wood_desc">Todos los tipos de madera, troncos, tablas, puertas, vallas, escaleras, losas, señales, estanterías y derivados.</p>
+      </div>
+      <div class="cat-count"><span id="count_madera">0</span> / <span id="total_madera">0</span></div>
+    </div>
+    <div class="grid" id="cat-madera"></div>
+  </section>
+
+  <!-- Categoría: NATURALEZA -->
+  <section class="cat-section" aria-label="Naturaleza" id="sec_naturaleza">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #5da55d, #3a6e3a);">N</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_nature_title">NATURALEZA</h2>
+        <p class="cat-desc" data-i18n="cat_nature_desc">Plantas, flores, árboles, césped, tierra, arena, corales, algas, cultivos y elementos naturales.</p>
+      </div>
+      <div class="cat-count"><span id="count_naturaleza">0</span> / <span id="total_naturaleza">0</span></div>
+    </div>
+    <div class="grid" id="cat-naturaleza"></div>
+  </section>
+
+  <!-- Categoría: MINERALES -->
+  <section class="cat-section" aria-label="Minerales" id="sec_ores">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, var(--mc-blue), #2a4a8a);">O</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_ore_title">MINERALES Y ORES</h2>
+        <p class="cat-desc" data-i18n="cat_ore_desc">Minerales, bloques de mineral (incluyendo deep slate), gemas, cristal de amatista y derivados.</p>
+      </div>
+      <div class="cat-count"><span id="count_ores">0</span> / <span id="total_ores">0</span></div>
+    </div>
+    <div class="grid" id="cat-ores"></div>
+  </section>
+
+  <!-- Categoría: DECORACIÓN -->
+  <section class="cat-section" aria-label="Decoración" id="sec_decoracion">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, var(--mc-purple), #5a2e8a);">D</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_deco_title">DECORACIÓN</h2>
+        <p class="cat-desc" data-i18n="cat_deco_desc">Vidrios, vitrales, concreto, terracota, alfombras, camas, velas, cerámica, banderas, cajas shulker y elementos estéticos.</p>
+      </div>
+      <div class="cat-count"><span id="count_decoracion">0</span> / <span id="total_decoracion">0</span></div>
+    </div>
+    <div class="grid" id="cat-decoracion"></div>
+  </section>
+
+  <!-- Categoría: REDSTONE -->
+  <section class="cat-section" aria-label="Redstone" id="sec_redstone">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, var(--mc-red), #8a2a2a);">R</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_red_title">REDSTONE</h2>
+        <p class="cat-desc" data-i18n="cat_red_desc">Componentes de redstone: repetidores, comparadores, pistones, observadores, sensores, railes, palancas y bloques de comando.</p>
+      </div>
+      <div class="cat-count"><span id="count_redstone">0</span> / <span id="total_redstone">0</span></div>
+    </div>
+    <div class="grid" id="cat-redstone"></div>
+  </section>
+
+  <!-- Categoría: NETHER -->
+  <section class="cat-section" aria-label="Nether" id="sec_nether">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #c44, #8a1010);">N</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_nether_title">NETHER</h2>
+        <p class="cat-desc" data-i18n="cat_nether_desc">Bloques exclusivos del Nether: netherrack, blackstone, basalt, crimson, warped, ladrillos del Nether, suelo de almas, etc.</p>
+      </div>
+      <div class="cat-count"><span id="count_nether">0</span> / <span id="total_nether">0</span></div>
+    </div>
+    <div class="grid" id="cat-nether"></div>
+  </section>
+
+  <!-- Categoría: END -->
+  <section class="cat-section" aria-label="End" id="sec_end">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, var(--mc-purple), #4a1a6e);">E</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_end_title">END</h2>
+        <p class="cat-desc" data-i18n="cat_end_desc">Bloques del End: piedra del End, ladrillos, purpur, corus, portal, huevo de dragón, cabeza de dragón, etc.</p>
+      </div>
+      <div class="cat-count"><span id="count_end">0</span> / <span id="total_end">0</span></div>
+    </div>
+    <div class="grid" id="cat-end"></div>
+  </section>
+
+  <!-- Categoría: ESPECIALES -->
+  <section class="cat-section" aria-label="Especiales" id="sec_especiales">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #e8c43d, #8a7a20);">S</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_special_title">ESPECIALES / MECÁNICOS</h2>
+        <p class="cat-desc" data-i18n="cat_special_desc">Bloques funcionales únicos: beacon, spawner, jigsaw, barrera, bedrock, bloque de estructura, núcleo pesado, etc.</p>
+      </div>
+      <div class="cat-count"><span id="count_especiales">0</span> / <span id="total_especiales">0</span></div>
+    </div>
+    <div class="grid" id="cat-especiales"></div>
+  </section>
+
+  <!-- Categoría: VARIANTES COMPLETAS -->
+  <section class="cat-section" aria-label="Variantes" id="sec_variantes">
+    <div class="cat-header">
+      <div class="cat-icon" style="background: linear-gradient(135deg, #5da5e8, #2a4a8a);">V</div>
+      <div style="flex:1">
+        <h2 class="cat-title" data-i18n="cat_variant_title">VARIANTES COMPLETAS</h2>
+        <p class="cat-desc" data-i18n="cat_variant_desc">Losas (slab), escaleras (stairs), muros (wall), ladrillos (brick), pulidos (polished), tallados (chiseled) y derivados de todos los bloques.</p>
+      </div>
+      <div class="cat-count"><span id="count_variantes">0</span> / <span id="total_variantes">0</span></div>
+    </div>
+    <div class="grid" id="cat-variantes"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p data-i18n="footer_line1"><strong>Minecraft 26.2 — Chaos Cubed</strong> · Lista completa de bloques con todas sus variantes.</p>
+  <p data-i18n="footer_line2">Referencia: datos de Craftdex (1159 bloques base) + expansión de variantes hasta ~1,385 + nuevos bloques de la actualización 26.2.</p>
+  <p data-i18n="footer_line3">Esta página cubre <strong>todas las formas</strong> conocidas: base, losa, escalera, muro, pulido, ladrillo, tallado, cortado, oxidado, encerado, expuesto y más.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
