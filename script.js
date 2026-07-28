@@ -96,777 +96,6010 @@ const i18n = {
 
 /* ── Block name translations (EN → ES) ─────────────────────── */
 const namesTranslationEs = {
-  "Cinnabar":"Cinnabar","Polished Cinnabar":"Cinnabar Pulido","Cinnabar Bricks":"Ladrillos de Cinnabar","Cinnabar Slab":"Losa de Cinnabar","Cinnabar Stairs":"Escaleras de Cinnabar","Cinnabar Wall":"Muro de Cinnabar","Chiseled Cinnabar":"Cinnabar Tallado","Cinnabar Brick Slab":"Losa de Ladrillo de Cinnabar","Cinnabar Brick Stairs":"Escaleras de Ladrillo de Cinnabar","Cinnabar Brick Wall":"Muro de Ladrillo de Cinnabar","Sulfur":"Azufre","Polished Sulfur":"Azufre Pulido","Sulfur Bricks":"Ladrillos de Azufre","Sulfur Slab":"Losa de Azufre","Sulfur Stairs":"Escaleras de Azufre","Sulfur Wall":"Muro de Azufre","Chiseled Sulfur":"Azufre Tallado","Sulfur Brick Slab":"Losa de Ladrillo de Azufre","Sulfur Brick Stairs":"Escaleras de Ladrillo de Azufre","Sulfur Brick Wall":"Muro de Ladrillo de Azufre","Potent Sulfur":"Azufre Potente","Sulfur Spike":"Púa de Azufre","Cinnabar Ore":"Mineral de Cinnabar","Sulfur Ore":"Mineral de Azufre","Raw Cinnabar Block":"Bloque de Cinnabar Crudo","Raw Sulfur Block":"Bloque de Azufre Crudo",
-  "Andesite":"Andesita","Polished Andesite":"Andesita Pulida","Andesite Slab":"Losa de Andesita","Andesite Stairs":"Escaleras de Andesita","Andesite Wall":"Muro de Andesita","Basalt":"Basalto","Polished Basalt":"Basalto Pulido","Smooth Basalt":"Basalto Liso","Basalt Slab":"Losa de Basalto","Basalt Stairs":"Escaleras de Basalto","Basalt Wall":"Muro de Basalto","Blackstone":"Piedra Negra","Polished Blackstone":"Piedra Negra Pulida","Blackstone Slab":"Losa de Piedra Negra","Blackstone Stairs":"Escaleras de Piedra Negra","Blackstone Wall":"Muro de Piedra Negra","Polished Blackstone Bricks":"Ladrillos de Piedra Negra Pulida","Cracked Polished Blackstone Bricks":"Ladrillos de Piedra Negra Pulida Rajados","Gilded Blackstone":"Piedra Negra Dorada","Bricks":"Ladrillos","Brick Slab":"Losa de Ladrillo","Brick Stairs":"Escaleras de Ladrillo","Brick Wall":"Muro de Ladrillo","Cobbled Deepslate":"Pizarra Profunda Adoquinada","Cobbled Deepslate Slab":"Losa de Pizarra Profunda Adoquinada","Cobbled Deepslate Stairs":"Escaleras de Pizarra Profunda Adoquinada","Cobbled Deepslate Wall":"Muro de Pizarra Profunda Adoquinada","Cobblestone":"Adoquín","Cobblestone Slab":"Losa de Adoquín","Cobblestone Stairs":"Escaleras de Adoquín","Cobblestone Wall":"Muro de Adoquín","Cracked Deepslate Bricks":"Ladrillos de Pizarra Profunda Rajados","Cracked Stone Bricks":"Ladrillos de Piedra Rajados","Cracked Nether Bricks":"Ladrillos del Nether Rajados","Red Nether Bricks":"Ladrillos Rojos del Nether","Cut Sandstone":"Arenisca Cortada","Cut Red Sandstone":"Arenisca Roja Cortada","Cut Sandstone Slab":"Losa de Arenisca Cortada","Cut Red Sandstone Slab":"Losa de Arenisca Roja Cortada","Deepslate":"Pizarra Profunda","Polished Deepslate":"Pizarra Profunda Pulida","Deepslate Slab":"Losa de Pizarra Profunda","Deepslate Stairs":"Escaleras de Pizarra Profunda","Deepslate Wall":"Muro de Pizarra Profunda","Deepslate Bricks":"Ladrillos de Pizarra Profunda","Deepslate Brick Slab":"Losa de Ladrillo de Pizarra Profunda","Deepslate Brick Stairs":"Escaleras de Ladrillo de Pizarra Profunda","Deepslate Brick Wall":"Muro de Ladrillo de Pizarra Profunda","Deepslate Tiles":"Baldosas de Pizarra Profunda","Deepslate Tile Slab":"Losa de Baldosa de Pizarra Profunda","Deepslate Tile Stairs":"Escaleras de Baldosa de Pizarra Profunda","Deepslate Tile Wall":"Muro de Baldosa de Pizarra Profunda","Diorite":"Diorita","Polished Diorite":"Diorita Pulida","Diorite Slab":"Losa de Diorita","Diorite Stairs":"Escaleras de Diorita","Diorite Wall":"Muro de Diorita","Dripstone Block":"Bloque de Goteador","Pointed Dripstone":"Goteador Puntiagudo","End Stone":"Piedra del End","End Stone Bricks":"Ladrillos de Piedra del End","End Stone Brick Slab":"Losa de Ladrillo de Piedra del End","End Stone Brick Stairs":"Escaleras de Ladrillo de Piedra del End","End Stone Brick Wall":"Muro de Ladrillo de Piedra del End","Granite":"Granito","Polished Granite":"Granito Pulido","Granite Slab":"Losa de Granito","Granite Stairs":"Escaleras de Granito","Granite Wall":"Muro de Granito","Mossy Cobblestone":"Adoquín Musgoso","Mossy Cobblestone Slab":"Losa de Adoquín Musgoso","Mossy Cobblestone Stairs":"Escaleras de Adoquín Musgoso","Mossy Cobblestone Wall":"Muro de Adoquín Musgoso","Mossy Stone Brick Slab":"Losa de Ladrillo de Piedra Musgoso","Moss Block":"Bloque de Musgo","Moss Carpet":"Alfombra de Musgo","Nether Bricks":"Ladrillos del Nether","Chiseled Nether Bricks":"Ladrillos del Nether Tallados","Sandstone":"Arenisca","Smooth Sandstone":"Arenisca Lisa","Sandstone Slab":"Losa de Arenisca","Sandstone Stairs":"Escaleras de Arenisca","Sandstone Wall":"Muro de Arenisca","Red Sandstone":"Arenisca Roja","Smooth Red Sandstone":"Arenisca Roja Lisa","Red Sandstone Slab":"Losa de Arenisca Roja","Red Sandstone Stairs":"Escaleras de Arenisca Roja","Red Sandstone Wall":"Muro de Arenisca Roja","Stone":"Piedra","Smooth Stone":"Piedra Lisa","Stone Bricks":"Ladrillos de Piedra","Mossy Stone Bricks":"Ladrillos de Piedra Musgosos","Chiseled Stone Bricks":"Ladrillos de Piedra Tallados","Stone Slab":"Losa de Piedra","Stone Stairs":"Escaleras de Piedra","Stone Wall":"Muro de Piedra","Infested Stone":"Piedra Infestada","Infested Cobblestone":"Adoquín Infestado","Infested Stone Bricks":"Ladrillos de Piedra Infestados","Infested Cracked Stone Bricks":"Ladrillos de Piedra Infestados Rajados","Infested Mossy Stone Bricks":"Ladrillos de Piedra Infestados Musgosos","Infested Chiseled Stone Bricks":"Ladrillos de Piedra Infestados Tallados","Infested Deepslate":"Pizarra Profunda Infestada","Tuff":"Toba","Polished Tuff":"Toba Pulida","Tuff Slab":"Losa de Toba","Tuff Stairs":"Escaleras de Toba","Tuff Wall":"Muro de Toba","Tuff Bricks":"Ladrillos de Toba","Chiseled Tuff":"Toba Tallada","Chiseled Tuff Bricks":"Ladrillos de Toba Tallados","Calcite":"Calcita","Resin Bricks":"Ladrillos de Resina","Resin Brick Slab":"Losa de Ladrillo de Resina","Resin Brick Stairs":"Escaleras de Ladrillo de Resina","Resin Brick Wall":"Muro de Ladrillo de Resina","Chiseled Resin Bricks":"Ladrillos de Resina Tallados","Resin Clump":"Grumo de Resina","Mud Bricks":"Ladrillos de Barro","Mud Brick Slab":"Losa de Ladrillo de Barro","Mud Brick Stairs":"Escaleras de Ladrillo de Barro","Mud Brick Wall":"Muro de Ladrillo de Barro","Packed Mud":"Barro Compactado",
-  "Acacia Log":"Tronco de Acacia","Stripped Acacia Log":"Tronco de Acacia Despojado","Stripped Acacia Wood":"Madera de Acacia Despojada","Acacia Wood":"Madera de Acacia","Acacia Planks":"Tablas de Acacia","Acacia Slab":"Losa de Acacia","Acacia Stairs":"Escaleras de Acacia","Acacia Fence":"Valla de Acacia","Acacia Fence Gate":"Puerta de Valla de Acacia","Acacia Door":"Puerta de Acacia","Acacia Trapdoor":"Trampilla de Acacia","Acacia Pressure Plate":"Placa de Presión de Acacia","Acacia Button":"Botón de Acacia","Acacia Sign":"Cartel de Acacia","Acacia Hanging Sign":"Cartel Colgante de Acacia","Acacia Wall Sign":"Cartel de Pared de Acacia","Acacia Wall Hanging Sign":"Cartel Colgante de Pared de Acacia","Acacia Shelf":"Estante de Acacia","Acacia Sapling":"Brote de Acacia","Acacia Leaves":"Hojas de Acacia",
-  "Birch Log":"Tronco de Abedul","Stripped Birch Log":"Tronco de Abedul Despojado","Stripped Birch Wood":"Madera de Abedul Despojada","Birch Wood":"Madera de Abedul","Birch Planks":"Tablas de Abedul","Birch Slab":"Losa de Abedul","Birch Stairs":"Escaleras de Abedul","Birch Fence":"Valla de Abedul","Birch Fence Gate":"Puerta de Valla de Abedul","Birch Door":"Puerta de Abedul","Birch Trapdoor":"Trampilla de Abedul","Birch Pressure Plate":"Placa de Presión de Abedul","Birch Button":"Botón de Abedul","Birch Sign":"Cartel de Abedul","Birch Hanging Sign":"Cartel Colgante de Abedul","Birch Wall Sign":"Cartel de Pared de Abedul","Birch Wall Hanging Sign":"Cartel Colgante de Pared de Abedul","Birch Shelf":"Estante de Abedul","Birch Sapling":"Brote de Abedul","Birch Leaves":"Hojas de Abedul",
-  "Cherry Log":"Tronco de Cerezo","Stripped Cherry Log":"Tronco de Cerezo Despojado","Stripped Cherry Wood":"Madera de Cerezo Despojada","Cherry Wood":"Madera de Cerezo","Cherry Planks":"Tablas de Cerezo","Cherry Slab":"Losa de Cerezo","Cherry Stairs":"Escaleras de Cerezo","Cherry Fence":"Valla de Cerezo","Cherry Fence Gate":"Puerta de Valla de Cerezo","Cherry Door":"Puerta de Cerezo","Cherry Trapdoor":"Trampilla de Cerezo","Cherry Pressure Plate":"Placa de Presión de Cerezo","Cherry Button":"Botón de Cerezo","Cherry Sign":"Cartel de Cerezo","Cherry Hanging Sign":"Cartel Colgante de Cerezo","Cherry Wall Sign":"Cartel de Pared de Cerezo","Cherry Wall Hanging Sign":"Cartel Colgante de Pared de Cerezo","Cherry Shelf":"Estante de Cerezo","Cherry Sapling":"Brote de Cerezo","Cherry Leaves":"Hojas de Cerezo",
-  "Dark Oak Log":"Tronco de Roble Oscuro","Stripped Dark Oak Log":"Tronco de Roble Oscuro Despojado","Stripped Dark Oak Wood":"Madera de Roble Oscuro Despojada","Dark Oak Wood":"Madera de Roble Oscuro","Dark Oak Planks":"Tablas de Roble Oscuro","Dark Oak Slab":"Losa de Roble Oscuro","Dark Oak Stairs":"Escaleras de Roble Oscuro","Dark Oak Fence":"Valla de Roble Oscuro","Dark Oak Fence Gate":"Puerta de Valla de Roble Oscuro","Dark Oak Door":"Puerta de Roble Oscuro","Dark Oak Trapdoor":"Trampilla de Roble Oscuro","Dark Oak Pressure Plate":"Placa de Presión de Roble Oscuro","Dark Oak Button":"Botón de Roble Oscuro","Dark Oak Sign":"Cartel de Roble Oscuro","Dark Oak Hanging Sign":"Cartel Colgante de Roble Oscuro","Dark Oak Wall Sign":"Cartel de Pared de Roble Oscuro","Dark Oak Wall Hanging Sign":"Cartel Colgante de Pared de Roble Oscuro","Dark Oak Shelf":"Estante de Roble Oscuro","Dark Oak Sapling":"Brote de Roble Oscuro","Dark Oak Leaves":"Hojas de Roble Oscuro",
-  "Jungle Log":"Tronco de Selva","Stripped Jungle Log":"Tronco de Selva Despojado","Stripped Jungle Wood":"Madera de Selva Despojada","Jungle Wood":"Madera de Selva","Jungle Planks":"Tablas de Selva","Jungle Slab":"Losa de Selva","Jungle Stairs":"Escaleras de Selva","Jungle Fence":"Valla de Selva","Jungle Fence Gate":"Puerta de Valla de Selva","Jungle Door":"Puerta de Selva","Jungle Trapdoor":"Trampilla de Selva","Jungle Pressure Plate":"Placa de Presión de Selva","Jungle Button":"Botón de Selva","Jungle Sign":"Cartel de Selva","Jungle Hanging Sign":"Cartel Colgante de Selva","Jungle Wall Sign":"Cartel de Pared de Selva","Jungle Wall Hanging Sign":"Cartel Colgante de Pared de Selva","Jungle Shelf":"Estante de Selva","Jungle Sapling":"Brote de Selva","Jungle Leaves":"Hojas de Selva",
-  "Mangrove Log":"Tronco de Mangle","Stripped Mangrove Log":"Tronco de Mangle Despojado","Stripped Mangrove Wood":"Madera de Mangle Despojada","Mangrove Wood":"Madera de Mangle","Mangrove Planks":"Tablas de Mangle","Mangrove Slab":"Losa de Mangle","Mangrove Stairs":"Escaleras de Mangle","Mangrove Fence":"Valla de Mangle","Mangrove Fence Gate":"Puerta de Valla de Mangle","Mangrove Door":"Puerta de Mangle","Mangrove Trapdoor":"Trampilla de Mangle","Mangrove Pressure Plate":"Placa de Presión de Mangle","Mangrove Button":"Botón de Mangle","Mangrove Sign":"Cartel de Mangle","Mangrove Hanging Sign":"Cartel Colgante de Mangle","Mangrove Wall Sign":"Cartel de Pared de Mangle","Mangrove Wall Hanging Sign":"Cartel Colgante de Pared de Mangle","Mangrove Shelf":"Estante de Mangle","Mangrove Propagule":"Propágulo de Mangle","Mangrove Roots":"Raíces de Mangle","Mangrove Leaves":"Hojas de Mangle",
-  "Oak Log":"Tronco de Roble","Stripped Oak Log":"Tronco de Roble Despojado","Stripped Oak Wood":"Madera de Roble Despojada","Oak Wood":"Madera de Roble","Oak Planks":"Tablas de Roble","Oak Slab":"Losa de Roble","Oak Stairs":"Escaleras de Roble","Oak Fence":"Valla de Roble","Oak Fence Gate":"Puerta de Valla de Roble","Oak Door":"Puerta de Roble","Oak Trapdoor":"Trampilla de Roble","Oak Pressure Plate":"Placa de Presión de Roble","Oak Button":"Botón de Roble","Oak Sign":"Cartel de Roble","Oak Hanging Sign":"Cartel Colgante de Roble","Oak Wall Sign":"Cartel de Pared de Roble","Oak Wall Hanging Sign":"Cartel Colgante de Pared de Roble","Oak Shelf":"Estante de Roble","Oak Sapling":"Brote de Roble","Oak Leaves":"Hojas de Roble",
-  "Spruce Log":"Tronco de Abeto","Stripped Spruce Log":"Tronco de Abeto Despojado","Stripped Spruce Wood":"Madera de Abeto Despojada","Spruce Wood":"Madera de Abeto","Spruce Planks":"Tablas de Abeto","Spruce Slab":"Losa de Abeto","Spruce Stairs":"Escaleras de Abeto","Spruce Fence":"Valla de Abeto","Spruce Fence Gate":"Puerta de Valla de Abeto","Spruce Door":"Puerta de Abeto","Spruce Trapdoor":"Trampilla de Abeto","Spruce Pressure Plate":"Placa de Presión de Abeto","Spruce Button":"Botón de Abeto","Spruce Sign":"Cartel de Abeto","Spruce Hanging Sign":"Cartel Colgante de Abeto","Spruce Wall Sign":"Cartel de Pared de Abeto","Spruce Wall Hanging Sign":"Cartel Colgante de Pared de Abeto","Spruce Shelf":"Estante de Abeto","Spruce Sapling":"Brote de Abeto","Spruce Leaves":"Hojas de Abeto",
-  "Bamboo":"Bambú","Bamboo Block":"Bloque de Bambú","Bamboo Planks":"Tablas de Bambú","Bamboo Slab":"Losa de Bambú","Bamboo Stairs":"Escaleras de Bambú","Bamboo Fence":"Valla de Bambú","Bamboo Fence Gate":"Puerta de Valla de Bambú","Bamboo Door":"Puerta de Bambú","Bamboo Trapdoor":"Trampilla de Bambú","Bamboo Pressure Plate":"Placa de Presión de Bambú","Bamboo Button":"Botón de Bambú","Bamboo Sign":"Cartel de Bambú","Bamboo Hanging Sign":"Cartel Colgante de Bambú","Bamboo Wall Sign":"Cartel de Pared de Bambú","Bamboo Wall Hanging Sign":"Cartel Colgante de Pared de Bambú","Bamboo Shelf":"Estante de Bambú","Bamboo Shoot":"Brotes de Bambú","Bamboo Mosaic":"Mosaico de Bambú","Bamboo Mosaic Slab":"Losa de Mosaico de Bambú","Bamboo Mosaic Stairs":"Escaleras de Mosaico de Bambú",
-  "Crimson Planks":"Tablas Carmesí","Crimson Stem":"Tallo Carmesí","Stripped Crimson Stem":"Tallo Carmesí Despojado","Crimson Hyphae":"Hifas Carmesí","Crimson Nylium":"Nylium Carmesí","Crimson Roots":"Raíces Carmesí","Crimson Fungus":"Hongos Carmesí","Crimson Slab":"Losa Carmesí","Crimson Stairs":"Escaleras Carmesí","Crimson Fence":"Valla Carmesí","Crimson Fence Gate":"Puerta de Valla Carmesí","Crimson Door":"Puerta Carmesí","Crimson Trapdoor":"Trampilla Carmesí","Crimson Pressure Plate":"Placa de Presión Carmesí","Crimson Button":"Botón Carmesí","Crimson Sign":"Cartel Carmesí","Crimson Hanging Sign":"Cartel Colgante Carmesí","Crimson Shelf":"Estante Carmesí","Crimson Wall Sign":"Cartel de Pared Carmesí","Crimson Wall Hanging Sign":"Cartel Colgante de Pared Carmesí",
-  "Warped Planks":"Tablas Deformadas","Warped Stem":"Tallo Deformado","Stripped Warped Stem":"Tallo Deformado Despojado","Warped Hyphae":"Hifas Deformadas","Warped Nylium":"Nylium Deformado","Warped Roots":"Raíces Deformadas","Warped Fungus":"Hongos Deformados","Warped Wart Block":"Bloque de Verruga Deformada","Warped Slab":"Losa Deformada","Warped Stairs":"Escaleras Deformadas","Warped Fence":"Valla Deformada","Warped Fence Gate":"Puerta de Valla Deformada","Warped Door":"Puerta Deformada","Warped Trapdoor":"Trampilla Deformada","Warped Pressure Plate":"Placa de Presión Deformada","Warped Button":"Botón Deformado","Warped Sign":"Cartel Deformado","Warped Hanging Sign":"Cartel Colgante Deformado","Warped Shelf":"Estante Deformado","Warped Wall Sign":"Cartel de Pared Deformado","Warped Wall Hanging Sign":"Cartel Colgante de Pared Deformado",
-  "Allium":"Alium","Azalea":"Azalea","Azalea Leaves":"Hojas de Azalea","Flowering Azalea":"Azalea en Flor","Flowering Azalea Leaves":"Hojas de Azalea en Flor","Azure Bluet":"Azul de Azure","Bush":"Arbusto","Cornflower":"Florcorneta","Dandelion":"Diente de León","Lily of the Valley":"Lirio del Valle","Lilac":"Lila","Poppy":"Amapola","Oxeye Daisy":"Margarita del Ojo","Blue Orchid":"Orquídea Azul","Pink Tulip":"Tulipán Rosa","Orange Tulip":"Tulipán Naranja","White Tulip":"Tulipán Blanco","Red Tulip":"Tulipán Rojo","Wither Rose":"Rosa Marchita","Cactus":"Cactus","Cactus Flower":"Flor de Cactus","Grass Block":"Bloque de Césped","Dirt":"Tierra","Coarse Dirt":"Tierra Gruesa","Dirt Path":"Camino de Tierra","Farmland":"Tierra de Cultivo","Gravel":"Grava","Sand":"Arena","Red Sand":"Arena Roja","Clay":"Arcilla","Snow":"Nieve","Snow Block":"Bloque de Nieve","Ice":"Hielo","Blue Ice":"Hielo Azul","Packed Ice":"Hielo Compactado","Melon":"Melón","Attached Melon Stem":"Tallo de Melón Adjunto","Melon Stem":"Tallo de Melón","Pumpkin":"Calabaza","Attached Pumpkin Stem":"Tallo de Calabaza Adjunto","Pumpkin Stem":"Tallo de Calabaza","Carved Pumpkin":"Calabaza Tallada","Jack o'Lantern":"Calabaza Iluminada","Beetroots":"Remolacha","Carrots":"Zanahorias","Potatoes":"Patatas","Wheat":"Trigo","Cocoa":"Cacao","Kelp":"Alga Marina","Kelp Plant":"Planta de Alga Marina","Dried Kelp Block":"Bloque de Alga Marina Seca","Seagrass":"Hierba Marina","Tall Seagrass":"Hierba Marina Alta","Sea Pickle":"Pepinillo de Mar","Firefly Bush":"Arbusto de Luciérnaga","Closed Eyeblossom":"Eyeblossom Cerrado","Big Dripleaf":"Hoja Grande de Goteo","Big Dripleaf Stem":"Tallo de Hoja Grande de Goteo","Small Dripleaf":"Hoja Pequeña de Goteo","Spore Blossom":"Flor de Esporas","Pink Petals":"Pétalos Rosas","Torchflower":"Antorcha Floral","Pitcher Plant":"Planta Lanzadora","Torchflower Seeds":"Semillas de Antorcha Floral","Brown Mushroom Block":"Bloque de Hongo Marrón","Red Mushroom Block":"Bloque de Hongo Rojo","Mushroom Stem":"Tallo de Hongo","Mycelium":"Micelio","Podzol":"Podzol","Rooted Dirt":"Tierra con Raíces",
-  "Brain Coral":"Coral Cerebro","Brain Coral Block":"Bloque de Coral Cerebro","Brain Coral Fan":"Abanico de Coral Cerebro","Brain Coral Wall Fan":"Abanico de Pared de Coral Cerebro","Dead Brain Coral Block":"Bloque de Coral Cerebro Muerto","Dead Brain Coral Fan":"Abanico de Coral Cerebro Muerto","Dead Brain Coral Wall Fan":"Abanico de Pared de Coral Cerebro Muerto","Bubble Coral":"Coral Burbuja","Bubble Coral Block":"Bloque de Coral Burbuja","Bubble Coral Fan":"Abanico de Coral Burbuja","Bubble Coral Wall Fan":"Abanico de Pared de Coral Burbuja","Dead Bubble Coral Block":"Bloque de Coral Burbuja Muerto","Dead Bubble Coral Fan":"Abanico de Coral Burbuja Muerto","Dead Bubble Coral Wall Fan":"Abanico de Pared de Coral Burbuja Muerto","Fire Coral":"Coral de Fuego","Fire Coral Block":"Bloque de Coral de Fuego","Fire Coral Fan":"Abanico de Coral de Fuego","Fire Coral Wall Fan":"Abanico de Pared de Coral de Fuego","Dead Fire Coral Block":"Bloque de Coral de Fuego Muerto","Dead Fire Coral Fan":"Abanico de Coral de Fuego Muerto","Dead Fire Coral Wall Fan":"Abanico de Pared de Coral de Fuego Muerto","Horn Coral":"Coral Cuerno","Horn Coral Block":"Bloque de Coral Cuerno","Horn Coral Fan":"Abanico de Coral Cuerno","Horn Coral Wall Fan":"Abanico de Pared de Coral Cuerno","Dead Horn Coral Block":"Bloque de Coral Cuerno Muerto","Dead Horn Coral Fan":"Abanico de Coral Cuerno Muerto","Dead Horn Coral Wall Fan":"Abanico de Pared de Coral Cuerno Muerto","Tube Coral":"Coral Tubo","Tube Coral Block":"Bloque de Coral Tubo","Tube Coral Fan":"Abanico de Coral Tubo","Tube Coral Wall Fan":"Abanico de Pared de Coral Tubo","Dead Tube Coral Block":"Bloque de Coral Tubo Muerto","Dead Tube Coral Fan":"Abanico de Coral Tubo Muerto","Dead Tube Coral Wall Fan":"Abanico de Pared de Coral Tubo Muerto","Frogspawn":"Desove de Rana",
-  "Hanging Roots":"Raíces Colgantes","Leaf Litter":"Hojarasca","Glow Lichen":"Liquen Brillante","Cave Vines":"Enredaderas de Cueva","Cave Vines Plant":"Planta de Enredaderas de Cueva","Dead Bush":"Arbusto Muerto","Fern":"Helecho","Large Fern":"Helecho Grande","Shroomlight":"Luz de Hongo","Nether Wart Block":"Bloque de Verruga del Nether","Bone Block":"Bloque de Hueso",
-  "Coal Ore":"Mineral de Carbón","Deepslate Coal Ore":"Mineral de Carbón de Pizarra Profunda","Iron Ore":"Mineral de Hierro","Deepslate Iron Ore":"Mineral de Hierro de Pizarra Profunda","Copper Ore":"Mineral de Cobre","Deepslate Copper Ore":"Mineral de Cobre de Pizarra Profunda","Copper Block":"Bloque de Cobre","Cut Copper":"Cobre Cortado","Cut Copper Slab":"Losa de Cobre Cortado","Cut Copper Stairs":"Escaleras de Cobre Cortado","Exposed Cut Copper":"Cobre Cortado Expuesto","Exposed Cut Copper Slab":"Losa de Cobre Cortado Expuesto","Exposed Cut Copper Stairs":"Escaleras de Cobre Cortado Expuesto","Oxidized Copper":"Cobre Oxidado","Oxidized Cut Copper":"Cobre Cortado Oxidado","Oxidized Cut Copper Slab":"Losa de Cobre Cortado Oxidado","Oxidized Cut Copper Stairs":"Escaleras de Cobre Cortado Oxidado","Weathered Copper":"Cobre Envejecido","Weathered Cut Copper":"Cobre Cortado Envejecido","Weathered Cut Copper Slab":"Losa de Cobre Cortado Envejecido","Weathered Cut Copper Stairs":"Escaleras de Cobre Cortado Envejecido","Copper Bulb":"Bombilla de Cobre","Exposed Copper Bulb":"Bombilla de Cobre Expuesta","Weathered Copper Bulb":"Bombilla de Cobre Envejecida","Oxidized Copper Bulb":"Bombilla de Cobre Oxidada","Copper Grate":"Reja de Cobre","Copper Door":"Puerta de Cobre","Copper Trapdoor":"Trampilla de Cobre","Copper Chain":"Cadena de Cobre","Copper Bars":"Barras de Cobre","Copper Torch":"Antorcha de Cobre","Copper Wall Torch":"Antorcha de Pared de Cobre","Copper Lantern":"Linterna de Cobre","Copper Chest":"Cofre de Cobre","Copper Golem Statue":"Estatua de Golem de Cobre",
-  "Gold Ore":"Mineral de Oro","Deepslate Gold Ore":"Mineral de Oro de Pizarra Profunda","Nether Gold Ore":"Mineral de Oro del Nether","Gold Block":"Bloque de Oro","Raw Gold Block":"Bloque de Oro Crudo","Diamond Ore":"Mineral de Diamante","Deepslate Diamond Ore":"Mineral de Diamante de Pizarra Profunda","Diamond Block":"Bloque de Diamante","Emerald Ore":"Mineral de Esmeralda","Deepslate Emerald Ore":"Mineral de Esmeralda de Pizarra Profunda","Emerald Block":"Bloque de Esmeralda","Lapis Ore":"Mineral de Lapislázuli","Deepslate Lapis Ore":"Mineral de Lapislázuli de Pizarra Profunda","Lapis Block":"Bloque de Lapislázuli","Redstone Ore":"Mineral de Redstone","Deepslate Redstone Ore":"Mineral de Redstone de Pizarra Profunda","Redstone Block":"Bloque de Redstone","Nether Quartz Ore":"Mineral de Cuarzo del Nether","Quartz Block":"Bloque de Cuarzo","Quartz Bricks":"Ladrillos de Cuarzo","Quartz Slab":"Losa de Cuarzo","Quartz Stairs":"Escaleras de Cuarzo","Quartz Wall":"Muro de Cuarzo","Smooth Quartz":"Cuarzo Liso","Chiseled Quartz Block":"Bloque de Cuarzo Tallado","Amethyst Block":"Bloque de Amatista","Amethyst Cluster":"Grupo de Amatista","Budding Amethyst":"Amatista Brotante","Small Amethyst Bud":"Brote Pequeño de Amatista","Medium Amethyst Bud":"Brote Medio de Amatista","Large Amethyst Bud":"Brote Grande de Amatista","Ancient Debris":"Restos Antiguos","Netherite Block":"Bloque de Netherita","Block of Coal":"Bloque de Carbón","Block of Iron":"Bloque de Hierro","Raw Copper Block":"Bloque de Cobre Crudo",
-  "Glass":"Vidrio","Glass Pane":"Panel de Vidrio","Black Stained Glass":"Vidrio Tintado Negro","Black Stained Glass Pane":"Panel de Vidrio Tintado Negro","Blue Stained Glass":"Vidrio Tintado Azul","Blue Stained Glass Pane":"Panel de Vidrio Tintado Azul","Brown Stained Glass":"Vidrio Tintado Marrón","Brown Stained Glass Pane":"Panel de Vidrio Tintado Marrón","Cyan Stained Glass":"Vidrio Tintado Cian","Cyan Stained Glass Pane":"Panel de Vidrio Tintado Cian","Gray Stained Glass":"Vidrio Tintado Gris","Gray Stained Glass Pane":"Panel de Vidrio Tintado Gris","Green Stained Glass":"Vidrio Tintado Verde","Green Stained Glass Pane":"Panel de Vidrio Tintado Verde","Light Blue Stained Glass":"Vidrio Tintado Azul Claro","Light Blue Stained Glass Pane":"Panel de Vidrio Tintado Azul Claro","Light Gray Stained Glass":"Vidrio Tintado Gris Claro","Light Gray Stained Glass Pane":"Panel de Vidrio Tintado Gris Claro","Lime Stained Glass":"Vidrio Tintado Lima","Lime Stained Glass Pane":"Panel de Vidrio Tintado Lima","Magenta Stained Glass":"Vidrio Tintado Magenta","Magenta Stained Glass Pane":"Panel de Vidrio Tintado Magenta","Orange Stained Glass":"Vidrio Tintado Naranja","Orange Stained Glass Pane":"Panel de Vidrio Tintado Naranja","Pink Stained Glass":"Vidrio Tintado Rosa","Pink Stained Glass Pane":"Panel de Vidrio Tintado Rosa","Purple Stained Glass":"Vidrio Tintado Morado","Purple Stained Glass Pane":"Panel de Vidrio Tintado Morado","Red Stained Glass":"Vidrio Tintado Rojo","Red Stained Glass Pane":"Panel de Vidrio Tintado Rojo","White Stained Glass":"Vidrio Tintado Blanco","White Stained Glass Pane":"Panel de Vidrio Tintado Blanco","Yellow Stained Glass":"Vidrio Tintado Amarillo","Yellow Stained Glass Pane":"Panel de Vidrio Tintado Amarillo",
-  "Black Concrete":"Concreto Negro","Black Concrete Powder":"Polvo de Concreto Negro","Blue Concrete":"Concreto Azul","Blue Concrete Powder":"Polvo de Concreto Azul","Brown Concrete":"Concreto Marrón","Brown Concrete Powder":"Polvo de Concreto Marrón","Cyan Concrete":"Concreto Cian","Cyan Concrete Powder":"Polvo de Concreto Cian","Gray Concrete":"Concreto Gris","Gray Concrete Powder":"Polvo de Concreto Gris","Green Concrete":"Concreto Verde","Green Concrete Powder":"Polvo de Concreto Verde","Light Blue Concrete":"Concreto Azul Claro","Light Blue Concrete Powder":"Polvo de Concreto Azul Claro","Light Gray Concrete":"Concreto Gris Claro","Light Gray Concrete Powder":"Polvo de Concreto Gris Claro","Lime Concrete":"Concreto Lima","Lime Concrete Powder":"Polvo de Concreto Lima","Magenta Concrete":"Concreto Magenta","Magenta Concrete Powder":"Polvo de Concreto Magenta","Orange Concrete":"Concreto Naranja","Orange Concrete Powder":"Polvo de Concreto Naranja","Pink Concrete":"Concreto Rosa","Pink Concrete Powder":"Polvo de Concreto Rosa","Purple Concrete":"Concreto Morado","Purple Concrete Powder":"Polvo de Concreto Morado","Red Concrete":"Concreto Rojo","Red Concrete Powder":"Polvo de Concreto Rojo","White Concrete":"Concreto Blanco","White Concrete Powder":"Polvo de Concreto Blanco","Yellow Concrete":"Concreto Amarillo","Yellow Concrete Powder":"Polvo de Concreto Amarillo",
-  "Terracotta":"Terracota","Black Terracotta":"Terracota Negra","Blue Terracotta":"Terracota Azul","Brown Terracotta":"Terracota Marrón","Cyan Terracotta":"Terracota Cian","Gray Terracotta":"Terracota Gris","Green Terracotta":"Terracota Verde","Light Blue Terracotta":"Terracota Azul Claro","Light Gray Terracotta":"Terracota Gris Claro","Lime Terracotta":"Terracota Lima","Magenta Terracotta":"Terracota Magenta","Orange Terracotta":"Terracota Naranja","Pink Terracotta":"Terracota Rosa","Purple Terracotta":"Terracota Morada","Red Terracotta":"Terracota Roja","White Terracotta":"Terracota Blanca","Yellow Terracotta":"Terracota Amarilla",
-  "Black Glazed Terracotta":"Terracota Vidriada Negra","Blue Glazed Terracotta":"Terracota Vidriada Azul","Brown Glazed Terracotta":"Terracota Vidriada Marrón","Cyan Glazed Terracotta":"Terracota Vidriada Cian","Gray Glazed Terracotta":"Terracota Vidriada Gris","Green Glazed Terracotta":"Terracota Vidriada Verde","Light Blue Glazed Terracotta":"Terracota Vidriada Azul Claro","Light Gray Glazed Terracotta":"Terracota Vidriada Gris Claro","Lime Glazed Terracotta":"Terracota Vidriada Lima","Magenta Glazed Terracotta":"Terracota Vidriada Magenta","Orange Glazed Terracotta":"Terracota Vidriada Naranja","Pink Glazed Terracotta":"Terracota Vidriada Rosa","Purple Glazed Terracotta":"Terracota Vidriada Morada","Red Glazed Terracotta":"Terracota Vidriada Roja","White Glazed Terracotta":"Terracota Vidriada Blanca","Yellow Glazed Terracotta":"Terracota Vidriada Amarilla",
-  "Carpet":"Alfombra","Black Carpet":"Alfombra Negra","Blue Carpet":"Alfombra Azul","Brown Carpet":"Alfombra Marrón","Cyan Carpet":"Alfombra Cian","Gray Carpet":"Alfombra Gris","Green Carpet":"Alfombra Verde","Light Blue Carpet":"Alfombra Azul Claro","Light Gray Carpet":"Alfombra Gris Claro","Lime Carpet":"Alfombra Lima","Magenta Carpet":"Alfombra Magenta","Orange Carpet":"Alfombra Naranja","Pink Carpet":"Alfombra Rosa","Purple Carpet":"Alfombra Morada","Red Carpet":"Alfombra Roja","White Carpet":"Alfombra Blanca","Yellow Carpet":"Alfombra Amarilla",
-  "Decorated Pot":"Maceta Decorada","Flower Pot":"Maceta","Banner":"Estandarte","Black Banner":"Estandarte Negro","Blue Banner":"Estandarte Azul","Brown Banner":"Estandarte Marrón","Cyan Banner":"Estandarte Cian","Gray Banner":"Estandarte Gris","Green Banner":"Estandarte Verde","Light Blue Banner":"Estandarte Azul Claro","Light Gray Banner":"Estandarte Gris Claro","Lime Banner":"Estandarte Lima","Magenta Banner":"Estandarte Magenta","Orange Banner":"Estandarte Naranja","Pink Banner":"Estandarte Rosa","Purple Banner":"Estandarte Morado","Red Banner":"Estandarte Rojo","White Banner":"Estandarte Blanco","Yellow Banner":"Estandarte Amarillo",
-  "Black Wall Banner":"Estandarte de Pared Negro","Blue Wall Banner":"Estandarte de Pared Azul","Brown Wall Banner":"Estandarte de Pared Marrón","Cyan Wall Banner":"Estandarte de Pared Cian","Gray Wall Banner":"Estandarte de Pared Gris","Green Wall Banner":"Estandarte de Pared Verde","Light Blue Wall Banner":"Estandarte de Pared Azul Claro","Light Gray Wall Banner":"Estandarte de Pared Gris Claro","Lime Wall Banner":"Estandarte de Pared Lima","Magenta Wall Banner":"Estandarte de Pared Magenta","Orange Wall Banner":"Estandarte de Pared Naranja","Pink Wall Banner":"Estandarte de Pared Rosa","Purple Wall Banner":"Estandarte de Pared Morado","Red Wall Banner":"Estandarte de Pared Rojo","White Wall Banner":"Estandarte de Pared Blanco","Yellow Wall Banner":"Estandarte de Pared Amarillo",
-  "Candle":"Vela","Black Candle":"Vela Negra","Blue Candle":"Vela Azul","Brown Candle":"Vela Marrón","Cyan Candle":"Vela Cian","Gray Candle":"Vela Gris","Green Candle":"Vela Verde","Light Blue Candle":"Vela Azul Claro","Light Gray Candle":"Vela Gris Claro","Lime Candle":"Vela Lima","Magenta Candle":"Vela Magenta","Orange Candle":"Vela Naranja","Pink Candle":"Vela Rosa","Purple Candle":"Vela Morada","Red Candle":"Vela Roja","White Candle":"Vela Blanca","Yellow Candle":"Vela Amarilla",
-  "Cake with Candle":"Pastel con Vela","Cake with Black Candle":"Pastel con Vela Negra","Cake with Blue Candle":"Pastel con Vela Azul","Cake with Brown Candle":"Pastel con Vela Marrón","Cake with Cyan Candle":"Pastel con Vela Cian","Cake with Gray Candle":"Pastel con Vela Gris","Cake with Green Candle":"Pastel con Vela Verde","Cake with Light Blue Candle":"Pastel con Vela Azul Claro","Cake with Light Gray Candle":"Pastel con Vela Gris Claro","Cake with Lime Candle":"Pastel con Vela Lima","Cake with Magenta Candle":"Pastel con Vela Magenta","Cake with Orange Candle":"Pastel con Vela Naranja","Cake with Pink Candle":"Pastel con Vela Rosa","Cake with Purple Candle":"Pastel con Vela Morada","Cake with Red Candle":"Pastel con Vela Roja","Cake with White Candle":"Pastel con Vela Blanca","Cake with Yellow Candle":"Pastel con Vela Amarilla",
-  "Bed":"Cama","Black Bed":"Cama Negra","Blue Bed":"Cama Azul","Brown Bed":"Cama Marrón","Cyan Bed":"Cama Cian","Gray Bed":"Cama Gris","Green Bed":"Cama Verde","Light Blue Bed":"Cama Azul Claro","Light Gray Bed":"Cama Gris Claro","Lime Bed":"Cama Lima","Magenta Bed":"Cama Magenta","Orange Bed":"Cama Naranja","Pink Bed":"Cama Rosa","Purple Bed":"Cama Morada","Red Bed":"Cama Roja","White Bed":"Cama Blanca","Yellow Bed":"Cama Amarilla",
-  "Shulker Box":"Caja Shulker","Black Shulker Box":"Caja Shulker Negra","Blue Shulker Box":"Caja Shulker Azul","Brown Shulker Box":"Caja Shulker Marrón","Cyan Shulker Box":"Caja Shulker Cian","Gray Shulker Box":"Caja Shulker Gris","Green Shulker Box":"Caja Shulker Verde","Light Blue Shulker Box":"Caja Shulker Azul Claro","Light Gray Shulker Box":"Caja Shulker Gris Claro","Lime Shulker Box":"Caja Shulker Lima","Magenta Shulker Box":"Caja Shulker Magenta","Orange Shulker Box":"Caja Shulker Naranja","Pink Shulker Box":"Caja Shulker Rosa","Purple Shulker Box":"Caja Shulker Morada","Red Shulker Box":"Caja Shulker Roja","White Shulker Box":"Caja Shulker Blanca","Yellow Shulker Box":"Caja Shulker Amarilla",
-  "Redstone Dust":"Polvo de Redstone","Repeater":"Repetidor","Comparator":"Comparador","Observer":"Observador","Piston":"Pistón","Sticky Piston":"Pistón Pegajoso","Piston Head":"Cabeza de Pistón","Moving Piston":"Pistón en Movimiento","Dispenser":"Dispensador","Dropper":"Expulsador","Hopper":"Tolva","Activator Rail":"Riel Activador","Detector Rail":"Riel Detector","Powered Rail":"Riel Propulsado","Rail":"Riel","Lever":"Palanca","Redstone Torch":"Antorcha de Redstone","Redstone Wall Torch":"Antorcha de Pared de Redstone","Stone Button":"Botón de Piedra","Stone Pressure Plate":"Placa de Presión de Piedra","Weighted Pressure Plate":"Placa de Presión Pesada","Heavy Weighted Pressure Plate":"Placa de Presión Pesada (Pesada)","Light Weighted Pressure Plate":"Placa de Presión Pesada (Ligera)","Daylight Detector":"Detector de Luz Diurna","Target":"Objetivo","Calibrated Sculk Sensor":"Sensor Sculk Calibrado","Sculk Sensor":"Sensor Sculk","Sculk Shrieker":"Gritador Sculk","Sculk":"Sculk","Sculk Vein":"Vena Sculk","Sculk Catalyst":"Catalizador Sculk","Creaking Heart":"Corazón Crujiente","Command Block":"Bloque de Comandos","Chain Command Block":"Bloque de Comandos Encadenado","Repeating Command Block":"Bloque de Comandos Repetidor","Jigsaw":"Rompecabezas","Crafter":"Artesano","Lightning Rod":"Pararrayos",
-  "Netherrack":"Netherrack","Magma Block":"Bloque de Magma","Glowstone":"Piedra Brillante","Soul Sand":"Arena de Almas","Soul Soil":"Suelo de Almas","Soul Torch":"Antorcha de Almas","Soul Wall Torch":"Antorcha de Pared de Almas","Nether Brick Slab":"Losa de Ladrillo del Nether","Nether Brick Stairs":"Escaleras de Ladrillo del Nether","Nether Brick Wall":"Muro de Ladrillo del Nether","Crying Obsidian":"Obsidiana Llorona",
-  "End Portal Frame":"Marco del Portal del End","End Portal":"Portal del End","Dragon Egg":"Huevo de Dragón","Dragon Head":"Cabeza de Dragón","Dragon Wall Head":"Cabeza de Dragón de Pared","End Rod":"Varilla del End","Purpur Block":"Bloque de Purpur","Purpur Pillar":"Pilar de Purpur","Purpur Slab":"Losa de Purpur","Purpur Stairs":"Escaleras de Purpur","Chorus Plant":"Planta de Corus","Chorus Flower":"Flor de Corus","Ender Chest":"Cofre del End",
-  "Bedrock":"Lecho de Roca","Barrier":"Barrera","Structure Block":"Bloque de Estructura","Light":"Luz","Spawner":"Generador","Beacon":"Baliza","Conduit":"Conducto","Heavy Core":"Núcleo Pesado","Trial Spawner":"Generador de Prueba","Vault":"Bóveda",
-  "Polished Andesite Slab":"Losa de Andesita Pulida","Polished Andesite Stairs":"Escaleras de Andesita Pulida","Polished Blackstone Slab":"Losa de Piedra Negra Pulida","Polished Blackstone Stairs":"Escaleras de Piedra Negra Pulida","Polished Deepslate Slab":"Losa de Pizarra Profunda Pulida","Polished Deepslate Stairs":"Escaleras de Pizarra Profunda Pulida","Polished Diorite Slab":"Losa de Diorita Pulida","Polished Diorite Stairs":"Escaleras de Diorita Pulida","Polished Granite Slab":"Losa de Granito Pulido","Polished Granite Stairs":"Escaleras de Granito Pulido","Polished Tuff Slab":"Losa de Toba Pulida","Polished Tuff Stairs":"Escaleras de Toba Pulida",
-  "Bookshelf":"Estantería","Chiseled Bookshelf":"Estantería Tallada","Chest":"Cofre","Barrel":"Barril","Furnace":"Horno","Blast Furnace":"Alto Horno","Smoker":"Ahumador","Cartography Table":"Mesa de Cartografía","Fletching Table":"Mesa de Flechas","Smithing Table":"Mesa de Herrería","Loom":"Telar","Composter":"Compostador","Grindstone":"Piedra de Afilar","Lectern":"Atril","Stonecutter":"Cortapiedras","Enchanting Table":"Mesa de Encantamientos","Anvil":"Yunque","Chipped Anvil":"Yunque Agrietado","Damaged Anvil":"Yunque Dañado","Bell":"Campana","Brewing Stand":"Soporte de Pociones","Cauldron":"Caldero","Campfire":"Fogata","Soul Campfire":"Fogata de Almas","Lantern":"Linterna","Soul Lantern":"Linterna de Almas","Lodestone":"Magnetita","Respawn Anchor":"Ancla de Reaparición","Dried Ghast":"Ghast Seco",
-  "Exposed Copper":"Cobre Expuesto","Exposed Chiseled Copper":"Cobre Tallado Expuesto","Exposed Copper Bars":"Barras de Cobre Expuestas","Exposed Copper Bulb":"Bombilla de Cobre Expuesta","Exposed Copper Chain":"Cadena de Cobre Expuesta","Exposed Copper Chest":"Cofre de Cobre Expuesto","Exposed Copper Door":"Puerta de Cobre Expuesta","Exposed Copper Golem Statue":"Estatua de Golem de Cobre Expuesta","Exposed Copper Grate":"Reja de Cobre Expuesta","Exposed Copper Lantern":"Linterna de Cobre Expuesta","Exposed Copper Trapdoor":"Trampilla de Cobre Expuesta","Exposed Lightning Rod":"Pararrayos Expuesto",
+  "Acacia Button": "Botón de acacia",
+  "Acacia Door": "Puerta de acacia",
+  "Acacia Fence": "Valla de acacia",
+  "Acacia Fence Gate": "Puerta de valla de acacia",
+  "Acacia Hanging Sign": "Cartel colgante de acacia",
+  "Acacia Leaves": "Hojas de acacia",
+  "Acacia Log": "Tronco de acacia",
+  "Acacia Planks": "Madera de acacia",
+  "Acacia Pressure Plate": "Placa de presión de acacia",
+  "Acacia Sapling": "Brote de acacia",
+  "Acacia Shelf": "Estante de acacia",
+  "Acacia Sign": "Cartel de acacia",
+  "Acacia Slab": "Baldosa de acacia",
+  "Acacia Stairs": "Escaleras de acacia",
+  "Acacia Trapdoor": "Escotilla de acacia",
+  "Acacia Wall Hanging Sign": "Cartel colgante de acacia en pared",
+  "Acacia Wall Sign": "Cartel de acacia en pared",
+  "Acacia Wood": "Leño de acacia",
+  "Activator Rail": "Vía activadora",
+  "Air": "Aire",
+  "Allium": "Allium",
+  "Amethyst Block": "Bloque de amatista",
+  "Amethyst Cluster": "Clúster de amatista",
+  "Ancient Debris": "Escombros ancestrales",
+  "Andesite": "Andesita",
+  "Andesite Slab": "Baldosa de andesita",
+  "Andesite Stairs": "Escaleras de andesita",
+  "Andesite Wall": "Pared de andesita",
+  "Anvil": "Yunque",
+  "Attached Melon Stem": "Tallo de sandía unido",
+  "Attached Pumpkin Stem": "Tallo de zapallo unido",
+  "Azalea": "Azalea",
+  "Azalea Leaves": "Hojas de azalea",
+  "Azure Bluet": "Rubiácea",
+  "Bamboo": "Bambú",
+  "Bamboo Block": "Bloque de bambú",
+  "Bamboo Button": "Botón de bambú",
+  "Bamboo Door": "Puerta de bambú",
+  "Bamboo Fence": "Valla de bambú",
+  "Bamboo Fence Gate": "Puerta de valla de bambú",
+  "Bamboo Hanging Sign": "Cartel colgante de bambú",
+  "Bamboo Mosaic": "Mosaico de bambú",
+  "Bamboo Mosaic Slab": "Baldosa de mosaico de bambú",
+  "Bamboo Mosaic Stairs": "Escaleras de mosaico de bambú",
+  "Bamboo Planks": "Madera de bambú",
+  "Bamboo Pressure Plate": "Placa de presión de bambú",
+  "Bamboo Sapling": "Brote de bambú",
+  "Bamboo Shelf": "Estante de bambú",
+  "Bamboo Sign": "Cartel de bambú",
+  "Bamboo Slab": "Baldosa de bambú",
+  "Bamboo Stairs": "Escaleras de bambú",
+  "Bamboo Trapdoor": "Escotilla de bambú",
+  "Bamboo Wall Hanging Sign": "Cartel colgante de bambú en pared",
+  "Bamboo Wall Sign": "Cartel de bambú en pared",
+  "Barrel": "Barril",
+  "Barrier": "Barrera",
+  "Basalt": "Basalto",
+  "Beacon": "Faro",
+  "Bedrock": "Piedra madre",
+  "Bee Nest": "Colmena",
+  "Beehive": "Apiario",
+  "Beetroots": "Remolachas",
+  "Bell": "Campana",
+  "Big Dripleaf": "Plantaforma",
+  "Big Dripleaf Stem": "Tallo de plantaforma",
+  "Birch Button": "Botón de abedul",
+  "Birch Door": "Puerta de abedul",
+  "Birch Fence": "Valla de abedul",
+  "Birch Fence Gate": "Puerta de valla de abedul",
+  "Birch Hanging Sign": "Cartel colgante de abedul",
+  "Birch Leaves": "Hojas de abedul",
+  "Birch Log": "Tronco de abedul",
+  "Birch Planks": "Madera de abedul",
+  "Birch Pressure Plate": "Placa de presión de abedul",
+  "Birch Sapling": "Brote de abedul",
+  "Birch Shelf": "Estante de abedul",
+  "Birch Sign": "Cartel de abedul",
+  "Birch Slab": "Baldosa de abedul",
+  "Birch Stairs": "Escaleras de abedul",
+  "Birch Trapdoor": "Escotilla de abedul",
+  "Birch Wall Hanging Sign": "Cartel colgante de abedul en pared",
+  "Birch Wall Sign": "Cartel de abedul en pared",
+  "Birch Wood": "Leño de abedul",
+  "Black Banner": "Estandarte negro",
+  "Black Bed": "Cama negra",
+  "Black Candle": "Vela negra",
+  "Black Candle Cake": "Torta con vela negra",
+  "Black Carpet": "Alfombra negra",
+  "Black Concrete": "Concreto negro",
+  "Black Concrete Powder": "Cemento negro",
+  "Black Glazed Terracotta": "Azulejo negro",
+  "Black Shulker Box": "Caja de shulker negra",
+  "Black Stained Glass": "Vidrio negro",
+  "Black Stained Glass Pane": "Panel de vidrio negro",
+  "Black Terracotta": "Terracota negra",
+  "Black Wall Banner": "Estandarte negro",
+  "Black Wool": "Lana negra",
+  "Blackstone": "Piedra negra",
+  "Blackstone Slab": "Baldosa de piedra negra",
+  "Blackstone Stairs": "Escaleras de piedra negra",
+  "Blackstone Wall": "Pared de piedra negra",
+  "Blast Furnace": "Alto horno",
+  "Blue Banner": "Estandarte azul",
+  "Blue Bed": "Cama azul",
+  "Blue Candle": "Vela azul",
+  "Blue Candle Cake": "Torta con vela azul",
+  "Blue Carpet": "Alfombra azul",
+  "Blue Concrete": "Concreto azul",
+  "Blue Concrete Powder": "Cemento azul",
+  "Blue Glazed Terracotta": "Azulejo azul",
+  "Blue Ice": "Hielo azul",
+  "Blue Orchid": "Orquídea azul",
+  "Blue Shulker Box": "Caja de shulker azul",
+  "Blue Stained Glass": "Vidrio azul",
+  "Blue Stained Glass Pane": "Panel de vidrio azul",
+  "Blue Terracotta": "Terracota azul",
+  "Blue Wall Banner": "Estandarte azul",
+  "Blue Wool": "Lana azul",
+  "Bone Block": "Bloque de huesos",
+  "Bookshelf": "Biblioteca",
+  "Brain Coral": "Coral de cerebro",
+  "Brain Coral Block": "Bloque de coral de cerebro",
+  "Brain Coral Fan": "Gorgonia de cerebro",
+  "Brain Coral Wall Fan": "Gorgonia de cerebro en pared",
+  "Brewing Stand": "Destiladora",
+  "Brick Slab": "Baldosa de ladrillos",
+  "Brick Stairs": "Escaleras de ladrillos",
+  "Brick Wall": "Pared de ladrillos",
+  "Bricks": "Ladrillos",
+  "Brown Banner": "Estandarte marrón",
+  "Brown Bed": "Cama marrón",
+  "Brown Candle": "Vela marrón",
+  "Brown Candle Cake": "Torta con vela marrón",
+  "Brown Carpet": "Alfombra marrón",
+  "Brown Concrete": "Concreto marrón",
+  "Brown Concrete Powder": "Cemento marrón",
+  "Brown Glazed Terracotta": "Azulejo marrón",
+  "Brown Mushroom": "Hongo marrón",
+  "Brown Mushroom Block": "Bloque de hongo marrón",
+  "Brown Shulker Box": "Caja de shulker marrón",
+  "Brown Stained Glass": "Vidrio marrón",
+  "Brown Stained Glass Pane": "Panel de vidrio marrón",
+  "Brown Terracotta": "Terracota marrón",
+  "Brown Wall Banner": "Estandarte marrón",
+  "Brown Wool": "Lana marrón",
+  "Bubble Column": "Columna de burbujas",
+  "Bubble Coral": "Coral de burbuja",
+  "Bubble Coral Block": "Bloque de coral de burbuja",
+  "Bubble Coral Fan": "Gorgonia de burbuja",
+  "Bubble Coral Wall Fan": "Gorgonia de burbuja en pared",
+  "Budding Amethyst": "Brotador de amatista",
+  "Bush": "Arbusto",
+  "Cactus": "Cactus",
+  "Cactus Flower": "Flor de cactus",
+  "Cake": "Torta",
+  "Calcite": "Calcita",
+  "Calibrated Sculk Sensor": "Sensor de sculk calibrado",
+  "Campfire": "Fogata",
+  "Candle": "Vela",
+  "Candle Cake": "Torta con vela",
+  "Carrots": "Zanahorias",
+  "Cartography Table": "Mesa de cartografía",
+  "Carved Pumpkin": "Zapallo esculpido",
+  "Cauldron": "Caldero",
+  "Cave Air": "Aire de cuevas",
+  "Cave Vines": "Enredaderas de cueva",
+  "Cave Vines Plant": "Planta de enredaderas de cueva",
+  "Chain Command Block": "Bloque de comandos en cadena",
+  "Cherry Button": "Botón de cerezo",
+  "Cherry Door": "Puerta de cerezo",
+  "Cherry Fence": "Valla de cerezo",
+  "Cherry Fence Gate": "Puerta de valla de cerezo",
+  "Cherry Hanging Sign": "Cartel colgante de cerezo",
+  "Cherry Leaves": "Hojas de cerezo",
+  "Cherry Log": "Tronco de cerezo",
+  "Cherry Planks": "Madera de cerezo",
+  "Cherry Pressure Plate": "Placa de presión de cerezo",
+  "Cherry Sapling": "Brote de cerezo",
+  "Cherry Shelf": "Estante de cerezo",
+  "Cherry Sign": "Cartel de cerezo",
+  "Cherry Slab": "Baldosa de cerezo",
+  "Cherry Stairs": "Escaleras de cerezo",
+  "Cherry Trapdoor": "Escotilla de cerezo",
+  "Cherry Wall Hanging Sign": "Cartel colgante de cerezo en pared",
+  "Cherry Wall Sign": "Cartel de cerezo en pared",
+  "Cherry Wood": "Leño de cerezo",
+  "Chest": "Cofre",
+  "Chipped Anvil": "Yunque dañado",
+  "Chiseled Bookshelf": "Estantería",
+  "Chiseled Cinnabar": "Cinabrio cincelado",
+  "Chiseled Copper": "Cobre cincelado",
+  "Chiseled Deepslate": "Pizarra profunda cincelada",
+  "Chiseled Nether Bricks": "Ladrillos del Nether cincelados",
+  "Chiseled Polished Blackstone": "Piedra negra pulida cincelada",
+  "Chiseled Quartz Block": "Cuarzo cincelado",
+  "Chiseled Red Sandstone": "Arenisca rojiza cincelada",
+  "Chiseled Resin Bricks": "Ladrillos de resina cincelados",
+  "Chiseled Sandstone": "Arenisca cincelada",
+  "Chiseled Stone Bricks": "Ladrillos de piedra cincelados",
+  "Chiseled Sulfur": "Azufre cincelado",
+  "Chiseled Tuff": "Toba cincelada",
+  "Chiseled Tuff Bricks": "Ladrillos de toba cincelados",
+  "Chorus Flower": "Flor de chorus",
+  "Chorus Plant": "Chorus",
+  "Cinnabar": "Cinabrio",
+  "Cinnabar Brick Slab": "Baldosa de ladrillos de cinabrio",
+  "Cinnabar Brick Stairs": "Escaleras de ladrillos de cinabrio",
+  "Cinnabar Brick Wall": "Pared de ladrillos de cinabrio",
+  "Cinnabar Bricks": "Ladrillos de cinabrio",
+  "Cinnabar Slab": "Baldosa de cinabrio",
+  "Cinnabar Stairs": "Escaleras de cinabrio",
+  "Cinnabar Wall": "Pared de cinabrio",
+  "Clay": "Arcilla",
+  "Closed Eyeblossom": "Miraflor cerrada",
+  "Coal Block": "Bloque de carbón",
+  "Coal Ore": "Mineral de carbón",
+  "Coarse Dirt": "Tierra infértil",
+  "Cobbled Deepslate": "Adoquín de pizarra profunda",
+  "Cobbled Deepslate Slab": "Baldosa de adoquín de pizarra profunda",
+  "Cobbled Deepslate Stairs": "Escaleras de adoquín de pizarra profunda",
+  "Cobbled Deepslate Wall": "Pared de adoquín de pizarra profunda",
+  "Cobblestone": "Adoquín",
+  "Cobblestone Slab": "Baldosa de adoquín",
+  "Cobblestone Stairs": "Escaleras de adoquín",
+  "Cobblestone Wall": "Pared de adoquín",
+  "Cobweb": "Telaraña",
+  "Cocoa": "Cacao",
+  "Command Block": "Bloque de comandos",
+  "Comparator": "Comparador de redstone",
+  "Composter": "Compostera",
+  "Conduit": "Canalizador",
+  "Copper Bars": "Barrotes de cobre",
+  "Copper Block": "Bloque de cobre",
+  "Copper Bulb": "Lámpara de cobre",
+  "Copper Chain": "Cadena de cobre",
+  "Copper Chest": "Cofre de cobre",
+  "Copper Door": "Puerta de cobre",
+  "Copper Golem Statue": "Estatua de gólem de cobre",
+  "Copper Grate": "Rejilla de cobre",
+  "Copper Lantern": "Farol de cobre",
+  "Copper Ore": "Mineral de cobre",
+  "Copper Torch": "Antorcha de cobre",
+  "Copper Trapdoor": "Escotilla de cobre",
+  "Copper Wall Torch": "Antorcha de cobre en pared",
+  "Cornflower": "Aciano",
+  "Cracked Deepslate Bricks": "Ladrillos de pizarra profunda quebrados",
+  "Cracked Deepslate Tiles": "Losetas de pizarra profunda quebradas",
+  "Cracked Nether Bricks": "Ladrillos del Nether quebrados",
+  "Cracked Polished Blackstone Bricks": "Ladrillos de piedra negra pulida agrietada",
+  "Cracked Stone Bricks": "Ladrillos de piedra quebrados",
+  "Crafter": "Fabricador",
+  "Crafting Table": "Mesa de crafteo",
+  "Creaking Heart": "Corazón de crujidor",
+  "Creeper Head": "Cabeza de creeper",
+  "Creeper Wall Head": "Cabeza de creeper en pared",
+  "Crimson Button": "Botón carmesí",
+  "Crimson Door": "Puerta carmesí",
+  "Crimson Fence": "Valla carmesí",
+  "Crimson Fence Gate": "Puerta de valla carmesí",
+  "Crimson Fungus": "Hongo carmesí",
+  "Crimson Hanging Sign": "Cartel colgante carmesí",
+  "Crimson Hyphae": "Hifas carmesí",
+  "Crimson Nylium": "Nilio carmesí",
+  "Crimson Planks": "Madera carmesí",
+  "Crimson Pressure Plate": "Placa de presión carmesí",
+  "Crimson Roots": "Yuyos carmesí",
+  "Crimson Shelf": "Estante carmesí",
+  "Crimson Sign": "Cartel carmesí",
+  "Crimson Slab": "Baldosa carmesí",
+  "Crimson Stairs": "Escaleras carmesí",
+  "Crimson Stem": "Tallo carmesí",
+  "Crimson Trapdoor": "Escotilla carmesí",
+  "Crimson Wall Hanging Sign": "Cartel colgante carmesí en pared",
+  "Crimson Wall Sign": "Cartel carmesí en pared",
+  "Crying Obsidian": "Obsidiana llorosa",
+  "Cut Copper": "Cobre cortado",
+  "Cut Copper Slab": "Baldosa de cobre cortado",
+  "Cut Copper Stairs": "Escaleras de cobre cortado",
+  "Cut Red Sandstone": "Arenisca rojiza cortada",
+  "Cut Red Sandstone Slab": "Baldosa de arenisca rojiza cortada",
+  "Cut Sandstone": "Arenisca cortada",
+  "Cut Sandstone Slab": "Baldosa de arenisca cortada",
+  "Cyan Banner": "Estandarte cian",
+  "Cyan Bed": "Cama cian",
+  "Cyan Candle": "Vela cian",
+  "Cyan Candle Cake": "Torta con vela cian",
+  "Cyan Carpet": "Alfombra cian",
+  "Cyan Concrete": "Concreto cian",
+  "Cyan Concrete Powder": "Cemento cian",
+  "Cyan Glazed Terracotta": "Azulejo cian",
+  "Cyan Shulker Box": "Caja de shulker cian",
+  "Cyan Stained Glass": "Vidrio cian",
+  "Cyan Stained Glass Pane": "Panel de vidrio cian",
+  "Cyan Terracotta": "Terracota cian",
+  "Cyan Wall Banner": "Estandarte cian",
+  "Cyan Wool": "Lana cian",
+  "Damaged Anvil": "Yunque muy dañado",
+  "Dandelion": "Diente de león",
+  "Dark Oak Button": "Botón de roble oscuro",
+  "Dark Oak Door": "Puerta de roble oscuro",
+  "Dark Oak Fence": "Valla de roble oscuro",
+  "Dark Oak Fence Gate": "Puerta de valla de roble oscuro",
+  "Dark Oak Hanging Sign": "Cartel colgante de roble oscuro",
+  "Dark Oak Leaves": "Hojas de roble oscuro",
+  "Dark Oak Log": "Tronco de roble oscuro",
+  "Dark Oak Planks": "Madera de roble oscuro",
+  "Dark Oak Pressure Plate": "Placa de presión de roble oscuro",
+  "Dark Oak Sapling": "Brote de roble oscuro",
+  "Dark Oak Shelf": "Estante de roble oscuro",
+  "Dark Oak Sign": "Cartel de roble oscuro",
+  "Dark Oak Slab": "Baldosa de roble oscuro",
+  "Dark Oak Stairs": "Escaleras de roble oscuro",
+  "Dark Oak Trapdoor": "Escotilla de roble oscuro",
+  "Dark Oak Wall Hanging Sign": "Cartel colgante de roble oscuro en pared",
+  "Dark Oak Wall Sign": "Cartel de roble oscuro en pared",
+  "Dark Oak Wood": "Leño de roble oscuro",
+  "Dark Prismarine": "Prismarina oscura",
+  "Dark Prismarine Slab": "Baldosa de prismarina oscura",
+  "Dark Prismarine Stairs": "Escaleras de prismarina oscura",
+  "Daylight Detector": "Sensor de luz solar",
+  "Dead Brain Coral": "Coral de cerebro muerto",
+  "Dead Brain Coral Block": "Bloque de coral de cerebro muerto",
+  "Dead Brain Coral Fan": "Gorgonia de cerebro muerta",
+  "Dead Brain Coral Wall Fan": "Gorgonia de cerebro muerta en pared",
+  "Dead Bubble Coral": "Coral de burbuja muerto",
+  "Dead Bubble Coral Block": "Bloque de coral de burbuja muerto",
+  "Dead Bubble Coral Fan": "Gorgonia de burbuja muerta",
+  "Dead Bubble Coral Wall Fan": "Gorgonia de burbuja muerta en pared",
+  "Dead Bush": "Arbusto muerto",
+  "Dead Fire Coral": "Coral de fuego muerto",
+  "Dead Fire Coral Block": "Bloque de coral de fuego muerto",
+  "Dead Fire Coral Fan": "Gorgonia de fuego muerta",
+  "Dead Fire Coral Wall Fan": "Gorgonia de fuego muerta en pared",
+  "Dead Horn Coral": "Coral de cuerno muerto",
+  "Dead Horn Coral Block": "Bloque de coral de cuerno muerto",
+  "Dead Horn Coral Fan": "Gorgonia de cuerno muerta",
+  "Dead Horn Coral Wall Fan": "Gorgonia de cuerno muerta en pared",
+  "Dead Tube Coral": "Coral de tubo muerto",
+  "Dead Tube Coral Block": "Bloque de coral de tubo muerto",
+  "Dead Tube Coral Fan": "Gorgonia de tubo muerta",
+  "Dead Tube Coral Wall Fan": "Gorgonia de tubo muerta en pared",
+  "Decorated Pot": "Maceta decorada",
+  "Deepslate": "Pizarra profunda",
+  "Deepslate Brick Slab": "Baldosa de ladrillos de pizarra profunda",
+  "Deepslate Brick Stairs": "Escaleras de ladrillos de pizarra profunda",
+  "Deepslate Brick Wall": "Pared de ladrillos de pizarra profunda",
+  "Deepslate Bricks": "Ladrillos de pizarra profunda",
+  "Deepslate Coal Ore": "Mineral de carbón de pizarra profunda",
+  "Deepslate Copper Ore": "Mineral de cobre de pizarra profunda",
+  "Deepslate Diamond Ore": "Mineral de diamante de pizarra profunda",
+  "Deepslate Emerald Ore": "Mineral de esmeralda de pizarra profunda",
+  "Deepslate Gold Ore": "Mineral de oro de pizarra profunda",
+  "Deepslate Iron Ore": "Mineral de hierro de pizarra profunda",
+  "Deepslate Lapis Ore": "Mineral de lapizlázuli de pizarra profunda",
+  "Deepslate Redstone Ore": "Mineral de redstone de pizarra profunda",
+  "Deepslate Tile Slab": "Baldosa de losetas de pizarra profunda",
+  "Deepslate Tile Stairs": "Escaleras de losetas de pizarra profunda",
+  "Deepslate Tile Wall": "Pared de losetas de pizarra profunda",
+  "Deepslate Tiles": "Losetas de pizarra profunda",
+  "Detector Rail": "Vía detectora",
+  "Diamond Block": "Bloque de diamante",
+  "Diamond Ore": "Mineral de diamante",
+  "Diorite": "Diorita",
+  "Diorite Slab": "Baldosa de diorita",
+  "Diorite Stairs": "Escaleras de diorita",
+  "Diorite Wall": "Pared de diorita",
+  "Dirt": "Tierra",
+  "Dirt Path": "Camino de tierra",
+  "Dispenser": "Dispensador",
+  "Dragon Egg": "Huevo de dragón",
+  "Dragon Head": "Cabeza de dragón",
+  "Dragon Wall Head": "Cabeza de dragón en pared",
+  "Dried Ghast": "Ghast seco",
+  "Dried Kelp Block": "Bloque de algas secas",
+  "Dripstone Block": "Bloque de espeleotema",
+  "Dropper": "Soltador",
+  "Emerald Block": "Bloque de esmeralda",
+  "Emerald Ore": "Mineral de esmeralda",
+  "Enchanting Table": "Mesa de encantamientos",
+  "End Gateway": "Acceso al End",
+  "End Portal": "Marco del portal al End",
+  "End Portal Frame": "Marco del portal del End",
+  "End Rod": "Vara del End",
+  "End Stone": "Piedra del End",
+  "End Stone Brick Slab": "Baldosa de ladrillos de piedra del End",
+  "End Stone Brick Stairs": "Escaleras de ladrillos de piedra del End",
+  "End Stone Brick Wall": "Pared de ladrillos de piedra del End",
+  "End Stone Bricks": "Ladrillos de piedra del End",
+  "Ender Chest": "Cofre de ender",
+  "Exposed Chiseled Copper": "Cobre cincelado expuesto",
+  "Exposed Copper": "Cobre expuesto",
+  "Exposed Copper Bars": "Barrotes de cobre expuesto",
+  "Exposed Copper Bulb": "Lámpara de cobre expuesto",
+  "Exposed Copper Chain": "Cadena de cobre expuesto",
+  "Exposed Copper Chest": "Cofre de cobre expuesto",
+  "Exposed Copper Door": "Puerta de cobre expuesto",
+  "Exposed Copper Golem Statue": "Estatua de gólem de cobre expuesto",
+  "Exposed Copper Grate": "Rejilla de cobre expuesto",
+  "Exposed Copper Lantern": "Farol de cobre expuesto",
+  "Exposed Copper Trapdoor": "Escotilla de cobre expuesto",
+  "Exposed Cut Copper": "Cobre cortado expuesto",
+  "Exposed Cut Copper Slab": "Baldosa de cobre cortado expuesto",
+  "Exposed Cut Copper Stairs": "Escaleras de cobre cortado expuesto",
+  "Exposed Lightning Rod": "Pararrayos expuesto",
+  "Farmland": "Tierra de cultivo",
+  "Fern": "Helecho",
+  "Fire": "Fuego",
+  "Fire Coral": "Coral de fuego",
+  "Fire Coral Block": "Bloque de coral de fuego",
+  "Fire Coral Fan": "Gorgonia de fuego",
+  "Fire Coral Wall Fan": "Gorgonia de fuego en pared",
+  "Firefly Bush": "Arbusto de luciérnagas",
+  "Fletching Table": "Mesa de arquería",
+  "Flower Pot": "Maceta",
+  "Flowering Azalea": "Azalea florida",
+  "Flowering Azalea Leaves": "Hojas de azalea florida",
+  "Frogspawn": "Desove de sapo",
+  "Frosted Ice": "Hielo escarchado",
+  "Furnace": "Horno",
+  "Gilded Blackstone": "Piedra negra dorada",
+  "Glass": "Vidrio",
+  "Glass Pane": "Panel de vidrio",
+  "Glow Lichen": "Liquen luminoso",
+  "Glowstone": "Piedra luminosa",
+  "Gold Block": "Bloque de oro",
+  "Gold Ore": "Mineral de oro",
+  "Golden Dandelion": "Diente de león dorado",
+  "Granite": "Granito",
+  "Granite Slab": "Baldosa de granito",
+  "Granite Stairs": "Escaleras de granito",
+  "Granite Wall": "Pared de granito",
+  "Grass Block": "Bloque de pasto",
+  "Gravel": "Grava",
+  "Gray Banner": "Estandarte gris",
+  "Gray Bed": "Cama gris",
+  "Gray Candle": "Vela gris",
+  "Gray Candle Cake": "Torta con vela gris",
+  "Gray Carpet": "Alfombra gris",
+  "Gray Concrete": "Concreto gris",
+  "Gray Concrete Powder": "Cemento gris",
+  "Gray Glazed Terracotta": "Azulejo gris",
+  "Gray Shulker Box": "Caja de shulker gris",
+  "Gray Stained Glass": "Vidrio gris",
+  "Gray Stained Glass Pane": "Panel de vidrio gris",
+  "Gray Terracotta": "Terracota gris",
+  "Gray Wall Banner": "Estandarte gris",
+  "Gray Wool": "Lana gris",
+  "Green Banner": "Estandarte verde",
+  "Green Bed": "Cama verde",
+  "Green Candle": "Vela verde",
+  "Green Candle Cake": "Torta con vela verde",
+  "Green Carpet": "Alfombra verde",
+  "Green Concrete": "Concreto verde",
+  "Green Concrete Powder": "Cemento verde",
+  "Green Glazed Terracotta": "Azulejo verde",
+  "Green Shulker Box": "Caja de shulker verde",
+  "Green Stained Glass": "Vidrio verde",
+  "Green Stained Glass Pane": "Panel de vidrio verde",
+  "Green Terracotta": "Terracota verde",
+  "Green Wall Banner": "Estandarte verde",
+  "Green Wool": "Lana verde",
+  "Grindstone": "Afiladora",
+  "Hanging Roots": "Raíces colgantes",
+  "Hay Block": "Bloque de heno",
+  "Heavy Core": "Núcleo pesado",
+  "Heavy Weighted Pressure Plate": "Placa de presión ponderada (pesada)",
+  "Honey Block": "Bloque de miel",
+  "Honeycomb Block": "Bloque de panal",
+  "Hopper": "Tolva",
+  "Horn Coral": "Coral de cuerno",
+  "Horn Coral Block": "Bloque de coral de cuerno",
+  "Horn Coral Fan": "Gorgonia de cuerno",
+  "Horn Coral Wall Fan": "Gorgonia de cuerno en pared",
+  "Ice": "Hielo",
+  "Infested Chiseled Stone Bricks": "Ladrillos de piedra cincelados infestados",
+  "Infested Cobblestone": "Adoquín infestado",
+  "Infested Cracked Stone Bricks": "Ladrillos de piedra quebrados infestados",
+  "Infested Deepslate": "Pizarra profunda infestada",
+  "Infested Mossy Stone Bricks": "Ladrillos de piedra musgosos infestados",
+  "Infested Stone": "Piedra infestada",
+  "Infested Stone Bricks": "Ladrillos de piedra infestados",
+  "Iron Bars": "Barrotes de hierro",
+  "Iron Block": "Bloque de hierro",
+  "Iron Chain": "Cadena de hierro",
+  "Iron Door": "Puerta de hierro",
+  "Iron Ore": "Mineral de hierro",
+  "Iron Trapdoor": "Escotilla de hierro",
+  "Jack O Lantern": "Zapallo de Halloween",
+  "Jigsaw": "Bloque de rompecabezas",
+  "Jukebox": "Tocadiscos",
+  "Jungle Button": "Botón de jungla",
+  "Jungle Door": "Puerta de jungla",
+  "Jungle Fence": "Valla de jungla",
+  "Jungle Fence Gate": "Puerta de valla de jungla",
+  "Jungle Hanging Sign": "Cartel colgante de jungla",
+  "Jungle Leaves": "Hojas de jungla",
+  "Jungle Log": "Tronco de jungla",
+  "Jungle Planks": "Madera de jungla",
+  "Jungle Pressure Plate": "Placa de presión de jungla",
+  "Jungle Sapling": "Brote de jungla",
+  "Jungle Shelf": "Estante de jungla",
+  "Jungle Sign": "Cartel de jungla",
+  "Jungle Slab": "Baldosa de jungla",
+  "Jungle Stairs": "Escaleras de jungla",
+  "Jungle Trapdoor": "Escotilla de jungla",
+  "Jungle Wall Hanging Sign": "Cartel colgante de jungla en pared",
+  "Jungle Wall Sign": "Cartel de jungla en pared",
+  "Jungle Wood": "Leño de jungla",
+  "Kelp": "Alga",
+  "Kelp Plant": "Tallo de alga",
+  "Ladder": "Escalera",
+  "Lantern": "Farol",
+  "Lapis Block": "Bloque de lapislázuli",
+  "Lapis Ore": "Mineral de lapislázuli",
+  "Large Amethyst Bud": "Brote de amatista grande",
+  "Large Fern": "Helecho alto",
+  "Lava": "Lava",
+  "Lava Cauldron": "Caldero con lava",
+  "Leaf Litter": "Hojas secas",
+  "Lectern": "Atril",
+  "Lever": "Palanca",
+  "Light": "Luz",
+  "Light Blue Banner": "Estandarte celeste",
+  "Light Blue Bed": "Cama celeste",
+  "Light Blue Candle": "Vela celeste",
+  "Light Blue Candle Cake": "Torta con vela celeste",
+  "Light Blue Carpet": "Alfombra celeste",
+  "Light Blue Concrete": "Concreto celeste",
+  "Light Blue Concrete Powder": "Cemento celeste",
+  "Light Blue Glazed Terracotta": "Azulejo celeste",
+  "Light Blue Shulker Box": "Caja de shulker celeste",
+  "Light Blue Stained Glass": "Vidrio celeste",
+  "Light Blue Stained Glass Pane": "Panel de vidrio celeste",
+  "Light Blue Terracotta": "Terracota celeste",
+  "Light Blue Wall Banner": "Estandarte celeste",
+  "Light Blue Wool": "Lana celeste",
+  "Light Gray Banner": "Estandarte gris claro",
+  "Light Gray Bed": "Cama gris claro",
+  "Light Gray Candle": "Vela gris claro",
+  "Light Gray Candle Cake": "Torta con vela gris claro",
+  "Light Gray Carpet": "Alfombra gris claro",
+  "Light Gray Concrete": "Concreto gris claro",
+  "Light Gray Concrete Powder": "Cemento gris claro",
+  "Light Gray Glazed Terracotta": "Azulejo gris claro",
+  "Light Gray Shulker Box": "Caja de shulker gris claro",
+  "Light Gray Stained Glass": "Vidrio gris claro",
+  "Light Gray Stained Glass Pane": "Panel de vidrio gris claro",
+  "Light Gray Terracotta": "Terracota gris claro",
+  "Light Gray Wall Banner": "Estandarte gris claro",
+  "Light Gray Wool": "Lana gris claro",
+  "Light Weighted Pressure Plate": "Placa de presión ponderada (ligera)",
+  "Lightning Rod": "Pararrayos",
+  "Lilac": "Lila",
+  "Lily of The Valley": "Lirio del valle",
+  "Lily Pad": "Lirio de agua",
+  "Lime Banner": "Estandarte verde lima",
+  "Lime Bed": "Cama verde lima",
+  "Lime Candle": "Vela verde lima",
+  "Lime Candle Cake": "Torta con vela verde lima",
+  "Lime Carpet": "Alfombra verde lima",
+  "Lime Concrete": "Concreto verde lima",
+  "Lime Concrete Powder": "Cemento verde lima",
+  "Lime Glazed Terracotta": "Azulejo verde lima",
+  "Lime Shulker Box": "Caja de shulker verde lima",
+  "Lime Stained Glass": "Vidrio verde lima",
+  "Lime Stained Glass Pane": "Panel de vidrio verde lima",
+  "Lime Terracotta": "Terracota verde lima",
+  "Lime Wall Banner": "Estandarte verde lima",
+  "Lime Wool": "Lana verde lima",
+  "Lodestone": "Magnetita",
+  "Loom": "Máquina de telar",
+  "Magenta Banner": "Estandarte magenta",
+  "Magenta Bed": "Cama magenta",
+  "Magenta Candle": "Vela magenta",
+  "Magenta Candle Cake": "Torta con vela magenta",
+  "Magenta Carpet": "Alfombra magenta",
+  "Magenta Concrete": "Concreto magenta",
+  "Magenta Concrete Powder": "Cemento magenta",
+  "Magenta Glazed Terracotta": "Azulejo magenta",
+  "Magenta Shulker Box": "Caja de shulker magenta",
+  "Magenta Stained Glass": "Vidrio magenta",
+  "Magenta Stained Glass Pane": "Panel de vidrio magenta",
+  "Magenta Terracotta": "Terracota magenta",
+  "Magenta Wall Banner": "Estandarte magenta",
+  "Magenta Wool": "Lana magenta",
+  "Magma Block": "Bloque de magma",
+  "Mangrove Button": "Botón de mangle",
+  "Mangrove Door": "Puerta de mangle",
+  "Mangrove Fence": "Valla de mangle",
+  "Mangrove Fence Gate": "Puerta de valla de mangle",
+  "Mangrove Hanging Sign": "Cartel colgante de mangle",
+  "Mangrove Leaves": "Hojas de mangle",
+  "Mangrove Log": "Tronco de mangle",
+  "Mangrove Planks": "Madera de mangle",
+  "Mangrove Pressure Plate": "Placa de presión de mangle",
+  "Mangrove Propagule": "Propágulo de mangle",
+  "Mangrove Roots": "Raíces de mangle",
+  "Mangrove Shelf": "Estante de mangle",
+  "Mangrove Sign": "Cartel de mangle",
+  "Mangrove Slab": "Baldosa de mangle",
+  "Mangrove Stairs": "Escaleras de mangle",
+  "Mangrove Trapdoor": "Escotilla de mangle",
+  "Mangrove Wall Hanging Sign": "Cartel colgante de mangle en pared",
+  "Mangrove Wall Sign": "Cartel de mangle en pared",
+  "Mangrove Wood": "Leño de mangle",
+  "Medium Amethyst Bud": "Brote de amatista mediano",
+  "Melon": "Sandía",
+  "Melon Stem": "Tallo de sandía",
+  "Moss Block": "Bloque de musgo",
+  "Moss Carpet": "Alfombra de musgo",
+  "Mossy Cobblestone": "Adoquín musgoso",
+  "Mossy Cobblestone Slab": "Baldosa de adoquín musgoso",
+  "Mossy Cobblestone Stairs": "Escaleras de adoquín musgoso",
+  "Mossy Cobblestone Wall": "Pared de adoquín musgoso",
+  "Mossy Stone Brick Slab": "Baldosa de ladrillos de piedra musgosos",
+  "Mossy Stone Brick Stairs": "Escaleras de ladrillos de piedra musgosos",
+  "Mossy Stone Brick Wall": "Pared de ladrillos de piedra musgosos",
+  "Mossy Stone Bricks": "Ladrillos de piedra musgosos",
+  "Moving Piston": "Pistón en movimiento",
+  "Mud": "Barro",
+  "Mud Brick Slab": "Baldosa de ladrillos de adobe",
+  "Mud Brick Stairs": "Escaleras de ladrillos de adobe",
+  "Mud Brick Wall": "Pared de ladrillos de adobe",
+  "Mud Bricks": "Ladrillos de adobe",
+  "Muddy Mangrove Roots": "Raíces de mangle sucias",
+  "Mushroom Stem": "Tallo de hongo",
+  "Mycelium": "Micelio",
+  "Nether Brick Fence": "Valla de ladrillos del Nether",
+  "Nether Brick Slab": "Baldosa de ladrillos del Nether",
+  "Nether Brick Stairs": "Escaleras de ladrillos del Nether",
+  "Nether Brick Wall": "Pared de ladrillos del Nether",
+  "Nether Bricks": "Ladrillos del Nether",
+  "Nether Gold Ore": "Mineral de oro del Nether",
+  "Nether Portal": "Portal del Nether",
+  "Nether Quartz Ore": "Mineral de cuarzo del Nether",
+  "Nether Sprouts": "Brotes del Nether",
+  "Nether Wart": "Verruga del Nether",
+  "Nether Wart Block": "Bloque de verrugas del Nether",
+  "Netherite Block": "Bloque de netherita",
+  "Netherrack": "Netherrack",
+  "Note Block": "Bloque musical",
+  "Oak Button": "Botón de roble",
+  "Oak Door": "Puerta de roble",
+  "Oak Fence": "Valla de roble",
+  "Oak Fence Gate": "Puerta de valla de roble",
+  "Oak Hanging Sign": "Cartel colgante de roble",
+  "Oak Leaves": "Hojas de roble",
+  "Oak Log": "Tronco de roble",
+  "Oak Planks": "Madera de roble",
+  "Oak Pressure Plate": "Placa de presión de roble",
+  "Oak Sapling": "Brote de roble",
+  "Oak Shelf": "Estante de roble",
+  "Oak Sign": "Cartel de roble",
+  "Oak Slab": "Baldosa de roble",
+  "Oak Stairs": "Escaleras de roble",
+  "Oak Trapdoor": "Escotilla de roble",
+  "Oak Wall Hanging Sign": "Cartel colgante de roble en pared",
+  "Oak Wall Sign": "Cartel de roble en pared",
+  "Oak Wood": "Leño de roble",
+  "Observer": "Observador",
+  "Obsidian": "Obsidiana",
+  "Ochre Froglight": "Luzapo ocre",
+  "Open Eyeblossom": "Miraflor abierta",
+  "Orange Banner": "Estandarte naranja",
+  "Orange Bed": "Cama naranja",
+  "Orange Candle": "Vela naranja",
+  "Orange Candle Cake": "Torta con vela naranja",
+  "Orange Carpet": "Alfombra naranja",
+  "Orange Concrete": "Concreto naranja",
+  "Orange Concrete Powder": "Cemento naranja",
+  "Orange Glazed Terracotta": "Azulejo naranja",
+  "Orange Shulker Box": "Caja de shulker naranja",
+  "Orange Stained Glass": "Vidrio naranja",
+  "Orange Stained Glass Pane": "Panel de vidrio naranja",
+  "Orange Terracotta": "Terracota naranja",
+  "Orange Tulip": "Tulipán naranja",
+  "Orange Wall Banner": "Estandarte naranja",
+  "Orange Wool": "Lana naranja",
+  "Oxeye Daisy": "Margarita",
+  "Oxidized Chiseled Copper": "Cobre cincelado oxidado",
+  "Oxidized Copper": "Cobre oxidado",
+  "Oxidized Copper Bars": "Barrotes de cobre oxidado",
+  "Oxidized Copper Bulb": "Lámpara de cobre oxidado",
+  "Oxidized Copper Chain": "Cadena de cobre oxidado",
+  "Oxidized Copper Chest": "Cofre de cobre oxidado",
+  "Oxidized Copper Door": "Puerta de cobre oxidado",
+  "Oxidized Copper Golem Statue": "Estatua de gólem de cobre oxidado",
+  "Oxidized Copper Grate": "Rejilla de cobre oxidado",
+  "Oxidized Copper Lantern": "Farol de cobre oxidado",
+  "Oxidized Copper Trapdoor": "Escotilla de cobre oxidado",
+  "Oxidized Cut Copper": "Cobre cortado oxidado",
+  "Oxidized Cut Copper Slab": "Baldosa de cobre cortado oxidado",
+  "Oxidized Cut Copper Stairs": "Escaleras de cobre cortado oxidado",
+  "Oxidized Lightning Rod": "Pararrayos oxidado",
+  "Packed Ice": "Hielo comprimido",
+  "Packed Mud": "Adobe",
+  "Pale Hanging Moss": "Musgo pálido colgante",
+  "Pale Moss Block": "Bloque de musgo pálido",
+  "Pale Moss Carpet": "Alfombra de musgo pálido",
+  "Pale Oak Button": "Botón de roble pálido",
+  "Pale Oak Door": "Puerta de roble pálido",
+  "Pale Oak Fence": "Valla de roble pálido",
+  "Pale Oak Fence Gate": "Puerta de valla de roble pálido",
+  "Pale Oak Hanging Sign": "Cartel colgante de roble pálido",
+  "Pale Oak Leaves": "Hojas de roble pálido",
+  "Pale Oak Log": "Tronco de roble pálido",
+  "Pale Oak Planks": "Madera de roble pálido",
+  "Pale Oak Pressure Plate": "Placa de presión de roble pálido",
+  "Pale Oak Sapling": "Brote de roble pálido",
+  "Pale Oak Shelf": "Estante de roble pálido",
+  "Pale Oak Sign": "Cartel de roble pálido",
+  "Pale Oak Slab": "Baldosa de roble pálido",
+  "Pale Oak Stairs": "Escaleras de roble pálido",
+  "Pale Oak Trapdoor": "Escotilla de roble pálido",
+  "Pale Oak Wall Hanging Sign": "Cartel colgante de roble pálido en pared",
+  "Pale Oak Wall Sign": "Cartel de roble pálido en pared",
+  "Pale Oak Wood": "Leño de roble pálido",
+  "Pearlescent Froglight": "Luzapo perlada",
+  "Peony": "Peonía",
+  "Petrified Oak Slab": "Baldosa de roble petrificada",
+  "Piglin Head": "Cabeza de piglin",
+  "Piglin Wall Head": "Cabeza de piglin en pared",
+  "Pink Banner": "Estandarte rosa",
+  "Pink Bed": "Cama rosa",
+  "Pink Candle": "Vela rosada",
+  "Pink Candle Cake": "Torta con vela rosada",
+  "Pink Carpet": "Alfombra rosa",
+  "Pink Concrete": "Concreto rosa",
+  "Pink Concrete Powder": "Cemento rosa",
+  "Pink Glazed Terracotta": "Azulejo rosa",
+  "Pink Petals": "Pétalos rosas",
+  "Pink Shulker Box": "Caja de shulker rosa",
+  "Pink Stained Glass": "Vidrio rosa",
+  "Pink Stained Glass Pane": "Panel de vidrio rosa",
+  "Pink Terracotta": "Terracota rosa",
+  "Pink Tulip": "Tulipán rosa",
+  "Pink Wall Banner": "Estandarte rosa",
+  "Pink Wool": "Lana rosa",
+  "Piston": "Pistón",
+  "Piston Head": "Cabeza de pistón",
+  "Pitcher Crop": "Cultivo de odre",
+  "Pitcher Plant": "Planta odre",
+  "Player Head": "Cabeza de jugador",
+  "Player Wall Head": "Cabeza de jugador en pared",
+  "Podzol": "Podsol",
+  "Pointed Dripstone": "Espeleotema puntiagudo",
+  "Polished Andesite": "Andesita pulida",
+  "Polished Andesite Slab": "Baldosa de andesita pulida",
+  "Polished Andesite Stairs": "Escaleras de andesita pulida",
+  "Polished Basalt": "Basalto pulido",
+  "Polished Blackstone": "Piedra negra pulida",
+  "Polished Blackstone Brick Slab": "Baldosa de ladrillos de piedra negra pulida",
+  "Polished Blackstone Brick Stairs": "Escaleras de ladrillos de piedra negra pulida",
+  "Polished Blackstone Brick Wall": "Pared de ladrillos de piedra negra pulida",
+  "Polished Blackstone Bricks": "Ladrillos de piedra negra pulida",
+  "Polished Blackstone Button": "Botón de piedra negra pulida",
+  "Polished Blackstone Pressure Plate": "Placa de presión de piedra negra pulida",
+  "Polished Blackstone Slab": "Baldosa de piedra negra pulida",
+  "Polished Blackstone Stairs": "Escaleras de piedra negra pulida",
+  "Polished Blackstone Wall": "Pared de piedra negra pulida",
+  "Polished Cinnabar": "Cinabrio pulido",
+  "Polished Cinnabar Slab": "Baldosa de cinabrio pulido",
+  "Polished Cinnabar Stairs": "Escaleras de cinabrio pulido",
+  "Polished Cinnabar Wall": "Pared de cinabrio pulido",
+  "Polished Deepslate": "Pizarra profunda pulida",
+  "Polished Deepslate Slab": "Baldosa de pizarra profunda pulida",
+  "Polished Deepslate Stairs": "Escaleras de pizarra profunda pulida",
+  "Polished Deepslate Wall": "Pared de pizarra profunda pulida",
+  "Polished Diorite": "Diorita pulida",
+  "Polished Diorite Slab": "Baldosa de diorita pulida",
+  "Polished Diorite Stairs": "Escaleras de diorita pulida",
+  "Polished Granite": "Granito pulido",
+  "Polished Granite Slab": "Baldosa de granito pulido",
+  "Polished Granite Stairs": "Escaleras de granito pulido",
+  "Polished Sulfur": "Azufre pulido",
+  "Polished Sulfur Slab": "Baldosa de azufre pulido",
+  "Polished Sulfur Stairs": "Escaleras de azufre pulido",
+  "Polished Sulfur Wall": "Pared de azufre pulido",
+  "Polished Tuff": "Toba pulida",
+  "Polished Tuff Slab": "Baldosa de toba pulida",
+  "Polished Tuff Stairs": "Escaleras de toba pulida",
+  "Polished Tuff Wall": "Pared de toba pulida",
+  "Poppy": "Amapola",
+  "Potatoes": "Papas",
+  "Potent Sulfur": "Azufre potente",
+  "Potted Acacia Sapling": "Maceta con brote de acacia",
+  "Potted Allium": "Maceta con allium",
+  "Potted Azalea Bush": "Maceta con azalea",
+  "Potted Azure Bluet": "Maceta con rubiácea",
+  "Potted Bamboo": "Maceta con bambú",
+  "Potted Birch Sapling": "Maceta con brote de abedul",
+  "Potted Blue Orchid": "Maceta con orquídea azul",
+  "Potted Brown Mushroom": "Maceta con hongo marrón",
+  "Potted Cactus": "Maceta con cactus",
+  "Potted Cherry Sapling": "Jarrón con brote de cerezo",
+  "Potted Closed Eyeblossom": "Maceta con miraflor cerrada",
+  "Potted Cornflower": "Maceta con aciano",
+  "Potted Crimson Fungus": "Maceta con hongo carmesí",
+  "Potted Crimson Roots": "Maceta con yuyos carmesí",
+  "Potted Dandelion": "Maceta con diente de león",
+  "Potted Dark Oak Sapling": "Maceta con brote de roble oscuro",
+  "Potted Dead Bush": "Maceta con arbusto muerto",
+  "Potted Fern": "Maceta con helecho",
+  "Potted Flowering Azalea Bush": "Maceta con azalea florida",
+  "Potted Golden Dandelion": "Maceta con diente de león dorado",
+  "Potted Jungle Sapling": "Maceta con brote de jungla",
+  "Potted Lily of The Valley": "Maceta con lirio del valle",
+  "Potted Mangrove Propagule": "Maceta con propágulo de mangle",
+  "Potted Oak Sapling": "Maceta con brote de roble",
+  "Potted Open Eyeblossom": "Maceta con miraflor abierta",
+  "Potted Orange Tulip": "Maceta con tulipán naranja",
+  "Potted Oxeye Daisy": "Maceta con margarita",
+  "Potted Pale Oak Sapling": "Maceta con brote de roble pálido",
+  "Potted Pink Tulip": "Maceta con tulipán rosa",
+  "Potted Poppy": "Maceta con amapola",
+  "Potted Red Mushroom": "Maceta con hongo rojo",
+  "Potted Red Tulip": "Maceta con tulipán rojo",
+  "Potted Spruce Sapling": "Maceta con brote de abeto",
+  "Potted Torchflower": "Maceta con anflorcha",
+  "Potted Warped Fungus": "Maceta con hongo distorsionado",
+  "Potted Warped Roots": "Maceta con yuyos distorsionados",
+  "Potted White Tulip": "Maceta con tulipán blanco",
+  "Potted Wither Rose": "Maceta con rosa del Wither",
+  "Powder Snow": "Nieve polvo",
+  "Powder Snow Cauldron": "Caldero con nieve polvo",
+  "Powered Rail": "Vía propulsora",
+  "Prismarine": "Prismarina",
+  "Prismarine Brick Slab": "Baldosa de ladrillos de prismarina",
+  "Prismarine Brick Stairs": "Escaleras de ladrillos de prismarina",
+  "Prismarine Bricks": "Ladrillos de prismarina",
+  "Prismarine Slab": "Baldosa de prismarina",
+  "Prismarine Stairs": "Escaleras de prismarina",
+  "Prismarine Wall": "Pared de prismarina",
+  "Pumpkin": "Zapallo",
+  "Pumpkin Stem": "Tallo de zapallo",
+  "Purple Banner": "Estandarte violeta",
+  "Purple Bed": "Cama violeta",
+  "Purple Candle": "Vela violeta",
+  "Purple Candle Cake": "Torta con vela violeta",
+  "Purple Carpet": "Alfombra violeta",
+  "Purple Concrete": "Concreto violeta",
+  "Purple Concrete Powder": "Cemento violeta",
+  "Purple Glazed Terracotta": "Azulejo violeta",
+  "Purple Shulker Box": "Caja de shulker violeta",
+  "Purple Stained Glass": "Vidrio violeta",
+  "Purple Stained Glass Pane": "Panel de vidrio violeta",
+  "Purple Terracotta": "Terracota violeta",
+  "Purple Wall Banner": "Estandarte violeta",
+  "Purple Wool": "Lana violeta",
+  "Purpur Block": "Purpur",
+  "Purpur Pillar": "Columna de purpur",
+  "Purpur Slab": "Baldosa de purpur",
+  "Purpur Stairs": "Escaleras de purpur",
+  "Quartz Block": "Cuarzo",
+  "Quartz Bricks": "Ladrillos de cuarzo",
+  "Quartz Pillar": "Columna de cuarzo",
+  "Quartz Slab": "Baldosa de cuarzo",
+  "Quartz Stairs": "Escaleras de cuarzo",
+  "Rail": "Vía",
+  "Raw Copper Block": "Bloque de cobre crudo",
+  "Raw Gold Block": "Bloque de oro crudo",
+  "Raw Iron Block": "Bloque de hierro crudo",
+  "Red Banner": "Estandarte rojo",
+  "Red Bed": "Cama roja",
+  "Red Candle": "Vela roja",
+  "Red Candle Cake": "Torta con vela roja",
+  "Red Carpet": "Alfombra roja",
+  "Red Concrete": "Concreto rojo",
+  "Red Concrete Powder": "Cemento rojo",
+  "Red Glazed Terracotta": "Azulejo rojo",
+  "Red Mushroom": "Hongo rojo",
+  "Red Mushroom Block": "Bloque de hongo rojo",
+  "Red Nether Brick Slab": "Baldosa de ladrillos del Nether rojos",
+  "Red Nether Brick Stairs": "Escaleras de ladrillos del Nether rojos",
+  "Red Nether Brick Wall": "Pared de ladrillos del Nether rojos",
+  "Red Nether Bricks": "Ladrillos del Nether rojos",
+  "Red Sand": "Arena rojiza",
+  "Red Sandstone": "Arenisca rojiza",
+  "Red Sandstone Slab": "Baldosa de arenisca rojiza",
+  "Red Sandstone Stairs": "Escaleras de arenisca rojiza",
+  "Red Sandstone Wall": "Pared de arenisca rojiza",
+  "Red Shulker Box": "Caja de shulker roja",
+  "Red Stained Glass": "Vidrio rojo",
+  "Red Stained Glass Pane": "Panel de vidrio rojo",
+  "Red Terracotta": "Terracota roja",
+  "Red Tulip": "Tulipán rojo",
+  "Red Wall Banner": "Estandarte rojo",
+  "Red Wool": "Lana roja",
+  "Redstone Block": "Bloque de redstone",
+  "Redstone Lamp": "Lámpara de redstone",
+  "Redstone Ore": "Mineral de redstone",
+  "Redstone Torch": "Antorcha de redstone",
+  "Redstone Wall Torch": "Antorcha de redstone en pared",
+  "Redstone Wire": "Cable de redstone",
+  "Reinforced Deepslate": "Pizarra profunda reforzada",
+  "Repeater": "Repetidor de redstone",
+  "Repeating Command Block": "Bloque de comandos de repetición",
+  "Resin Block": "Bloque de resina",
+  "Resin Brick Slab": "Baldosa de ladrillos de resina",
+  "Resin Brick Stairs": "Escaleras de ladrillos de resina",
+  "Resin Brick Wall": "Pared de ladrillos de resina",
+  "Resin Bricks": "Bloque de ladrillos de resina",
+  "Resin Clump": "Terrón de resina",
+  "Respawn Anchor": "Nexo de reaparición",
+  "Rooted Dirt": "Tierra enraizada",
+  "Rose Bush": "Rosal",
+  "Sand": "Arena",
+  "Sandstone": "Arenisca",
+  "Sandstone Slab": "Baldosa de arenisca",
+  "Sandstone Stairs": "Escaleras de arenisca",
+  "Sandstone Wall": "Pared de arenisca",
+  "Scaffolding": "Andamio",
+  "Sculk": "Sculk",
+  "Sculk Catalyst": "Catalizador de sculk",
+  "Sculk Sensor": "Sensor de sculk",
+  "Sculk Shrieker": "Chillador de sculk",
+  "Sculk Vein": "Vena de sculk",
+  "Sea Lantern": "Linterna del mar",
+  "Sea Pickle": "Pepino de mar",
+  "Seagrass": "Planta marina",
+  "Short Dry Grass": "Pasto seco corto",
+  "Short Grass": "Pasto corto",
+  "Shroomlight": "Hongo luminoso",
+  "Shulker Box": "Caja de shulker",
+  "Skeleton Skull": "Cráneo de esqueleto",
+  "Skeleton Wall Skull": "Cráneo de esqueleto en pared",
+  "Slime Block": "Bloque de slime",
+  "Small Amethyst Bud": "Brote de amatista pequeño",
+  "Small Dripleaf": "Plantaforma pequeña",
+  "Smithing Table": "Mesa de herrería",
+  "Smoker": "Ahumador",
+  "Smooth Basalt": "Basalto liso",
+  "Smooth Quartz": "Cuarzo liso",
+  "Smooth Quartz Slab": "Baldosa de cuarzo liso",
+  "Smooth Quartz Stairs": "Escaleras de cuarzo liso",
+  "Smooth Red Sandstone": "Arenisca rojiza lisa",
+  "Smooth Red Sandstone Slab": "Baldosa de arenisca rojiza lisa",
+  "Smooth Red Sandstone Stairs": "Escaleras de arenisca rojiza lisa",
+  "Smooth Sandstone": "Arenisca lisa",
+  "Smooth Sandstone Slab": "Baldosa de arenisca lisa",
+  "Smooth Sandstone Stairs": "Escaleras de arenisca lisa",
+  "Smooth Stone": "Piedra lisa",
+  "Smooth Stone Slab": "Baldosa de piedra lisa",
+  "Sniffer Egg": "Huevo de sniffer",
+  "Snow": "Nieve",
+  "Snow Block": "Bloque de nieve",
+  "Soul Campfire": "Fogata de almas",
+  "Soul Fire": "Fuego de almas",
+  "Soul Lantern": "Farol de almas",
+  "Soul Sand": "Arena de almas",
+  "Soul Soil": "Tierra de almas",
+  "Soul Torch": "Antorcha de almas",
+  "Soul Wall Torch": "Antorcha de almas en pared",
+  "Spawner": "Generador de criaturas",
+  "Sponge": "Esponja",
+  "Spore Blossom": "Flor de esporas",
+  "Spruce Button": "Botón de abeto",
+  "Spruce Door": "Puerta de abeto",
+  "Spruce Fence": "Valla de abeto",
+  "Spruce Fence Gate": "Puerta de valla de abeto",
+  "Spruce Hanging Sign": "Cartel colgante de abeto",
+  "Spruce Leaves": "Hojas de abeto",
+  "Spruce Log": "Tronco de abeto",
+  "Spruce Planks": "Madera de abeto",
+  "Spruce Pressure Plate": "Placa de presión de abeto",
+  "Spruce Sapling": "Brote de abeto",
+  "Spruce Shelf": "Estante de abeto",
+  "Spruce Sign": "Cartel de abeto",
+  "Spruce Slab": "Baldosa de abeto",
+  "Spruce Stairs": "Escaleras de abeto",
+  "Spruce Trapdoor": "Escotilla de abeto",
+  "Spruce Wall Hanging Sign": "Cartel colgante de abeto en pared",
+  "Spruce Wall Sign": "Cartel de abeto en pared",
+  "Spruce Wood": "Leño de abeto",
+  "Sticky Piston": "Pistón pegajoso",
+  "Stone": "Piedra",
+  "Stone Brick Slab": "Baldosa de ladrillos de piedra",
+  "Stone Brick Stairs": "Escaleras de ladrillos de piedra",
+  "Stone Brick Wall": "Pared de ladrillos de piedra",
+  "Stone Bricks": "Ladrillos de piedra",
+  "Stone Button": "Botón de piedra",
+  "Stone Pressure Plate": "Placa de presión de piedra",
+  "Stone Slab": "Baldosa de piedra",
+  "Stone Stairs": "Escaleras de piedra",
+  "Stonecutter": "Cortapiedras",
+  "Stripped Acacia Log": "Tronco de acacia sin corteza",
+  "Stripped Acacia Wood": "Leño de acacia sin corteza",
+  "Stripped Bamboo Block": "Bloque de bambú sin corteza",
+  "Stripped Birch Log": "Tronco de abedul sin corteza",
+  "Stripped Birch Wood": "Leño de abedul sin corteza",
+  "Stripped Cherry Log": "Tronco de cerezo sin corteza",
+  "Stripped Cherry Wood": "Leño de cerezo sin corteza",
+  "Stripped Crimson Hyphae": "Hifas carmesí sin corteza",
+  "Stripped Crimson Stem": "Tallo carmesí sin corteza",
+  "Stripped Dark Oak Log": "Tronco de roble oscuro sin corteza",
+  "Stripped Dark Oak Wood": "Leño de roble oscuro sin corteza",
+  "Stripped Jungle Log": "Tronco de jungla sin corteza",
+  "Stripped Jungle Wood": "Leño de jungla sin corteza",
+  "Stripped Mangrove Log": "Tronco de mangle sin corteza",
+  "Stripped Mangrove Wood": "Leño de mangle sin corteza",
+  "Stripped Oak Log": "Tronco de roble sin corteza",
+  "Stripped Oak Wood": "Leño de roble sin corteza",
+  "Stripped Pale Oak Log": "Tronco de roble pálido sin corteza",
+  "Stripped Pale Oak Wood": "Leño de roble pálido sin corteza",
+  "Stripped Spruce Log": "Tronco de abeto sin corteza",
+  "Stripped Spruce Wood": "Leño de abeto sin corteza",
+  "Stripped Warped Hyphae": "Hifas distorsionadas sin corteza",
+  "Stripped Warped Stem": "Tallo distorsionado sin corteza",
+  "Structure Block": "Bloque de estructuras",
+  "Structure Void": "Vacío de estructuras",
+  "Sugar Cane": "Caña de azúcar",
+  "Sulfur": "Azufre",
+  "Sulfur Brick Slab": "Baldosa de ladrillos de azufre",
+  "Sulfur Brick Stairs": "Escaleras de ladrillos de azufre",
+  "Sulfur Brick Wall": "Pared de ladrillos de azufre",
+  "Sulfur Bricks": "Ladrillos de azufre",
+  "Sulfur Slab": "Baldosa de azufre",
+  "Sulfur Spike": "Azufre puntiagudo",
+  "Sulfur Stairs": "Escaleras de azufre",
+  "Sulfur Wall": "Pared de azufre",
+  "Sunflower": "Girasol",
+  "Suspicious Gravel": "Grava sospechosa",
+  "Suspicious Sand": "Arena sospechosa",
+  "Sweet Berry Bush": "Arbusto de bayas dulces",
+  "Tall Dry Grass": "Pasto seco alto",
+  "Tall Grass": "Pasto alto",
+  "Tall Seagrass": "Planta marina alta",
+  "Target": "Diana",
+  "Terracotta": "Terracota",
+  "Test Block": "Bloque de pruebas",
+  "Test Instance Block": "Bloque de caso de prueba",
+  "Tinted Glass": "Vidrio opaco",
+  "Tnt": "TNT",
+  "Torch": "Antorcha",
+  "Torchflower": "Anflorcha",
+  "Torchflower Crop": "Cultivo de anflorcha",
+  "Trapped Chest": "Cofre con trampa",
+  "Trial Spawner": "Generador de desafío",
+  "Tripwire": "Hilo trampa",
+  "Tripwire Hook": "Gancho de hilo",
+  "Tube Coral": "Coral de tubo",
+  "Tube Coral Block": "Bloque de coral de tubo",
+  "Tube Coral Fan": "Gorgonia de tubo",
+  "Tube Coral Wall Fan": "Gorgonia de tubo en pared",
+  "Tuff": "Toba",
+  "Tuff Brick Slab": "Baldosa de ladrillos de toba",
+  "Tuff Brick Stairs": "Escaleras de ladrillos de toba",
+  "Tuff Brick Wall": "Pared de ladrillos de toba",
+  "Tuff Bricks": "Ladrillos de toba",
+  "Tuff Slab": "Baldosa de toba",
+  "Tuff Stairs": "Escaleras de toba",
+  "Tuff Wall": "Pared de toba",
+  "Turtle Egg": "Huevo de tortuga",
+  "Twisting Vines": "Enredaderas retorcidas",
+  "Twisting Vines Plant": "Planta de enredaderas retorcidas",
+  "Vault": "Arca",
+  "Verdant Froglight": "Luzapo verdosa",
+  "Vine": "Enredaderas",
+  "Void Air": "Aire del vacío",
+  "Wall Torch": "Antorcha en pared",
+  "Warped Button": "Botón distorsionado",
+  "Warped Door": "Puerta distorsionada",
+  "Warped Fence": "Valla distorsionada",
+  "Warped Fence Gate": "Puerta de valla distorsionada",
+  "Warped Fungus": "Hongo distorsionado",
+  "Warped Hanging Sign": "Cartel colgante distorsionado",
+  "Warped Hyphae": "Hifas distorsionadas",
+  "Warped Nylium": "Nilio distorsionado",
+  "Warped Planks": "Madera distorsionada",
+  "Warped Pressure Plate": "Placa de presión distorsionada",
+  "Warped Roots": "Yuyos distorsionados",
+  "Warped Shelf": "Estante distorsionado",
+  "Warped Sign": "Cartel distorsionado",
+  "Warped Slab": "Baldosa distorsionada",
+  "Warped Stairs": "Escaleras distorsionadas",
+  "Warped Stem": "Tallo distorsionado",
+  "Warped Trapdoor": "Escotilla distorsionada",
+  "Warped Wall Hanging Sign": "Cartel colgante distorsionado en pared",
+  "Warped Wall Sign": "Cartel distorsionado en pared",
+  "Warped Wart Block": "Bloque de verrugas distorsionadas",
+  "Water": "Agua",
+  "Water Cauldron": "Caldero con agua",
+  "Waxed Chiseled Copper": "Cobre cincelado encerado",
+  "Waxed Copper Bars": "Barrotes de cobre encerado",
+  "Waxed Copper Block": "Bloque de cobre encerado",
+  "Waxed Copper Bulb": "Lámpara de cobre encerado",
+  "Waxed Copper Chain": "Cadena de cobre encerado",
+  "Waxed Copper Chest": "Cofre de cobre encerado",
+  "Waxed Copper Door": "Puerta de cobre encerado",
+  "Waxed Copper Golem Statue": "Estatua de gólem de cobre encerado",
+  "Waxed Copper Grate": "Rejilla de cobre encerado",
+  "Waxed Copper Lantern": "Farol de cobre encerado",
+  "Waxed Copper Trapdoor": "Escotilla de cobre encerado",
+  "Waxed Cut Copper": "Cobre cortado encerado",
+  "Waxed Cut Copper Slab": "Baldosa de cobre cortado encerado",
+  "Waxed Cut Copper Stairs": "Escaleras de cobre cortado encerado",
+  "Waxed Exposed Chiseled Copper": "Cobre cincelado expuesto encerado",
+  "Waxed Exposed Copper": "Cobre expuesto encerado",
+  "Waxed Exposed Copper Bars": "Barrotes de cobre expuesto encerado",
+  "Waxed Exposed Copper Bulb": "Lámpara de cobre expuesto encerado",
+  "Waxed Exposed Copper Chain": "Cadena de cobre expuesto encerado",
+  "Waxed Exposed Copper Chest": "Cofre de cobre expuesto encerado",
+  "Waxed Exposed Copper Door": "Puerta de cobre expuesto encerado",
+  "Waxed Exposed Copper Golem Statue": "Estatua de gólem de cobre expuesto encerado",
+  "Waxed Exposed Copper Grate": "Rejilla de cobre expuesto encerado",
+  "Waxed Exposed Copper Lantern": "Farol de cobre expuesto encerado",
+  "Waxed Exposed Copper Trapdoor": "Escotilla de cobre expuesto encerado",
+  "Waxed Exposed Cut Copper": "Cobre cortado expuesto encerado",
+  "Waxed Exposed Cut Copper Slab": "Baldosa de cobre cortado expuesto encerado",
+  "Waxed Exposed Cut Copper Stairs": "Escaleras de cobre cortado expuesto encerado",
+  "Waxed Exposed Lightning Rod": "Pararrayos expuesto encerado",
+  "Waxed Lightning Rod": "Pararrayos encerado",
+  "Waxed Oxidized Chiseled Copper": "Cobre cincelado oxidado encerado",
+  "Waxed Oxidized Copper": "Cobre oxidado encerado",
+  "Waxed Oxidized Copper Bars": "Barrotes de cobre oxidado encerado",
+  "Waxed Oxidized Copper Bulb": "Lámpara de cobre oxidado encerado",
+  "Waxed Oxidized Copper Chain": "Cadena de cobre oxidado encerado",
+  "Waxed Oxidized Copper Chest": "Cofre de cobre oxidado encerado",
+  "Waxed Oxidized Copper Door": "Puerta de cobre oxidado encerado",
+  "Waxed Oxidized Copper Golem Statue": "Estatua de gólem de cobre oxidado encerado",
+  "Waxed Oxidized Copper Grate": "Rejilla de cobre oxidado encerado",
+  "Waxed Oxidized Copper Lantern": "Farol de cobre oxidado encerado",
+  "Waxed Oxidized Copper Trapdoor": "Escotilla de cobre oxidado encerado",
+  "Waxed Oxidized Cut Copper": "Cobre cortado oxidado encerado",
+  "Waxed Oxidized Cut Copper Slab": "Baldosa de cobre cortado oxidado encerado",
+  "Waxed Oxidized Cut Copper Stairs": "Escaleras de cobre cortado oxidado encerado",
+  "Waxed Oxidized Lightning Rod": "Pararrayos oxidado encerado",
+  "Waxed Weathered Chiseled Copper": "Cobre cincelado degradado encerado",
+  "Waxed Weathered Copper": "Cobre degradado encerado",
+  "Waxed Weathered Copper Bars": "Barrotes de cobre degradado encerado",
+  "Waxed Weathered Copper Bulb": "Lámpara de cobre degradado encerado",
+  "Waxed Weathered Copper Chain": "Cadena de cobre degradado encerado",
+  "Waxed Weathered Copper Chest": "Cofre de cobre degradado encerado",
+  "Waxed Weathered Copper Door": "Puerta de cobre degradado encerado",
+  "Waxed Weathered Copper Golem Statue": "Estatua de gólem de cobre degradado encerado",
+  "Waxed Weathered Copper Grate": "Rejilla de cobre degradado encerado",
+  "Waxed Weathered Copper Lantern": "Farol de cobre degradado encerado",
+  "Waxed Weathered Copper Trapdoor": "Escotilla de cobre degradado encerado",
+  "Waxed Weathered Cut Copper": "Cobre cortado degradado encerado",
+  "Waxed Weathered Cut Copper Slab": "Baldosa de cobre cortado degradado encerado",
+  "Waxed Weathered Cut Copper Stairs": "Escaleras de cobre cortado degradado encerado",
+  "Waxed Weathered Lightning Rod": "Pararrayos degradado encerado",
+  "Weathered Chiseled Copper": "Cobre cincelado degradado",
+  "Weathered Copper": "Cobre degradado",
+  "Weathered Copper Bars": "Barrotes de cobre degradado",
+  "Weathered Copper Bulb": "Lámpara de cobre degradado",
+  "Weathered Copper Chain": "Cadena de cobre degradado",
+  "Weathered Copper Chest": "Cofre de cobre degradado",
+  "Weathered Copper Door": "Puerta de cobre degradado",
+  "Weathered Copper Golem Statue": "Estatua de gólem de cobre degradado",
+  "Weathered Copper Grate": "Rejilla de cobre degradado",
+  "Weathered Copper Lantern": "Farol de cobre degradado",
+  "Weathered Copper Trapdoor": "Escotilla de cobre degradado",
+  "Weathered Cut Copper": "Cobre cortado degradado",
+  "Weathered Cut Copper Slab": "Baldosa de cobre cortado degradado",
+  "Weathered Cut Copper Stairs": "Escaleras de cobre cortado degradado",
+  "Weathered Lightning Rod": "Pararrayos degradado",
+  "Weeping Vines": "Enredaderas lloronas",
+  "Weeping Vines Plant": "Planta de enredaderas lloronas",
+  "Wet Sponge": "Esponja húmeda",
+  "Wheat": "Cultivo de trigo",
+  "White Banner": "Estandarte blanco",
+  "White Bed": "Cama blanca",
+  "White Candle": "Vela blanca",
+  "White Candle Cake": "Torta con vela blanca",
+  "White Carpet": "Alfombra blanca",
+  "White Concrete": "Concreto blanco",
+  "White Concrete Powder": "Cemento blanco",
+  "White Glazed Terracotta": "Azulejo blanco",
+  "White Shulker Box": "Caja de shulker blanca",
+  "White Stained Glass": "Vidrio blanco",
+  "White Stained Glass Pane": "Panel de vidrio blanco",
+  "White Terracotta": "Terracota blanca",
+  "White Tulip": "Tulipán blanco",
+  "White Wall Banner": "Estandarte blanco",
+  "White Wool": "Lana blanca",
+  "Wildflowers": "Flores silvestres",
+  "Wither Rose": "Rosa del Wither",
+  "Wither Skeleton Skull": "Cráneo de esqueleto del Wither",
+  "Wither Skeleton Wall Skull": "Cráneo de esqueleto del Wither en pared",
+  "Yellow Banner": "Estandarte amarillo",
+  "Yellow Bed": "Cama amarilla",
+  "Yellow Candle": "Vela amarilla",
+  "Yellow Candle Cake": "Torta con vela amarilla",
+  "Yellow Carpet": "Alfombra amarilla",
+  "Yellow Concrete": "Concreto amarillo",
+  "Yellow Concrete Powder": "Cemento amarillo",
+  "Yellow Glazed Terracotta": "Azulejo amarillo",
+  "Yellow Shulker Box": "Caja de shulker amarilla",
+  "Yellow Stained Glass": "Vidrio amarillo",
+  "Yellow Stained Glass Pane": "Panel de vidrio amarillo",
+  "Yellow Terracotta": "Terracota amarilla",
+  "Yellow Wall Banner": "Estandarte amarillo",
+  "Yellow Wool": "Lana amarilla",
+  "Zombie Head": "Cabeza de zombi",
+  "Zombie Wall Head": "Cabeza de zombi en pared"
 };
 
-/* ── Block Data (deduplicated, no placeholders) ─────────────── */
 const categoriesData = {
-  nuevos: [
-    { name: 'Cinnabar', tags: ['new'] }, { name: 'Cinnabar Slab', tags: ['new','base'] },
-    { name: 'Cinnabar Stairs', tags: ['new','base'] }, { name: 'Cinnabar Wall', tags: ['new','base'] },
-    { name: 'Polished Cinnabar', tags: ['new'] }, { name: 'Polished Cinnabar Slab', tags: ['new','base'] },
-    { name: 'Polished Cinnabar Stairs', tags: ['new','base'] }, { name: 'Polished Cinnabar Wall', tags: ['new','base'] },
-    { name: 'Cinnabar Bricks', tags: ['new'] }, { name: 'Cinnabar Brick Slab', tags: ['new','base'] },
-    { name: 'Cinnabar Brick Stairs', tags: ['new','base'] }, { name: 'Cinnabar Brick Wall', tags: ['new','base'] },
-    { name: 'Chiseled Cinnabar', tags: ['new'] },
-    { name: 'Sulfur', tags: ['new'] }, { name: 'Sulfur Slab', tags: ['new','base'] },
-    { name: 'Sulfur Stairs', tags: ['new','base'] }, { name: 'Sulfur Wall', tags: ['new','base'] },
-    { name: 'Polished Sulfur', tags: ['new'] }, { name: 'Polished Sulfur Slab', tags: ['new','base'] },
-    { name: 'Polished Sulfur Stairs', tags: ['new','base'] }, { name: 'Polished Sulfur Wall', tags: ['new','base'] },
-    { name: 'Sulfur Bricks', tags: ['new'] }, { name: 'Sulfur Brick Slab', tags: ['new','base'] },
-    { name: 'Sulfur Brick Stairs', tags: ['new','base'] }, { name: 'Sulfur Brick Wall', tags: ['new','base'] },
-    { name: 'Chiseled Sulfur', tags: ['new'] },
-    { name: 'Potent Sulfur', tags: ['new'] }, { name: 'Sulfur Spike', tags: ['new'] },
-    { name: 'Cinnabar Ore', tags: ['new'] }, { name: 'Sulfur Ore', tags: ['new'] },
-    { name: 'Raw Cinnabar Block', tags: ['new'] }, { name: 'Raw Sulfur Block', tags: ['new'] },
+  "nuevos": [
+    {
+      "name": "Chiseled Cinnabar",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Sulfur",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Bricks",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Slab",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Stairs",
+      "tags": []
+    },
+    {
+      "name": "Cinnabar Wall",
+      "tags": []
+    },
+    {
+      "name": "Polished Cinnabar",
+      "tags": []
+    },
+    {
+      "name": "Polished Cinnabar Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Cinnabar Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Cinnabar Wall",
+      "tags": []
+    },
+    {
+      "name": "Polished Sulfur",
+      "tags": []
+    },
+    {
+      "name": "Polished Sulfur Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Sulfur Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Sulfur Wall",
+      "tags": []
+    },
+    {
+      "name": "Potent Sulfur",
+      "tags": []
+    },
+    {
+      "name": "Sulfur",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Bricks",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Slab",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Spike",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Stairs",
+      "tags": []
+    },
+    {
+      "name": "Sulfur Wall",
+      "tags": []
+    }
   ],
-  construccion: [
-    { name: 'Andesite', tags: ['base'] }, { name: 'Polished Andesite', tags: ['base'] }, { name: 'Andesite Slab', tags: ['base'] },
-    { name: 'Andesite Stairs', tags: ['base'] }, { name: 'Andesite Wall', tags: ['base'] },
-    { name: 'Basalt', tags: ['base'] }, { name: 'Polished Basalt', tags: ['base'] }, { name: 'Smooth Basalt', tags: ['base'] },
-    { name: 'Basalt Slab', tags: ['base'] }, { name: 'Basalt Stairs', tags: ['base'] }, { name: 'Basalt Wall', tags: ['base'] },
-    { name: 'Blackstone', tags: ['nether','base'] }, { name: 'Polished Blackstone', tags: ['nether','base'] },
-    { name: 'Blackstone Slab', tags: ['nether','base'] }, { name: 'Blackstone Stairs', tags: ['nether','base'] }, { name: 'Blackstone Wall', tags: ['nether','base'] },
-    { name: 'Polished Blackstone Bricks', tags: ['nether','base'] }, { name: 'Cracked Polished Blackstone Bricks', tags: ['nether','base'] },
-    { name: 'Gilded Blackstone', tags: ['nether','base'] },
-    { name: 'Bricks', tags: ['base'] }, { name: 'Brick Slab', tags: ['base'] }, { name: 'Brick Stairs', tags: ['base'] }, { name: 'Brick Wall', tags: ['base'] },
-    { name: 'Cobbled Deepslate', tags: ['base'] }, { name: 'Cobbled Deepslate Slab', tags: ['base'] }, { name: 'Cobbled Deepslate Stairs', tags: ['base'] }, { name: 'Cobbled Deepslate Wall', tags: ['base'] },
-    { name: 'Cobblestone', tags: ['base'] }, { name: 'Cobblestone Slab', tags: ['base'] }, { name: 'Cobblestone Stairs', tags: ['base'] }, { name: 'Cobblestone Wall', tags: ['base'] },
-    { name: 'Cracked Deepslate Bricks', tags: ['base'] }, { name: 'Cracked Stone Bricks', tags: ['base'] },
-    { name: 'Cracked Nether Bricks', tags: ['nether','base'] }, { name: 'Red Nether Bricks', tags: ['nether','base'] },
-    { name: 'Cut Sandstone', tags: ['base'] }, { name: 'Cut Red Sandstone', tags: ['base'] },
-    { name: 'Cut Sandstone Slab', tags: ['base'] }, { name: 'Cut Red Sandstone Slab', tags: ['base'] },
-    { name: 'Deepslate', tags: ['base'] }, { name: 'Polished Deepslate', tags: ['base'] },
-    { name: 'Deepslate Slab', tags: ['base'] }, { name: 'Deepslate Stairs', tags: ['base'] }, { name: 'Deepslate Wall', tags: ['base'] },
-    { name: 'Deepslate Bricks', tags: ['base'] }, { name: 'Deepslate Brick Slab', tags: ['base'] },
-    { name: 'Deepslate Brick Stairs', tags: ['base'] }, { name: 'Deepslate Brick Wall', tags: ['base'] },
-    { name: 'Deepslate Tiles', tags: ['base'] }, { name: 'Deepslate Tile Slab', tags: ['base'] },
-    { name: 'Deepslate Tile Stairs', tags: ['base'] }, { name: 'Deepslate Tile Wall', tags: ['base'] },
-    { name: 'Diorite', tags: ['base'] }, { name: 'Polished Diorite', tags: ['base'] },
-    { name: 'Diorite Slab', tags: ['base'] }, { name: 'Diorite Stairs', tags: ['base'] }, { name: 'Diorite Wall', tags: ['base'] },
-    { name: 'Dripstone Block', tags: ['base'] }, { name: 'Pointed Dripstone', tags: ['base'] },
-    { name: 'End Stone', tags: ['end','base'] }, { name: 'End Stone Bricks', tags: ['end','base'] },
-    { name: 'End Stone Brick Slab', tags: ['end','base'] }, { name: 'End Stone Brick Stairs', tags: ['end','base'] },
-    { name: 'End Stone Brick Wall', tags: ['end','base'] },
-    { name: 'Granite', tags: ['base'] }, { name: 'Polished Granite', tags: ['base'] },
-    { name: 'Granite Slab', tags: ['base'] }, { name: 'Granite Stairs', tags: ['base'] }, { name: 'Granite Wall', tags: ['base'] },
-    { name: 'Mossy Cobblestone', tags: ['base'] }, { name: 'Mossy Cobblestone Slab', tags: ['base'] },
-    { name: 'Mossy Cobblestone Stairs', tags: ['base'] }, { name: 'Mossy Cobblestone Wall', tags: ['base'] },
-    { name: 'Mossy Stone Brick Slab', tags: ['base'] }, { name: 'Moss Block', tags: ['base'] }, { name: 'Moss Carpet', tags: ['base'] },
-    { name: 'Nether Bricks', tags: ['nether','base'] }, { name: 'Chiseled Nether Bricks', tags: ['nether','base'] },
-    { name: 'Sandstone', tags: ['base'] }, { name: 'Cut Sandstone', tags: ['base'] }, { name: 'Smooth Sandstone', tags: ['base'] },
-    { name: 'Sandstone Slab', tags: ['base'] }, { name: 'Sandstone Stairs', tags: ['base'] }, { name: 'Sandstone Wall', tags: ['base'] },
-    { name: 'Red Sandstone', tags: ['base'] }, { name: 'Cut Red Sandstone', tags: ['base'] }, { name: 'Smooth Red Sandstone', tags: ['base'] },
-    { name: 'Red Sandstone Slab', tags: ['base'] }, { name: 'Red Sandstone Stairs', tags: ['base'] }, { name: 'Red Sandstone Wall', tags: ['base'] },
-    { name: 'Stone', tags: ['base'] }, { name: 'Smooth Stone', tags: ['base'] },
-    { name: 'Stone Bricks', tags: ['base'] }, { name: 'Cracked Stone Bricks', tags: ['base'] }, { name: 'Mossy Stone Bricks', tags: ['base'] },
-    { name: 'Chiseled Stone Bricks', tags: ['base'] }, { name: 'Stone Slab', tags: ['base'] },
-    { name: 'Stone Stairs', tags: ['base'] }, { name: 'Stone Wall', tags: ['base'] },
-    { name: 'Infested Stone', tags: ['base'] }, { name: 'Infested Cobblestone', tags: ['base'] },
-    { name: 'Infested Stone Bricks', tags: ['base'] }, { name: 'Infested Cracked Stone Bricks', tags: ['base'] },
-    { name: 'Infested Mossy Stone Bricks', tags: ['base'] }, { name: 'Infested Chiseled Stone Bricks', tags: ['base'] },
-    { name: 'Infested Deepslate', tags: ['base'] },
-    { name: 'Tuff', tags: ['base'] }, { name: 'Polished Tuff', tags: ['base'] }, { name: 'Tuff Slab', tags: ['base'] },
-    { name: 'Tuff Stairs', tags: ['base'] }, { name: 'Tuff Wall', tags: ['base'] },
-    { name: 'Tuff Bricks', tags: ['base'] }, { name: 'Chiseled Tuff', tags: ['base'] }, { name: 'Chiseled Tuff Bricks', tags: ['base'] },
-    { name: 'Calcite', tags: ['base'] }, { name: 'Resin Bricks', tags: ['base'] }, { name: 'Resin Brick Slab', tags: ['base'] },
-    { name: 'Resin Brick Stairs', tags: ['base'] }, { name: 'Resin Brick Wall', tags: ['base'] },
-    { name: 'Chiseled Resin Bricks', tags: ['base'] }, { name: 'Resin Clump', tags: ['base'] },
+  "construccion": [
+    {
+      "name": "Air",
+      "tags": []
+    },
+    {
+      "name": "Ancient Debris",
+      "tags": []
+    },
+    {
+      "name": "Andesite",
+      "tags": []
+    },
+    {
+      "name": "Andesite Slab",
+      "tags": []
+    },
+    {
+      "name": "Andesite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Andesite Wall",
+      "tags": []
+    },
+    {
+      "name": "Azalea",
+      "tags": []
+    },
+    {
+      "name": "Azure Bluet",
+      "tags": []
+    },
+    {
+      "name": "Bee Nest",
+      "tags": []
+    },
+    {
+      "name": "Beehive",
+      "tags": []
+    },
+    {
+      "name": "Beetroots",
+      "tags": []
+    },
+    {
+      "name": "Bell",
+      "tags": []
+    },
+    {
+      "name": "Big Dripleaf",
+      "tags": []
+    },
+    {
+      "name": "Big Dripleaf Stem",
+      "tags": []
+    },
+    {
+      "name": "Blast Furnace",
+      "tags": []
+    },
+    {
+      "name": "Blue Orchid",
+      "tags": []
+    },
+    {
+      "name": "Bone Block",
+      "tags": []
+    },
+    {
+      "name": "Bookshelf",
+      "tags": []
+    },
+    {
+      "name": "Brewing Stand",
+      "tags": []
+    },
+    {
+      "name": "Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Bricks",
+      "tags": []
+    },
+    {
+      "name": "Bubble Column",
+      "tags": []
+    },
+    {
+      "name": "Cactus",
+      "tags": []
+    },
+    {
+      "name": "Cake",
+      "tags": []
+    },
+    {
+      "name": "Calcite",
+      "tags": []
+    },
+    {
+      "name": "Campfire",
+      "tags": []
+    },
+    {
+      "name": "Carrots",
+      "tags": []
+    },
+    {
+      "name": "Cartography Table",
+      "tags": []
+    },
+    {
+      "name": "Cauldron",
+      "tags": []
+    },
+    {
+      "name": "Cave Air",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Bookshelf",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Quartz Block",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Resin Bricks",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Tuff",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Tuff Bricks",
+      "tags": []
+    },
+    {
+      "name": "Clay",
+      "tags": []
+    },
+    {
+      "name": "Closed Eyeblossom",
+      "tags": []
+    },
+    {
+      "name": "Coal Block",
+      "tags": []
+    },
+    {
+      "name": "Cobbled Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Cobbled Deepslate Slab",
+      "tags": []
+    },
+    {
+      "name": "Cobbled Deepslate Stairs",
+      "tags": []
+    },
+    {
+      "name": "Cobbled Deepslate Wall",
+      "tags": []
+    },
+    {
+      "name": "Cobblestone",
+      "tags": []
+    },
+    {
+      "name": "Cobblestone Slab",
+      "tags": []
+    },
+    {
+      "name": "Cobblestone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Cobblestone Wall",
+      "tags": []
+    },
+    {
+      "name": "Cobweb",
+      "tags": []
+    },
+    {
+      "name": "Cocoa",
+      "tags": []
+    },
+    {
+      "name": "Composter",
+      "tags": []
+    },
+    {
+      "name": "Cracked Deepslate Bricks",
+      "tags": []
+    },
+    {
+      "name": "Cracked Deepslate Tiles",
+      "tags": []
+    },
+    {
+      "name": "Cracked Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Crafter",
+      "tags": []
+    },
+    {
+      "name": "Crafting Table",
+      "tags": []
+    },
+    {
+      "name": "Creaking Heart",
+      "tags": []
+    },
+    {
+      "name": "Creeper Head",
+      "tags": []
+    },
+    {
+      "name": "Creeper Wall Head",
+      "tags": []
+    },
+    {
+      "name": "Crying Obsidian",
+      "tags": []
+    },
+    {
+      "name": "Dandelion",
+      "tags": []
+    },
+    {
+      "name": "Dark Prismarine",
+      "tags": []
+    },
+    {
+      "name": "Dark Prismarine Slab",
+      "tags": []
+    },
+    {
+      "name": "Dark Prismarine Stairs",
+      "tags": []
+    },
+    {
+      "name": "Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Bricks",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Tile Slab",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Tile Stairs",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Tile Wall",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Tiles",
+      "tags": []
+    },
+    {
+      "name": "Diorite",
+      "tags": []
+    },
+    {
+      "name": "Diorite Slab",
+      "tags": []
+    },
+    {
+      "name": "Diorite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Diorite Wall",
+      "tags": []
+    },
+    {
+      "name": "Dripstone Block",
+      "tags": []
+    },
+    {
+      "name": "Exposed Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Farmland",
+      "tags": []
+    },
+    {
+      "name": "Fire",
+      "tags": []
+    },
+    {
+      "name": "Fletching Table",
+      "tags": []
+    },
+    {
+      "name": "Frogspawn",
+      "tags": []
+    },
+    {
+      "name": "Furnace",
+      "tags": []
+    },
+    {
+      "name": "Glow Lichen",
+      "tags": []
+    },
+    {
+      "name": "Golden Dandelion",
+      "tags": []
+    },
+    {
+      "name": "Granite",
+      "tags": []
+    },
+    {
+      "name": "Granite Slab",
+      "tags": []
+    },
+    {
+      "name": "Granite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Granite Wall",
+      "tags": []
+    },
+    {
+      "name": "Grindstone",
+      "tags": []
+    },
+    {
+      "name": "Hanging Roots",
+      "tags": []
+    },
+    {
+      "name": "Hay Block",
+      "tags": []
+    },
+    {
+      "name": "Honey Block",
+      "tags": []
+    },
+    {
+      "name": "Honeycomb Block",
+      "tags": []
+    },
+    {
+      "name": "Infested Chiseled Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Infested Cobblestone",
+      "tags": []
+    },
+    {
+      "name": "Infested Cracked Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Infested Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Infested Mossy Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Infested Stone",
+      "tags": []
+    },
+    {
+      "name": "Infested Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Iron Bars",
+      "tags": []
+    },
+    {
+      "name": "Iron Chain",
+      "tags": []
+    },
+    {
+      "name": "Jack O Lantern",
+      "tags": []
+    },
+    {
+      "name": "Jukebox",
+      "tags": []
+    },
+    {
+      "name": "Ladder",
+      "tags": []
+    },
+    {
+      "name": "Lantern",
+      "tags": []
+    },
+    {
+      "name": "Lava",
+      "tags": []
+    },
+    {
+      "name": "Lava Cauldron",
+      "tags": []
+    },
+    {
+      "name": "Leaf Litter",
+      "tags": []
+    },
+    {
+      "name": "Lectern",
+      "tags": []
+    },
+    {
+      "name": "Light",
+      "tags": []
+    },
+    {
+      "name": "Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Lilac",
+      "tags": []
+    },
+    {
+      "name": "Loom",
+      "tags": []
+    },
+    {
+      "name": "Moss Block",
+      "tags": []
+    },
+    {
+      "name": "Mossy Cobblestone",
+      "tags": []
+    },
+    {
+      "name": "Mossy Cobblestone Slab",
+      "tags": []
+    },
+    {
+      "name": "Mossy Cobblestone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Mossy Cobblestone Wall",
+      "tags": []
+    },
+    {
+      "name": "Mossy Stone Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Mossy Stone Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Mossy Stone Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Mossy Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Mud",
+      "tags": []
+    },
+    {
+      "name": "Mud Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Mud Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Mud Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Mud Bricks",
+      "tags": []
+    },
+    {
+      "name": "Mycelium",
+      "tags": []
+    },
+    {
+      "name": "Note Block",
+      "tags": []
+    },
+    {
+      "name": "Obsidian",
+      "tags": []
+    },
+    {
+      "name": "Ochre Froglight",
+      "tags": []
+    },
+    {
+      "name": "Open Eyeblossom",
+      "tags": []
+    },
+    {
+      "name": "Oxeye Daisy",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Packed Mud",
+      "tags": []
+    },
+    {
+      "name": "Pale Hanging Moss",
+      "tags": []
+    },
+    {
+      "name": "Pale Moss Block",
+      "tags": []
+    },
+    {
+      "name": "Pearlescent Froglight",
+      "tags": []
+    },
+    {
+      "name": "Peony",
+      "tags": []
+    },
+    {
+      "name": "Piglin Head",
+      "tags": []
+    },
+    {
+      "name": "Piglin Wall Head",
+      "tags": []
+    },
+    {
+      "name": "Pink Petals",
+      "tags": []
+    },
+    {
+      "name": "Pitcher Crop",
+      "tags": []
+    },
+    {
+      "name": "Player Head",
+      "tags": []
+    },
+    {
+      "name": "Player Wall Head",
+      "tags": []
+    },
+    {
+      "name": "Podzol",
+      "tags": []
+    },
+    {
+      "name": "Pointed Dripstone",
+      "tags": []
+    },
+    {
+      "name": "Polished Andesite",
+      "tags": []
+    },
+    {
+      "name": "Polished Andesite Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Andesite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Polished Deepslate Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Deepslate Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Deepslate Wall",
+      "tags": []
+    },
+    {
+      "name": "Polished Diorite",
+      "tags": []
+    },
+    {
+      "name": "Polished Diorite Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Diorite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Granite",
+      "tags": []
+    },
+    {
+      "name": "Polished Granite Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Granite Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Tuff",
+      "tags": []
+    },
+    {
+      "name": "Polished Tuff Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Tuff Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Tuff Wall",
+      "tags": []
+    },
+    {
+      "name": "Poppy",
+      "tags": []
+    },
+    {
+      "name": "Prismarine",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Bricks",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Slab",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Stairs",
+      "tags": []
+    },
+    {
+      "name": "Prismarine Wall",
+      "tags": []
+    },
+    {
+      "name": "Quartz Block",
+      "tags": []
+    },
+    {
+      "name": "Quartz Bricks",
+      "tags": []
+    },
+    {
+      "name": "Quartz Pillar",
+      "tags": []
+    },
+    {
+      "name": "Quartz Slab",
+      "tags": []
+    },
+    {
+      "name": "Quartz Stairs",
+      "tags": []
+    },
+    {
+      "name": "Reinforced Deepslate",
+      "tags": []
+    },
+    {
+      "name": "Resin Block",
+      "tags": []
+    },
+    {
+      "name": "Resin Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Resin Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Resin Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Resin Bricks",
+      "tags": []
+    },
+    {
+      "name": "Resin Clump",
+      "tags": []
+    },
+    {
+      "name": "Respawn Anchor",
+      "tags": []
+    },
+    {
+      "name": "Scaffolding",
+      "tags": []
+    },
+    {
+      "name": "Sea Lantern",
+      "tags": []
+    },
+    {
+      "name": "Sea Pickle",
+      "tags": []
+    },
+    {
+      "name": "Shroomlight",
+      "tags": []
+    },
+    {
+      "name": "Skeleton Skull",
+      "tags": []
+    },
+    {
+      "name": "Skeleton Wall Skull",
+      "tags": []
+    },
+    {
+      "name": "Slime Block",
+      "tags": []
+    },
+    {
+      "name": "Small Dripleaf",
+      "tags": []
+    },
+    {
+      "name": "Smithing Table",
+      "tags": []
+    },
+    {
+      "name": "Smoker",
+      "tags": []
+    },
+    {
+      "name": "Smooth Quartz",
+      "tags": []
+    },
+    {
+      "name": "Smooth Quartz Slab",
+      "tags": []
+    },
+    {
+      "name": "Smooth Quartz Stairs",
+      "tags": []
+    },
+    {
+      "name": "Smooth Stone",
+      "tags": []
+    },
+    {
+      "name": "Smooth Stone Slab",
+      "tags": []
+    },
+    {
+      "name": "Sniffer Egg",
+      "tags": []
+    },
+    {
+      "name": "Stone",
+      "tags": []
+    },
+    {
+      "name": "Stone Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Stone Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Stone Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Stone Slab",
+      "tags": []
+    },
+    {
+      "name": "Stone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Stonecutter",
+      "tags": []
+    },
+    {
+      "name": "Sugar Cane",
+      "tags": []
+    },
+    {
+      "name": "Test Block",
+      "tags": []
+    },
+    {
+      "name": "Test Instance Block",
+      "tags": []
+    },
+    {
+      "name": "Tnt",
+      "tags": []
+    },
+    {
+      "name": "Torch",
+      "tags": []
+    },
+    {
+      "name": "Tuff",
+      "tags": []
+    },
+    {
+      "name": "Tuff Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Tuff Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Tuff Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Tuff Bricks",
+      "tags": []
+    },
+    {
+      "name": "Tuff Slab",
+      "tags": []
+    },
+    {
+      "name": "Tuff Stairs",
+      "tags": []
+    },
+    {
+      "name": "Tuff Wall",
+      "tags": []
+    },
+    {
+      "name": "Turtle Egg",
+      "tags": []
+    },
+    {
+      "name": "Vault",
+      "tags": []
+    },
+    {
+      "name": "Verdant Froglight",
+      "tags": []
+    },
+    {
+      "name": "Void Air",
+      "tags": []
+    },
+    {
+      "name": "Wall Torch",
+      "tags": []
+    },
+    {
+      "name": "Water",
+      "tags": []
+    },
+    {
+      "name": "Water Cauldron",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Waxed Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Weathered Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Wheat",
+      "tags": []
+    },
+    {
+      "name": "Wither Rose",
+      "tags": []
+    },
+    {
+      "name": "Wither Skeleton Skull",
+      "tags": []
+    },
+    {
+      "name": "Wither Skeleton Wall Skull",
+      "tags": []
+    },
+    {
+      "name": "Zombie Head",
+      "tags": []
+    },
+    {
+      "name": "Zombie Wall Head",
+      "tags": []
+    }
   ],
-  madera: [
-    { name: 'Acacia Log', tags: ['base'] }, { name: 'Stripped Acacia Log', tags: ['base'] },
-    { name: 'Stripped Acacia Wood', tags: ['base'] }, { name: 'Acacia Wood', tags: ['base'] }, { name: 'Acacia Planks', tags: ['base'] },
-    { name: 'Acacia Slab', tags: ['base'] }, { name: 'Acacia Stairs', tags: ['base'] }, { name: 'Acacia Fence', tags: ['base'] },
-    { name: 'Acacia Fence Gate', tags: ['base'] }, { name: 'Acacia Door', tags: ['base'] }, { name: 'Acacia Trapdoor', tags: ['base'] },
-    { name: 'Acacia Pressure Plate', tags: ['base'] }, { name: 'Acacia Button', tags: ['base'] },
-    { name: 'Acacia Sign', tags: ['base'] }, { name: 'Acacia Hanging Sign', tags: ['base'] },
-    { name: 'Acacia Wall Sign', tags: ['base'] }, { name: 'Acacia Wall Hanging Sign', tags: ['base'] },
-    { name: 'Acacia Shelf', tags: ['base'] }, { name: 'Acacia Sapling', tags: ['base'] }, { name: 'Acacia Leaves', tags: ['base'] },
-    { name: 'Birch Log', tags: ['base'] }, { name: 'Stripped Birch Log', tags: ['base'] }, { name: 'Stripped Birch Wood', tags: ['base'] },
-    { name: 'Birch Wood', tags: ['base'] }, { name: 'Birch Planks', tags: ['base'] }, { name: 'Birch Slab', tags: ['base'] },
-    { name: 'Birch Stairs', tags: ['base'] }, { name: 'Birch Fence', tags: ['base'] }, { name: 'Birch Fence Gate', tags: ['base'] },
-    { name: 'Birch Door', tags: ['base'] }, { name: 'Birch Trapdoor', tags: ['base'] }, { name: 'Birch Pressure Plate', tags: ['base'] },
-    { name: 'Birch Button', tags: ['base'] }, { name: 'Birch Sign', tags: ['base'] }, { name: 'Birch Hanging Sign', tags: ['base'] },
-    { name: 'Birch Wall Sign', tags: ['base'] }, { name: 'Birch Wall Hanging Sign', tags: ['base'] }, { name: 'Birch Shelf', tags: ['base'] },
-    { name: 'Birch Sapling', tags: ['base'] }, { name: 'Birch Leaves', tags: ['base'] },
-    { name: 'Cherry Log', tags: ['base'] }, { name: 'Stripped Cherry Log', tags: ['base'] }, { name: 'Stripped Cherry Wood', tags: ['base'] },
-    { name: 'Cherry Wood', tags: ['base'] }, { name: 'Cherry Planks', tags: ['base'] }, { name: 'Cherry Slab', tags: ['base'] },
-    { name: 'Cherry Stairs', tags: ['base'] }, { name: 'Cherry Fence', tags: ['base'] }, { name: 'Cherry Fence Gate', tags: ['base'] },
-    { name: 'Cherry Door', tags: ['base'] }, { name: 'Cherry Trapdoor', tags: ['base'] }, { name: 'Cherry Pressure Plate', tags: ['base'] },
-    { name: 'Cherry Button', tags: ['base'] }, { name: 'Cherry Sign', tags: ['base'] }, { name: 'Cherry Hanging Sign', tags: ['base'] },
-    { name: 'Cherry Wall Sign', tags: ['base'] }, { name: 'Cherry Wall Hanging Sign', tags: ['base'] }, { name: 'Cherry Shelf', tags: ['base'] },
-    { name: 'Cherry Sapling', tags: ['base'] }, { name: 'Cherry Leaves', tags: ['base'] },
-    { name: 'Dark Oak Log', tags: ['base'] }, { name: 'Stripped Dark Oak Log', tags: ['base'] }, { name: 'Stripped Dark Oak Wood', tags: ['base'] },
-    { name: 'Dark Oak Wood', tags: ['base'] }, { name: 'Dark Oak Planks', tags: ['base'] }, { name: 'Dark Oak Slab', tags: ['base'] },
-    { name: 'Dark Oak Stairs', tags: ['base'] }, { name: 'Dark Oak Fence', tags: ['base'] }, { name: 'Dark Oak Fence Gate', tags: ['base'] },
-    { name: 'Dark Oak Door', tags: ['base'] }, { name: 'Dark Oak Trapdoor', tags: ['base'] }, { name: 'Dark Oak Pressure Plate', tags: ['base'] },
-    { name: 'Dark Oak Button', tags: ['base'] }, { name: 'Dark Oak Sign', tags: ['base'] }, { name: 'Dark Oak Hanging Sign', tags: ['base'] },
-    { name: 'Dark Oak Wall Sign', tags: ['base'] }, { name: 'Dark Oak Wall Hanging Sign', tags: ['base'] }, { name: 'Dark Oak Shelf', tags: ['base'] },
-    { name: 'Dark Oak Sapling', tags: ['base'] }, { name: 'Dark Oak Leaves', tags: ['base'] },
-    { name: 'Jungle Log', tags: ['base'] }, { name: 'Stripped Jungle Log', tags: ['base'] }, { name: 'Stripped Jungle Wood', tags: ['base'] },
-    { name: 'Jungle Wood', tags: ['base'] }, { name: 'Jungle Planks', tags: ['base'] }, { name: 'Jungle Slab', tags: ['base'] },
-    { name: 'Jungle Stairs', tags: ['base'] }, { name: 'Jungle Fence', tags: ['base'] }, { name: 'Jungle Fence Gate', tags: ['base'] },
-    { name: 'Jungle Door', tags: ['base'] }, { name: 'Jungle Trapdoor', tags: ['base'] }, { name: 'Jungle Pressure Plate', tags: ['base'] },
-    { name: 'Jungle Button', tags: ['base'] }, { name: 'Jungle Sign', tags: ['base'] }, { name: 'Jungle Hanging Sign', tags: ['base'] },
-    { name: 'Jungle Wall Sign', tags: ['base'] }, { name: 'Jungle Wall Hanging Sign', tags: ['base'] }, { name: 'Jungle Shelf', tags: ['base'] },
-    { name: 'Jungle Sapling', tags: ['base'] }, { name: 'Jungle Leaves', tags: ['base'] },
-    { name: 'Mangrove Log', tags: ['base'] }, { name: 'Stripped Mangrove Log', tags: ['base'] }, { name: 'Stripped Mangrove Wood', tags: ['base'] },
-    { name: 'Mangrove Wood', tags: ['base'] }, { name: 'Mangrove Planks', tags: ['base'] }, { name: 'Mangrove Slab', tags: ['base'] },
-    { name: 'Mangrove Stairs', tags: ['base'] }, { name: 'Mangrove Fence', tags: ['base'] }, { name: 'Mangrove Fence Gate', tags: ['base'] },
-    { name: 'Mangrove Door', tags: ['base'] }, { name: 'Mangrove Trapdoor', tags: ['base'] }, { name: 'Mangrove Pressure Plate', tags: ['base'] },
-    { name: 'Mangrove Button', tags: ['base'] }, { name: 'Mangrove Sign', tags: ['base'] }, { name: 'Mangrove Hanging Sign', tags: ['base'] },
-    { name: 'Mangrove Wall Sign', tags: ['base'] }, { name: 'Mangrove Wall Hanging Sign', tags: ['base'] }, { name: 'Mangrove Shelf', tags: ['base'] },
-    { name: 'Mangrove Propagule', tags: ['base'] }, { name: 'Mangrove Roots', tags: ['base'] }, { name: 'Mangrove Leaves', tags: ['base'] },
-    { name: 'Oak Log', tags: ['base'] }, { name: 'Stripped Oak Log', tags: ['base'] }, { name: 'Stripped Oak Wood', tags: ['base'] },
-    { name: 'Oak Wood', tags: ['base'] }, { name: 'Oak Planks', tags: ['base'] }, { name: 'Oak Slab', tags: ['base'] },
-    { name: 'Oak Stairs', tags: ['base'] }, { name: 'Oak Fence', tags: ['base'] }, { name: 'Oak Fence Gate', tags: ['base'] },
-    { name: 'Oak Door', tags: ['base'] }, { name: 'Oak Trapdoor', tags: ['base'] }, { name: 'Oak Pressure Plate', tags: ['base'] },
-    { name: 'Oak Button', tags: ['base'] }, { name: 'Oak Sign', tags: ['base'] }, { name: 'Oak Hanging Sign', tags: ['base'] },
-    { name: 'Oak Wall Sign', tags: ['base'] }, { name: 'Oak Wall Hanging Sign', tags: ['base'] }, { name: 'Oak Shelf', tags: ['base'] },
-    { name: 'Oak Sapling', tags: ['base'] }, { name: 'Oak Leaves', tags: ['base'] },
-    { name: 'Spruce Log', tags: ['base'] }, { name: 'Stripped Spruce Log', tags: ['base'] }, { name: 'Stripped Spruce Wood', tags: ['base'] },
-    { name: 'Spruce Wood', tags: ['base'] }, { name: 'Spruce Planks', tags: ['base'] }, { name: 'Spruce Slab', tags: ['base'] },
-    { name: 'Spruce Stairs', tags: ['base'] }, { name: 'Spruce Fence', tags: ['base'] }, { name: 'Spruce Fence Gate', tags: ['base'] },
-    { name: 'Spruce Door', tags: ['base'] }, { name: 'Spruce Trapdoor', tags: ['base'] }, { name: 'Spruce Pressure Plate', tags: ['base'] },
-    { name: 'Spruce Button', tags: ['base'] }, { name: 'Spruce Sign', tags: ['base'] }, { name: 'Spruce Hanging Sign', tags: ['base'] },
-    { name: 'Spruce Wall Sign', tags: ['base'] }, { name: 'Spruce Wall Hanging Sign', tags: ['base'] }, { name: 'Spruce Shelf', tags: ['base'] },
-    { name: 'Spruce Sapling', tags: ['base'] }, { name: 'Spruce Leaves', tags: ['base'] },
-    { name: 'Bamboo', tags: ['base'] }, { name: 'Bamboo Block', tags: ['base'] }, { name: 'Bamboo Planks', tags: ['base'] },
-    { name: 'Bamboo Slab', tags: ['base'] }, { name: 'Bamboo Stairs', tags: ['base'] }, { name: 'Bamboo Fence', tags: ['base'] },
-    { name: 'Bamboo Fence Gate', tags: ['base'] }, { name: 'Bamboo Door', tags: ['base'] }, { name: 'Bamboo Trapdoor', tags: ['base'] },
-    { name: 'Bamboo Pressure Plate', tags: ['base'] }, { name: 'Bamboo Button', tags: ['base'] },
-    { name: 'Bamboo Sign', tags: ['base'] }, { name: 'Bamboo Hanging Sign', tags: ['base'] },
-    { name: 'Bamboo Wall Sign', tags: ['base'] }, { name: 'Bamboo Wall Hanging Sign', tags: ['base'] }, { name: 'Bamboo Shelf', tags: ['base'] },
-    { name: 'Bamboo Shoot', tags: ['base'] }, { name: 'Bamboo Mosaic', tags: ['base'] },
-    { name: 'Bamboo Mosaic Slab', tags: ['base'] }, { name: 'Bamboo Mosaic Stairs', tags: ['base'] },
-    { name: 'Crimson Planks', tags: ['nether','base'] }, { name: 'Crimson Stem', tags: ['nether','base'] }, { name: 'Stripped Crimson Stem', tags: ['nether','base'] },
-    { name: 'Crimson Hyphae', tags: ['nether','base'] }, { name: 'Crimson Nylium', tags: ['nether','base'] },
-    { name: 'Crimson Roots', tags: ['nether','base'] }, { name: 'Crimson Fungus', tags: ['nether','base'] },
-    { name: 'Crimson Slab', tags: ['nether','base'] }, { name: 'Crimson Stairs', tags: ['nether','base'] }, { name: 'Crimson Fence', tags: ['nether','base'] },
-    { name: 'Crimson Fence Gate', tags: ['nether','base'] }, { name: 'Crimson Door', tags: ['nether','base'] }, { name: 'Crimson Trapdoor', tags: ['nether','base'] },
-    { name: 'Crimson Pressure Plate', tags: ['nether','base'] }, { name: 'Crimson Button', tags: ['nether','base'] },
-    { name: 'Crimson Sign', tags: ['nether','base'] }, { name: 'Crimson Hanging Sign', tags: ['nether','base'] },
-    { name: 'Crimson Shelf', tags: ['nether','base'] }, { name: 'Crimson Wall Sign', tags: ['nether','base'] },
-    { name: 'Crimson Wall Hanging Sign', tags: ['nether','base'] },
-    { name: 'Warped Planks', tags: ['nether','base'] }, { name: 'Warped Stem', tags: ['nether','base'] }, { name: 'Stripped Warped Stem', tags: ['nether','base'] },
-    { name: 'Warped Hyphae', tags: ['nether','base'] }, { name: 'Warped Nylium', tags: ['nether','base'] },
-    { name: 'Warped Roots', tags: ['nether','base'] }, { name: 'Warped Fungus', tags: ['nether','base'] },
-    { name: 'Warped Wart Block', tags: ['nether','base'] }, { name: 'Warped Slab', tags: ['nether','base'] }, { name: 'Warped Stairs', tags: ['nether','base'] },
-    { name: 'Warped Fence', tags: ['nether','base'] }, { name: 'Warped Fence Gate', tags: ['nether','base'] },
-    { name: 'Warped Door', tags: ['nether','base'] }, { name: 'Warped Trapdoor', tags: ['nether','base'] },
-    { name: 'Warped Pressure Plate', tags: ['nether','base'] }, { name: 'Warped Button', tags: ['nether','base'] },
-    { name: 'Warped Sign', tags: ['nether','base'] }, { name: 'Warped Hanging Sign', tags: ['nether','base'] },
-    { name: 'Warped Shelf', tags: ['nether','base'] }, { name: 'Warped Wall Sign', tags: ['nether','base'] },
-    { name: 'Warped Wall Hanging Sign', tags: ['nether','base'] },
+  "madera": [
+    {
+      "name": "Acacia Door",
+      "tags": []
+    },
+    {
+      "name": "Acacia Fence",
+      "tags": []
+    },
+    {
+      "name": "Acacia Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Acacia Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Acacia Leaves",
+      "tags": []
+    },
+    {
+      "name": "Acacia Log",
+      "tags": []
+    },
+    {
+      "name": "Acacia Planks",
+      "tags": []
+    },
+    {
+      "name": "Acacia Sapling",
+      "tags": []
+    },
+    {
+      "name": "Acacia Shelf",
+      "tags": []
+    },
+    {
+      "name": "Acacia Sign",
+      "tags": []
+    },
+    {
+      "name": "Acacia Slab",
+      "tags": []
+    },
+    {
+      "name": "Acacia Stairs",
+      "tags": []
+    },
+    {
+      "name": "Acacia Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Acacia Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Acacia Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Acacia Wood",
+      "tags": []
+    },
+    {
+      "name": "Bamboo",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Block",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Door",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Fence",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Mosaic",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Mosaic Slab",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Mosaic Stairs",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Planks",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Sapling",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Shelf",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Sign",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Slab",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Stairs",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Birch Door",
+      "tags": []
+    },
+    {
+      "name": "Birch Fence",
+      "tags": []
+    },
+    {
+      "name": "Birch Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Birch Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Birch Leaves",
+      "tags": []
+    },
+    {
+      "name": "Birch Log",
+      "tags": []
+    },
+    {
+      "name": "Birch Planks",
+      "tags": []
+    },
+    {
+      "name": "Birch Sapling",
+      "tags": []
+    },
+    {
+      "name": "Birch Shelf",
+      "tags": []
+    },
+    {
+      "name": "Birch Sign",
+      "tags": []
+    },
+    {
+      "name": "Birch Slab",
+      "tags": []
+    },
+    {
+      "name": "Birch Stairs",
+      "tags": []
+    },
+    {
+      "name": "Birch Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Birch Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Birch Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Birch Wood",
+      "tags": []
+    },
+    {
+      "name": "Cherry Door",
+      "tags": []
+    },
+    {
+      "name": "Cherry Fence",
+      "tags": []
+    },
+    {
+      "name": "Cherry Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Cherry Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Cherry Leaves",
+      "tags": []
+    },
+    {
+      "name": "Cherry Log",
+      "tags": []
+    },
+    {
+      "name": "Cherry Planks",
+      "tags": []
+    },
+    {
+      "name": "Cherry Sapling",
+      "tags": []
+    },
+    {
+      "name": "Cherry Shelf",
+      "tags": []
+    },
+    {
+      "name": "Cherry Sign",
+      "tags": []
+    },
+    {
+      "name": "Cherry Slab",
+      "tags": []
+    },
+    {
+      "name": "Cherry Stairs",
+      "tags": []
+    },
+    {
+      "name": "Cherry Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Cherry Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Cherry Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Cherry Wood",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Door",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Fence",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Leaves",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Planks",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Shelf",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Sign",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Slab",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Stairs",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Jungle Door",
+      "tags": []
+    },
+    {
+      "name": "Jungle Fence",
+      "tags": []
+    },
+    {
+      "name": "Jungle Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Jungle Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Jungle Leaves",
+      "tags": []
+    },
+    {
+      "name": "Jungle Log",
+      "tags": []
+    },
+    {
+      "name": "Jungle Planks",
+      "tags": []
+    },
+    {
+      "name": "Jungle Sapling",
+      "tags": []
+    },
+    {
+      "name": "Jungle Shelf",
+      "tags": []
+    },
+    {
+      "name": "Jungle Sign",
+      "tags": []
+    },
+    {
+      "name": "Jungle Slab",
+      "tags": []
+    },
+    {
+      "name": "Jungle Stairs",
+      "tags": []
+    },
+    {
+      "name": "Jungle Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Jungle Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Jungle Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Jungle Wood",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Door",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Fence",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Leaves",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Log",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Planks",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Propagule",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Roots",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Shelf",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Sign",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Slab",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Stairs",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Wood",
+      "tags": []
+    },
+    {
+      "name": "Muddy Mangrove Roots",
+      "tags": []
+    },
+    {
+      "name": "Oak Door",
+      "tags": []
+    },
+    {
+      "name": "Oak Fence",
+      "tags": []
+    },
+    {
+      "name": "Oak Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Oak Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Oak Leaves",
+      "tags": []
+    },
+    {
+      "name": "Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Oak Planks",
+      "tags": []
+    },
+    {
+      "name": "Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Oak Shelf",
+      "tags": []
+    },
+    {
+      "name": "Oak Sign",
+      "tags": []
+    },
+    {
+      "name": "Oak Slab",
+      "tags": []
+    },
+    {
+      "name": "Oak Stairs",
+      "tags": []
+    },
+    {
+      "name": "Oak Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Oak Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Oak Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Door",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Fence",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Leaves",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Planks",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Shelf",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Sign",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Slab",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Stairs",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Petrified Oak Slab",
+      "tags": []
+    },
+    {
+      "name": "Potted Acacia Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Bamboo",
+      "tags": []
+    },
+    {
+      "name": "Potted Birch Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Cherry Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Dark Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Jungle Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Mangrove Propagule",
+      "tags": []
+    },
+    {
+      "name": "Potted Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Pale Oak Sapling",
+      "tags": []
+    },
+    {
+      "name": "Potted Spruce Sapling",
+      "tags": []
+    },
+    {
+      "name": "Spruce Door",
+      "tags": []
+    },
+    {
+      "name": "Spruce Fence",
+      "tags": []
+    },
+    {
+      "name": "Spruce Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Spruce Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Spruce Leaves",
+      "tags": []
+    },
+    {
+      "name": "Spruce Log",
+      "tags": []
+    },
+    {
+      "name": "Spruce Planks",
+      "tags": []
+    },
+    {
+      "name": "Spruce Sapling",
+      "tags": []
+    },
+    {
+      "name": "Spruce Shelf",
+      "tags": []
+    },
+    {
+      "name": "Spruce Sign",
+      "tags": []
+    },
+    {
+      "name": "Spruce Slab",
+      "tags": []
+    },
+    {
+      "name": "Spruce Stairs",
+      "tags": []
+    },
+    {
+      "name": "Spruce Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Spruce Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Spruce Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Spruce Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Acacia Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Acacia Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Bamboo Block",
+      "tags": []
+    },
+    {
+      "name": "Stripped Birch Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Birch Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Cherry Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Cherry Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Dark Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Dark Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Jungle Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Jungle Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Mangrove Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Mangrove Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Pale Oak Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Pale Oak Wood",
+      "tags": []
+    },
+    {
+      "name": "Stripped Spruce Log",
+      "tags": []
+    },
+    {
+      "name": "Stripped Spruce Wood",
+      "tags": []
+    }
   ],
-  naturaleza: [
-    { name: 'Allium', tags: ['base'] }, { name: 'Azalea', tags: ['base'] }, { name: 'Azalea Leaves', tags: ['base'] },
-    { name: 'Flowering Azalea', tags: ['base'] }, { name: 'Flowering Azalea Leaves', tags: ['base'] },
-    { name: 'Azure Bluet', tags: ['base'] }, { name: 'Bush', tags: ['base'] }, { name: 'Cornflower', tags: ['base'] },
-    { name: 'Dandelion', tags: ['base'] }, { name: 'Lily of the Valley', tags: ['base'] }, { name: 'Lilac', tags: ['base'] },
-    { name: 'Poppy', tags: ['base'] }, { name: 'Oxeye Daisy', tags: ['base'] }, { name: 'Blue Orchid', tags: ['base'] },
-    { name: 'Pink Tulip', tags: ['base'] }, { name: 'Orange Tulip', tags: ['base'] }, { name: 'White Tulip', tags: ['base'] },
-    { name: 'Red Tulip', tags: ['base'] }, { name: 'Wither Rose', tags: ['base'] }, { name: 'Cactus', tags: ['base'] },
-    { name: 'Cactus Flower', tags: ['base'] }, { name: 'Grass Block', tags: ['base'] }, { name: 'Dirt', tags: ['base'] },
-    { name: 'Coarse Dirt', tags: ['base'] }, { name: 'Dirt Path', tags: ['base'] }, { name: 'Farmland', tags: ['base'] },
-    { name: 'Gravel', tags: ['base'] }, { name: 'Sand', tags: ['base'] }, { name: 'Red Sand', tags: ['base'] },
-    { name: 'Clay', tags: ['base'] }, { name: 'Snow', tags: ['base'] }, { name: 'Snow Block', tags: ['base'] },
-    { name: 'Ice', tags: ['base'] }, { name: 'Blue Ice', tags: ['base'] }, { name: 'Packed Ice', tags: ['base'] },
-    { name: 'Melon', tags: ['base'] }, { name: 'Attached Melon Stem', tags: ['base'] }, { name: 'Melon Stem', tags: ['base'] },
-    { name: 'Pumpkin', tags: ['base'] }, { name: 'Attached Pumpkin Stem', tags: ['base'] }, { name: 'Pumpkin Stem', tags: ['base'] },
-    { name: 'Carved Pumpkin', tags: ['base'] }, { name: 'Jack o\'Lantern', tags: ['base'] },
-    { name: 'Beetroots', tags: ['base'] }, { name: 'Carrots', tags: ['base'] }, { name: 'Potatoes', tags: ['base'] },
-    { name: 'Wheat', tags: ['base'] }, { name: 'Cocoa', tags: ['base'] }, { name: 'Kelp', tags: ['base'] },
-    { name: 'Kelp Plant', tags: ['base'] }, { name: 'Dried Kelp Block', tags: ['base'] }, { name: 'Seagrass', tags: ['base'] },
-    { name: 'Tall Seagrass', tags: ['base'] }, { name: 'Sea Pickle', tags: ['base'] }, { name: 'Bamboo Shoot', tags: ['base'] },
-    { name: 'Firefly Bush', tags: ['base'] }, { name: 'Closed Eyeblossom', tags: ['base'] },
-    { name: 'Big Dripleaf', tags: ['base'] }, { name: 'Big Dripleaf Stem', tags: ['base'] }, { name: 'Small Dripleaf', tags: ['base'] },
-    { name: 'Spore Blossom', tags: ['base'] },
-    { name: 'Pink Petals', tags: ['base'] }, { name: 'Spore Blossom', tags: ['base'] }, { name: 'Torchflower', tags: ['base'] },
-    { name: 'Pitcher Plant', tags: ['base'] }, { name: 'Torchflower Seeds', tags: ['base'] },
-    { name: 'Brown Mushroom Block', tags: ['base'] }, { name: 'Red Mushroom Block', tags: ['base'] },
-    { name: 'Mushroom Stem', tags: ['base'] }, { name: 'Mycelium', tags: ['base'] },
-    { name: 'Podzol', tags: ['base'] }, { name: 'Rooted Dirt', tags: ['base'] },
-    { name: 'Azalea', tags: ['base'] }, { name: 'Flowering Azalea', tags: ['base'] },
- { name: 'Moss Block', tags: ['base'] }, { name: 'Moss Carpet', tags: ['base'] },
-    { name: 'Hanging Roots', tags: ['base'] }, { name: 'Leaf Litter', tags: ['base'] }, { name: 'Glow Lichen', tags: ['base'] },
-    { name: 'Cave Vines', tags: ['base'] }, { name: 'Cave Vines Plant', tags: ['base'] },
-    { name: 'Brain Coral', tags: ['base'] }, { name: 'Brain Coral Block', tags: ['base'] }, { name: 'Brain Coral Fan', tags: ['base'] },
-    { name: 'Brain Coral Wall Fan', tags: ['base'] }, { name: 'Dead Brain Coral Block', tags: ['base'] },
-    { name: 'Dead Brain Coral Fan', tags: ['base'] }, { name: 'Dead Brain Coral Wall Fan', tags: ['base'] },
-    { name: 'Bubble Coral', tags: ['base'] }, { name: 'Bubble Coral Block', tags: ['base'] }, { name: 'Bubble Coral Fan', tags: ['base'] },
-    { name: 'Bubble Coral Wall Fan', tags: ['base'] }, { name: 'Dead Bubble Coral Block', tags: ['base'] },
-    { name: 'Dead Bubble Coral Fan', tags: ['base'] }, { name: 'Dead Bubble Coral Wall Fan', tags: ['base'] },
-    { name: 'Fire Coral', tags: ['base'] }, { name: 'Fire Coral Block', tags: ['base'] }, { name: 'Fire Coral Fan', tags: ['base'] },
-    { name: 'Fire Coral Wall Fan', tags: ['base'] }, { name: 'Dead Fire Coral Block', tags: ['base'] },
-    { name: 'Dead Fire Coral Fan', tags: ['base'] }, { name: 'Dead Fire Coral Wall Fan', tags: ['base'] },
-    { name: 'Horn Coral', tags: ['base'] }, { name: 'Horn Coral Block', tags: ['base'] }, { name: 'Horn Coral Fan', tags: ['base'] },
-    { name: 'Horn Coral Wall Fan', tags: ['base'] }, { name: 'Dead Horn Coral Block', tags: ['base'] },
-    { name: 'Dead Horn Coral Fan', tags: ['base'] }, { name: 'Dead Horn Coral Wall Fan', tags: ['base'] },
-    { name: 'Tube Coral', tags: ['base'] }, { name: 'Tube Coral Block', tags: ['base'] }, { name: 'Tube Coral Fan', tags: ['base'] },
-    { name: 'Tube Coral Wall Fan', tags: ['base'] }, { name: 'Dead Tube Coral Block', tags: ['base'] },
-    { name: 'Dead Tube Coral Fan', tags: ['base'] }, { name: 'Dead Tube Coral Wall Fan', tags: ['base'] },
-    { name: 'Frogspawn', tags: ['base'] }, { name: 'Mangrove Propagule', tags: ['base'] }, { name: 'Mangrove Roots', tags: ['base'] },
-    { name: 'Mangrove Leaves', tags: ['base'] }, { name: 'Dead Bush', tags: ['base'] }, { name: 'Fern', tags: ['base'] },
-    { name: 'Large Fern', tags: ['base'] }, { name: 'Crimson Fungus', tags: ['nether','base'] }, { name: 'Crimson Roots', tags: ['nether','base'] },
-    { name: 'Crimson Nylium', tags: ['nether','base'] }, { name: 'Warped Fungus', tags: ['nether','base'] },
-    { name: 'Warped Nylium', tags: ['nether','base'] }, { name: 'Warped Roots', tags: ['nether','base'] },
-    { name: 'Warped Wart Block', tags: ['nether','base'] }, { name: 'Shroomlight', tags: ['nether','base'] },
-    { name: 'Nether Wart Block', tags: ['nether','base'] }, { name: 'Bone Block', tags: ['nether','base'] },
+  "naturaleza": [
+    {
+      "name": "Allium",
+      "tags": []
+    },
+    {
+      "name": "Attached Melon Stem",
+      "tags": []
+    },
+    {
+      "name": "Attached Pumpkin Stem",
+      "tags": []
+    },
+    {
+      "name": "Azalea Leaves",
+      "tags": []
+    },
+    {
+      "name": "Blue Ice",
+      "tags": []
+    },
+    {
+      "name": "Brain Coral",
+      "tags": []
+    },
+    {
+      "name": "Brain Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Brain Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Brain Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Brown Mushroom",
+      "tags": []
+    },
+    {
+      "name": "Brown Mushroom Block",
+      "tags": []
+    },
+    {
+      "name": "Bubble Coral",
+      "tags": []
+    },
+    {
+      "name": "Bubble Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Bubble Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Bubble Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Bush",
+      "tags": []
+    },
+    {
+      "name": "Cactus Flower",
+      "tags": []
+    },
+    {
+      "name": "Carved Pumpkin",
+      "tags": []
+    },
+    {
+      "name": "Cave Vines",
+      "tags": []
+    },
+    {
+      "name": "Cave Vines Plant",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Red Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Coarse Dirt",
+      "tags": []
+    },
+    {
+      "name": "Cornflower",
+      "tags": []
+    },
+    {
+      "name": "Cut Red Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Cut Red Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Cut Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Cut Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Dead Brain Coral",
+      "tags": []
+    },
+    {
+      "name": "Dead Brain Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Dead Brain Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Brain Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Bubble Coral",
+      "tags": []
+    },
+    {
+      "name": "Dead Bubble Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Dead Bubble Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Bubble Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Bush",
+      "tags": []
+    },
+    {
+      "name": "Dead Fire Coral",
+      "tags": []
+    },
+    {
+      "name": "Dead Fire Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Dead Fire Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Fire Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Horn Coral",
+      "tags": []
+    },
+    {
+      "name": "Dead Horn Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Dead Horn Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Horn Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Tube Coral",
+      "tags": []
+    },
+    {
+      "name": "Dead Tube Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Dead Tube Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Dead Tube Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Dirt",
+      "tags": []
+    },
+    {
+      "name": "Dirt Path",
+      "tags": []
+    },
+    {
+      "name": "Dried Kelp Block",
+      "tags": []
+    },
+    {
+      "name": "Fern",
+      "tags": []
+    },
+    {
+      "name": "Fire Coral",
+      "tags": []
+    },
+    {
+      "name": "Fire Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Fire Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Fire Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Firefly Bush",
+      "tags": []
+    },
+    {
+      "name": "Flower Pot",
+      "tags": []
+    },
+    {
+      "name": "Flowering Azalea",
+      "tags": []
+    },
+    {
+      "name": "Flowering Azalea Leaves",
+      "tags": []
+    },
+    {
+      "name": "Frosted Ice",
+      "tags": []
+    },
+    {
+      "name": "Grass Block",
+      "tags": []
+    },
+    {
+      "name": "Gravel",
+      "tags": []
+    },
+    {
+      "name": "Horn Coral",
+      "tags": []
+    },
+    {
+      "name": "Horn Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Horn Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Horn Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Ice",
+      "tags": []
+    },
+    {
+      "name": "Kelp",
+      "tags": []
+    },
+    {
+      "name": "Kelp Plant",
+      "tags": []
+    },
+    {
+      "name": "Large Fern",
+      "tags": []
+    },
+    {
+      "name": "Lily of The Valley",
+      "tags": []
+    },
+    {
+      "name": "Lily Pad",
+      "tags": []
+    },
+    {
+      "name": "Melon",
+      "tags": []
+    },
+    {
+      "name": "Melon Stem",
+      "tags": []
+    },
+    {
+      "name": "Mushroom Stem",
+      "tags": []
+    },
+    {
+      "name": "Orange Tulip",
+      "tags": []
+    },
+    {
+      "name": "Packed Ice",
+      "tags": []
+    },
+    {
+      "name": "Pink Tulip",
+      "tags": []
+    },
+    {
+      "name": "Pitcher Plant",
+      "tags": []
+    },
+    {
+      "name": "Potted Allium",
+      "tags": []
+    },
+    {
+      "name": "Potted Azalea Bush",
+      "tags": []
+    },
+    {
+      "name": "Potted Brown Mushroom",
+      "tags": []
+    },
+    {
+      "name": "Potted Cornflower",
+      "tags": []
+    },
+    {
+      "name": "Potted Dead Bush",
+      "tags": []
+    },
+    {
+      "name": "Potted Fern",
+      "tags": []
+    },
+    {
+      "name": "Potted Flowering Azalea Bush",
+      "tags": []
+    },
+    {
+      "name": "Potted Lily of The Valley",
+      "tags": []
+    },
+    {
+      "name": "Potted Orange Tulip",
+      "tags": []
+    },
+    {
+      "name": "Potted Pink Tulip",
+      "tags": []
+    },
+    {
+      "name": "Potted Red Mushroom",
+      "tags": []
+    },
+    {
+      "name": "Potted Red Tulip",
+      "tags": []
+    },
+    {
+      "name": "Potted Torchflower",
+      "tags": []
+    },
+    {
+      "name": "Potted White Tulip",
+      "tags": []
+    },
+    {
+      "name": "Powder Snow",
+      "tags": []
+    },
+    {
+      "name": "Powder Snow Cauldron",
+      "tags": []
+    },
+    {
+      "name": "Pumpkin",
+      "tags": []
+    },
+    {
+      "name": "Pumpkin Stem",
+      "tags": []
+    },
+    {
+      "name": "Red Mushroom",
+      "tags": []
+    },
+    {
+      "name": "Red Mushroom Block",
+      "tags": []
+    },
+    {
+      "name": "Red Sand",
+      "tags": []
+    },
+    {
+      "name": "Red Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Red Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Red Sandstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Red Sandstone Wall",
+      "tags": []
+    },
+    {
+      "name": "Red Tulip",
+      "tags": []
+    },
+    {
+      "name": "Rooted Dirt",
+      "tags": []
+    },
+    {
+      "name": "Rose Bush",
+      "tags": []
+    },
+    {
+      "name": "Sand",
+      "tags": []
+    },
+    {
+      "name": "Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Sandstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Sandstone Wall",
+      "tags": []
+    },
+    {
+      "name": "Seagrass",
+      "tags": []
+    },
+    {
+      "name": "Short Dry Grass",
+      "tags": []
+    },
+    {
+      "name": "Short Grass",
+      "tags": []
+    },
+    {
+      "name": "Smooth Red Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Smooth Red Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Smooth Red Sandstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Smooth Sandstone",
+      "tags": []
+    },
+    {
+      "name": "Smooth Sandstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Smooth Sandstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Snow",
+      "tags": []
+    },
+    {
+      "name": "Snow Block",
+      "tags": []
+    },
+    {
+      "name": "Sponge",
+      "tags": []
+    },
+    {
+      "name": "Sunflower",
+      "tags": []
+    },
+    {
+      "name": "Suspicious Gravel",
+      "tags": []
+    },
+    {
+      "name": "Suspicious Sand",
+      "tags": []
+    },
+    {
+      "name": "Sweet Berry Bush",
+      "tags": []
+    },
+    {
+      "name": "Tall Dry Grass",
+      "tags": []
+    },
+    {
+      "name": "Tall Grass",
+      "tags": []
+    },
+    {
+      "name": "Tall Seagrass",
+      "tags": []
+    },
+    {
+      "name": "Torchflower",
+      "tags": []
+    },
+    {
+      "name": "Torchflower Crop",
+      "tags": []
+    },
+    {
+      "name": "Tube Coral",
+      "tags": []
+    },
+    {
+      "name": "Tube Coral Block",
+      "tags": []
+    },
+    {
+      "name": "Tube Coral Fan",
+      "tags": []
+    },
+    {
+      "name": "Tube Coral Wall Fan",
+      "tags": []
+    },
+    {
+      "name": "Twisting Vines",
+      "tags": []
+    },
+    {
+      "name": "Twisting Vines Plant",
+      "tags": []
+    },
+    {
+      "name": "Vine",
+      "tags": []
+    },
+    {
+      "name": "Weeping Vines",
+      "tags": []
+    },
+    {
+      "name": "Weeping Vines Plant",
+      "tags": []
+    },
+    {
+      "name": "Wet Sponge",
+      "tags": []
+    },
+    {
+      "name": "White Tulip",
+      "tags": []
+    },
+    {
+      "name": "Wildflowers",
+      "tags": []
+    }
   ],
-  ores: [
-    { name: 'Coal Ore', tags: ['base'] }, { name: 'Deepslate Coal Ore', tags: ['base'] },
-    { name: 'Iron Ore', tags: ['base'] }, { name: 'Deepslate Iron Ore', tags: ['base'] },
-    { name: 'Copper Ore', tags: ['base'] }, { name: 'Deepslate Copper Ore', tags: ['base'] },
-    { name: 'Copper Block', tags: ['base'] }, { name: 'Cut Copper', tags: ['base'] }, { name: 'Cut Copper Slab', tags: ['base'] },
-    { name: 'Cut Copper Stairs', tags: ['base'] }, { name: 'Exposed Cut Copper', tags: ['base'] },
-    { name: 'Exposed Cut Copper Slab', tags: ['base'] }, { name: 'Exposed Cut Copper Stairs', tags: ['base'] },
-    { name: 'Oxidized Copper', tags: ['base'] }, { name: 'Oxidized Cut Copper', tags: ['base'] },
-    { name: 'Oxidized Cut Copper Slab', tags: ['base'] }, { name: 'Oxidized Cut Copper Stairs', tags: ['base'] },
-    { name: 'Weathered Copper', tags: ['base'] }, { name: 'Weathered Cut Copper', tags: ['base'] },
-    { name: 'Weathered Cut Copper Slab', tags: ['base'] }, { name: 'Weathered Cut Copper Stairs', tags: ['base'] },
-    { name: 'Copper Bulb', tags: ['base'] }, { name: 'Exposed Copper Bulb', tags: ['base'] }, { name: 'Weathered Copper Bulb', tags: ['base'] },
-    { name: 'Oxidized Copper Bulb', tags: ['base'] }, { name: 'Copper Grate', tags: ['base'] }, { name: 'Copper Door', tags: ['base'] },
-    { name: 'Copper Trapdoor', tags: ['base'] }, { name: 'Copper Chain', tags: ['base'] }, { name: 'Copper Bars', tags: ['base'] },
-    { name: 'Copper Torch', tags: ['base'] }, { name: 'Copper Wall Torch', tags: ['base'] }, { name: 'Copper Lantern', tags: ['base'] },
-    { name: 'Copper Chest', tags: ['base'] }, { name: 'Copper Golem Statue', tags: ['base'] }, { name: 'Copper Ore', tags: ['base'] },
-    { name: 'Gold Ore', tags: ['base'] }, { name: 'Deepslate Gold Ore', tags: ['base'] }, { name: 'Nether Gold Ore', tags: ['nether','base'] },
-    { name: 'Gold Block', tags: ['base'] }, { name: 'Raw Gold Block', tags: ['base'] },
-    { name: 'Diamond Ore', tags: ['base'] }, { name: 'Deepslate Diamond Ore', tags: ['base'] },
-    { name: 'Diamond Block', tags: ['base'] }, { name: 'Emerald Ore', tags: ['base'] }, { name: 'Deepslate Emerald Ore', tags: ['base'] },
-    { name: 'Emerald Block', tags: ['base'] }, { name: 'Lapis Ore', tags: ['base'] }, { name: 'Deepslate Lapis Ore', tags: ['base'] },
-    { name: 'Lapis Block', tags: ['base'] }, { name: 'Redstone Ore', tags: ['base'] }, { name: 'Deepslate Redstone Ore', tags: ['base'] },
-    { name: 'Redstone Block', tags: ['base'] }, { name: 'Nether Quartz Ore', tags: ['nether','base'] },
-    { name: 'Quartz Block', tags: ['base'] }, { name: 'Quartz Bricks', tags: ['base'] }, { name: 'Quartz Slab', tags: ['base'] },
-    { name: 'Quartz Stairs', tags: ['base'] }, { name: 'Quartz Wall', tags: ['base'] }, { name: 'Smooth Quartz', tags: ['base'] },
-    { name: 'Chiseled Quartz Block', tags: ['base'] }, { name: 'Amethyst Block', tags: ['base'] },
-    { name: 'Amethyst Cluster', tags: ['base'] }, { name: 'Budding Amethyst', tags: ['base'] },
-    { name: 'Small Amethyst Bud', tags: ['base'] }, { name: 'Medium Amethyst Bud', tags: ['base'] }, { name: 'Large Amethyst Bud', tags: ['base'] },
-    { name: 'Block of Amethyst', tags: ['base'] }, { name: 'Ancient Debris', tags: ['nether','base'] }, { name: 'Netherite Block', tags: ['base'] },
-    { name: 'Netherite Ore', tags: ['base'] }, { name: 'Block of Coal', tags: ['base'] }, { name: 'Block of Iron', tags: ['base'] },
+  "ores": [
+    {
+      "name": "Amethyst Block",
+      "tags": []
+    },
+    {
+      "name": "Amethyst Cluster",
+      "tags": []
+    },
+    {
+      "name": "Budding Amethyst",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Coal Ore",
+      "tags": []
+    },
+    {
+      "name": "Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Copper Block",
+      "tags": []
+    },
+    {
+      "name": "Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Copper Ore",
+      "tags": []
+    },
+    {
+      "name": "Copper Torch",
+      "tags": []
+    },
+    {
+      "name": "Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Copper Wall Torch",
+      "tags": []
+    },
+    {
+      "name": "Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Coal Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Copper Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Diamond Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Emerald Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Gold Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Iron Ore",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Lapis Ore",
+      "tags": []
+    },
+    {
+      "name": "Diamond Block",
+      "tags": []
+    },
+    {
+      "name": "Diamond Ore",
+      "tags": []
+    },
+    {
+      "name": "Emerald Block",
+      "tags": []
+    },
+    {
+      "name": "Emerald Ore",
+      "tags": []
+    },
+    {
+      "name": "Exposed Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Exposed Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Exposed Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Exposed Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Exposed Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Gold Block",
+      "tags": []
+    },
+    {
+      "name": "Gold Ore",
+      "tags": []
+    },
+    {
+      "name": "Heavy Core",
+      "tags": []
+    },
+    {
+      "name": "Iron Block",
+      "tags": []
+    },
+    {
+      "name": "Iron Ore",
+      "tags": []
+    },
+    {
+      "name": "Lapis Block",
+      "tags": []
+    },
+    {
+      "name": "Lapis Ore",
+      "tags": []
+    },
+    {
+      "name": "Large Amethyst Bud",
+      "tags": []
+    },
+    {
+      "name": "Medium Amethyst Bud",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Raw Copper Block",
+      "tags": []
+    },
+    {
+      "name": "Raw Gold Block",
+      "tags": []
+    },
+    {
+      "name": "Raw Iron Block",
+      "tags": []
+    },
+    {
+      "name": "Small Amethyst Bud",
+      "tags": []
+    },
+    {
+      "name": "Spore Blossom",
+      "tags": []
+    },
+    {
+      "name": "Waxed Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Block",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Waxed Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Waxed Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Waxed Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Waxed Exposed Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Waxed Oxidized Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Waxed Weathered Cut Copper Stairs",
+      "tags": []
+    },
+    {
+      "name": "Weathered Chiseled Copper",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Bars",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Bulb",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Chain",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Chest",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Door",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Golem Statue",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Grate",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Lantern",
+      "tags": []
+    },
+    {
+      "name": "Weathered Copper Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Weathered Cut Copper",
+      "tags": []
+    },
+    {
+      "name": "Weathered Cut Copper Slab",
+      "tags": []
+    },
+    {
+      "name": "Weathered Cut Copper Stairs",
+      "tags": []
+    }
   ],
-  decoracion: [
-    { name: 'Glass', tags: ['base'] }, { name: 'Glass Pane', tags: ['base'] },
-    { name: 'Black Stained Glass', tags: ['base'] }, { name: 'Black Stained Glass Pane', tags: ['base'] },
-    { name: 'Blue Stained Glass', tags: ['base'] }, { name: 'Blue Stained Glass Pane', tags: ['base'] },
-    { name: 'Brown Stained Glass', tags: ['base'] }, { name: 'Brown Stained Glass Pane', tags: ['base'] },
-    { name: 'Cyan Stained Glass', tags: ['base'] }, { name: 'Cyan Stained Glass Pane', tags: ['base'] },
-    { name: 'Gray Stained Glass', tags: ['base'] }, { name: 'Gray Stained Glass Pane', tags: ['base'] },
-    { name: 'Green Stained Glass', tags: ['base'] }, { name: 'Green Stained Glass Pane', tags: ['base'] },
-    { name: 'Light Blue Stained Glass', tags: ['base'] }, { name: 'Light Blue Stained Glass Pane', tags: ['base'] },
-    { name: 'Light Gray Stained Glass', tags: ['base'] }, { name: 'Light Gray Stained Glass Pane', tags: ['base'] },
-    { name: 'Lime Stained Glass', tags: ['base'] }, { name: 'Lime Stained Glass Pane', tags: ['base'] },
-    { name: 'Magenta Stained Glass', tags: ['base'] }, { name: 'Magenta Stained Glass Pane', tags: ['base'] },
-    { name: 'Orange Stained Glass', tags: ['base'] }, { name: 'Orange Stained Glass Pane', tags: ['base'] },
-    { name: 'Pink Stained Glass', tags: ['base'] }, { name: 'Pink Stained Glass Pane', tags: ['base'] },
-    { name: 'Purple Stained Glass', tags: ['base'] }, { name: 'Purple Stained Glass Pane', tags: ['base'] },
-    { name: 'Red Stained Glass', tags: ['base'] }, { name: 'Red Stained Glass Pane', tags: ['base'] },
-    { name: 'White Stained Glass', tags: ['base'] }, { name: 'White Stained Glass Pane', tags: ['base'] },
-    { name: 'Yellow Stained Glass', tags: ['base'] }, { name: 'Yellow Stained Glass Pane', tags: ['base'] },
-    { name: 'Black Concrete', tags: ['base'] }, { name: 'Black Concrete Powder', tags: ['base'] },
-    { name: 'Blue Concrete', tags: ['base'] }, { name: 'Blue Concrete Powder', tags: ['base'] },
-    { name: 'Brown Concrete', tags: ['base'] }, { name: 'Brown Concrete Powder', tags: ['base'] },
-    { name: 'Cyan Concrete', tags: ['base'] }, { name: 'Cyan Concrete Powder', tags: ['base'] },
-    { name: 'Gray Concrete', tags: ['base'] }, { name: 'Gray Concrete Powder', tags: ['base'] },
-    { name: 'Green Concrete', tags: ['base'] }, { name: 'Green Concrete Powder', tags: ['base'] },
-    { name: 'Light Blue Concrete', tags: ['base'] }, { name: 'Light Blue Concrete Powder', tags: ['base'] },
-    { name: 'Light Gray Concrete', tags: ['base'] }, { name: 'Light Gray Concrete Powder', tags: ['base'] },
-    { name: 'Lime Concrete', tags: ['base'] }, { name: 'Lime Concrete Powder', tags: ['base'] },
-    { name: 'Magenta Concrete', tags: ['base'] }, { name: 'Magenta Concrete Powder', tags: ['base'] },
-    { name: 'Orange Concrete', tags: ['base'] }, { name: 'Orange Concrete Powder', tags: ['base'] },
-    { name: 'Pink Concrete', tags: ['base'] }, { name: 'Pink Concrete Powder', tags: ['base'] },
-    { name: 'Purple Concrete', tags: ['base'] }, { name: 'Purple Concrete Powder', tags: ['base'] },
-    { name: 'Red Concrete', tags: ['base'] }, { name: 'Red Concrete Powder', tags: ['base'] },
-    { name: 'White Concrete', tags: ['base'] }, { name: 'White Concrete Powder', tags: ['base'] },
-    { name: 'Yellow Concrete', tags: ['base'] }, { name: 'Yellow Concrete Powder', tags: ['base'] },
-    { name: 'Terracotta', tags: ['base'] }, { name: 'Black Terracotta', tags: ['base'] }, { name: 'Blue Terracotta', tags: ['base'] },
-    { name: 'Brown Terracotta', tags: ['base'] }, { name: 'Cyan Terracotta', tags: ['base'] }, { name: 'Gray Terracotta', tags: ['base'] },
-    { name: 'Green Terracotta', tags: ['base'] }, { name: 'Light Blue Terracotta', tags: ['base'] }, { name: 'Light Gray Terracotta', tags: ['base'] },
-    { name: 'Lime Terracotta', tags: ['base'] }, { name: 'Magenta Terracotta', tags: ['base'] }, { name: 'Orange Terracotta', tags: ['base'] },
-    { name: 'Pink Terracotta', tags: ['base'] }, { name: 'Purple Terracotta', tags: ['base'] }, { name: 'Red Terracotta', tags: ['base'] },
-    { name: 'White Terracotta', tags: ['base'] }, { name: 'Yellow Terracotta', tags: ['base'] },
-    { name: 'Black Glazed Terracotta', tags: ['base'] }, { name: 'Blue Glazed Terracotta', tags: ['base'] },
-    { name: 'Brown Glazed Terracotta', tags: ['base'] }, { name: 'Cyan Glazed Terracotta', tags: ['base'] },
-    { name: 'Gray Glazed Terracotta', tags: ['base'] }, { name: 'Green Glazed Terracotta', tags: ['base'] },
-    { name: 'Light Blue Glazed Terracotta', tags: ['base'] }, { name: 'Light Gray Glazed Terracotta', tags: ['base'] },
-    { name: 'Lime Glazed Terracotta', tags: ['base'] }, { name: 'Magenta Glazed Terracotta', tags: ['base'] },
-    { name: 'Orange Glazed Terracotta', tags: ['base'] }, { name: 'Pink Glazed Terracotta', tags: ['base'] },
-    { name: 'Purple Glazed Terracotta', tags: ['base'] }, { name: 'Red Glazed Terracotta', tags: ['base'] },
-    { name: 'White Glazed Terracotta', tags: ['base'] }, { name: 'Yellow Glazed Terracotta', tags: ['base'] },
-    { name: 'Carpet', tags: ['base'] }, { name: 'Black Carpet', tags: ['base'] }, { name: 'Blue Carpet', tags: ['base'] },
-    { name: 'Brown Carpet', tags: ['base'] }, { name: 'Cyan Carpet', tags: ['base'] }, { name: 'Gray Carpet', tags: ['base'] },
-    { name: 'Green Carpet', tags: ['base'] }, { name: 'Light Blue Carpet', tags: ['base'] }, { name: 'Light Gray Carpet', tags: ['base'] },
-    { name: 'Lime Carpet', tags: ['base'] }, { name: 'Magenta Carpet', tags: ['base'] }, { name: 'Orange Carpet', tags: ['base'] },
-    { name: 'Pink Carpet', tags: ['base'] }, { name: 'Purple Carpet', tags: ['base'] }, { name: 'Red Carpet', tags: ['base'] },
-    { name: 'White Carpet', tags: ['base'] }, { name: 'Yellow Carpet', tags: ['base'] },
-    { name: 'Decorated Pot', tags: ['base'] }, { name: 'Flower Pot', tags: ['base'] }, { name: 'Banner', tags: ['base'] },
-    { name: 'Black Banner', tags: ['base'] }, { name: 'Blue Banner', tags: ['base'] }, { name: 'Brown Banner', tags: ['base'] },
-    { name: 'Cyan Banner', tags: ['base'] }, { name: 'Gray Banner', tags: ['base'] }, { name: 'Green Banner', tags: ['base'] },
-    { name: 'Light Blue Banner', tags: ['base'] }, { name: 'Light Gray Banner', tags: ['base'] }, { name: 'Lime Banner', tags: ['base'] },
-    { name: 'Magenta Banner', tags: ['base'] }, { name: 'Orange Banner', tags: ['base'] }, { name: 'Pink Banner', tags: ['base'] },
-    { name: 'Purple Banner', tags: ['base'] }, { name: 'Red Banner', tags: ['base'] }, { name: 'White Banner', tags: ['base'] },
-    { name: 'Yellow Banner', tags: ['base'] }, { name: 'Black Wall Banner', tags: ['base'] }, { name: 'Blue Wall Banner', tags: ['base'] },
-    { name: 'Brown Wall Banner', tags: ['base'] }, { name: 'Cyan Wall Banner', tags: ['base'] }, { name: 'Gray Wall Banner', tags: ['base'] },
-    { name: 'Green Wall Banner', tags: ['base'] }, { name: 'Light Blue Wall Banner', tags: ['base'] }, { name: 'Light Gray Wall Banner', tags: ['base'] },
-    { name: 'Lime Wall Banner', tags: ['base'] }, { name: 'Magenta Wall Banner', tags: ['base'] }, { name: 'Orange Wall Banner', tags: ['base'] },
-    { name: 'Pink Wall Banner', tags: ['base'] }, { name: 'Purple Wall Banner', tags: ['base'] }, { name: 'Red Wall Banner', tags: ['base'] },
-    { name: 'White Wall Banner', tags: ['base'] }, { name: 'Yellow Wall Banner', tags: ['base'] },
-    { name: 'Candle', tags: ['base'] }, { name: 'Black Candle', tags: ['base'] }, { name: 'Blue Candle', tags: ['base'] },
-    { name: 'Brown Candle', tags: ['base'] }, { name: 'Cyan Candle', tags: ['base'] }, { name: 'Gray Candle', tags: ['base'] },
-    { name: 'Green Candle', tags: ['base'] }, { name: 'Light Blue Candle', tags: ['base'] }, { name: 'Light Gray Candle', tags: ['base'] },
-    { name: 'Lime Candle', tags: ['base'] }, { name: 'Magenta Candle', tags: ['base'] }, { name: 'Orange Candle', tags: ['base'] },
-    { name: 'Pink Candle', tags: ['base'] }, { name: 'Purple Candle', tags: ['base'] }, { name: 'Red Candle', tags: ['base'] },
-    { name: 'White Candle', tags: ['base'] }, { name: 'Yellow Candle', tags: ['base'] },
-    { name: 'Cake with Candle', tags: ['base'] }, { name: 'Cake with Black Candle', tags: ['base'] },
-    { name: 'Cake with Blue Candle', tags: ['base'] }, { name: 'Cake with Brown Candle', tags: ['base'] },
-    { name: 'Cake with Cyan Candle', tags: ['base'] }, { name: 'Cake with Gray Candle', tags: ['base'] },
-    { name: 'Cake with Green Candle', tags: ['base'] }, { name: 'Cake with Light Blue Candle', tags: ['base'] },
-    { name: 'Cake with Light Gray Candle', tags: ['base'] }, { name: 'Cake with Lime Candle', tags: ['base'] },
-    { name: 'Cake with Magenta Candle', tags: ['base'] }, { name: 'Cake with Orange Candle', tags: ['base'] },
-    { name: 'Cake with Pink Candle', tags: ['base'] }, { name: 'Cake with Purple Candle', tags: ['base'] },
-    { name: 'Cake with Red Candle', tags: ['base'] }, { name: 'Cake with White Candle', tags: ['base'] },
-    { name: 'Cake with Yellow Candle', tags: ['base'] },
-    { name: 'Bed', tags: ['base'] }, { name: 'Black Bed', tags: ['base'] }, { name: 'Blue Bed', tags: ['base'] },
-    { name: 'Brown Bed', tags: ['base'] }, { name: 'Cyan Bed', tags: ['base'] }, { name: 'Gray Bed', tags: ['base'] },
-    { name: 'Green Bed', tags: ['base'] }, { name: 'Light Blue Bed', tags: ['base'] }, { name: 'Light Gray Bed', tags: ['base'] },
-    { name: 'Lime Bed', tags: ['base'] }, { name: 'Magenta Bed', tags: ['base'] }, { name: 'Orange Bed', tags: ['base'] },
-    { name: 'Pink Bed', tags: ['base'] }, { name: 'Purple Bed', tags: ['base'] }, { name: 'Red Bed', tags: ['base'] },
-    { name: 'White Bed', tags: ['base'] }, { name: 'Yellow Bed', tags: ['base'] },
-    { name: 'Shulker Box', tags: ['base'] }, { name: 'Black Shulker Box', tags: ['base'] }, { name: 'Blue Shulker Box', tags: ['base'] },
-    { name: 'Brown Shulker Box', tags: ['base'] }, { name: 'Cyan Shulker Box', tags: ['base'] }, { name: 'Gray Shulker Box', tags: ['base'] },
-    { name: 'Green Shulker Box', tags: ['base'] }, { name: 'Light Blue Shulker Box', tags: ['base'] }, { name: 'Light Gray Shulker Box', tags: ['base'] },
-    { name: 'Lime Shulker Box', tags: ['base'] }, { name: 'Magenta Shulker Box', tags: ['base'] }, { name: 'Orange Shulker Box', tags: ['base'] },
-    { name: 'Pink Shulker Box', tags: ['base'] }, { name: 'Purple Shulker Box', tags: ['base'] }, { name: 'Red Shulker Box', tags: ['base'] },
-    { name: 'White Shulker Box', tags: ['base'] }, { name: 'Yellow Shulker Box', tags: ['base'] },
+  "decoracion": [
+    {
+      "name": "Barrel",
+      "tags": []
+    },
+    {
+      "name": "Bedrock",
+      "tags": []
+    },
+    {
+      "name": "Black Banner",
+      "tags": []
+    },
+    {
+      "name": "Black Bed",
+      "tags": []
+    },
+    {
+      "name": "Black Candle",
+      "tags": []
+    },
+    {
+      "name": "Black Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Black Carpet",
+      "tags": []
+    },
+    {
+      "name": "Black Concrete",
+      "tags": []
+    },
+    {
+      "name": "Black Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Black Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Black Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Black Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Black Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Black Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Black Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Black Wool",
+      "tags": []
+    },
+    {
+      "name": "Blue Banner",
+      "tags": []
+    },
+    {
+      "name": "Blue Bed",
+      "tags": []
+    },
+    {
+      "name": "Blue Candle",
+      "tags": []
+    },
+    {
+      "name": "Blue Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Blue Carpet",
+      "tags": []
+    },
+    {
+      "name": "Blue Concrete",
+      "tags": []
+    },
+    {
+      "name": "Blue Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Blue Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Blue Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Blue Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Blue Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Blue Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Blue Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Blue Wool",
+      "tags": []
+    },
+    {
+      "name": "Brown Banner",
+      "tags": []
+    },
+    {
+      "name": "Brown Bed",
+      "tags": []
+    },
+    {
+      "name": "Brown Candle",
+      "tags": []
+    },
+    {
+      "name": "Brown Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Brown Carpet",
+      "tags": []
+    },
+    {
+      "name": "Brown Concrete",
+      "tags": []
+    },
+    {
+      "name": "Brown Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Brown Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Brown Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Brown Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Brown Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Brown Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Brown Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Brown Wool",
+      "tags": []
+    },
+    {
+      "name": "Candle",
+      "tags": []
+    },
+    {
+      "name": "Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Chest",
+      "tags": []
+    },
+    {
+      "name": "Cyan Banner",
+      "tags": []
+    },
+    {
+      "name": "Cyan Bed",
+      "tags": []
+    },
+    {
+      "name": "Cyan Candle",
+      "tags": []
+    },
+    {
+      "name": "Cyan Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Cyan Carpet",
+      "tags": []
+    },
+    {
+      "name": "Cyan Concrete",
+      "tags": []
+    },
+    {
+      "name": "Cyan Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Cyan Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Cyan Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Cyan Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Cyan Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Cyan Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Cyan Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Cyan Wool",
+      "tags": []
+    },
+    {
+      "name": "Decorated Pot",
+      "tags": []
+    },
+    {
+      "name": "Glass",
+      "tags": []
+    },
+    {
+      "name": "Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Gray Banner",
+      "tags": []
+    },
+    {
+      "name": "Gray Bed",
+      "tags": []
+    },
+    {
+      "name": "Gray Candle",
+      "tags": []
+    },
+    {
+      "name": "Gray Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Gray Carpet",
+      "tags": []
+    },
+    {
+      "name": "Gray Concrete",
+      "tags": []
+    },
+    {
+      "name": "Gray Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Gray Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Gray Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Gray Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Gray Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Gray Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Gray Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Gray Wool",
+      "tags": []
+    },
+    {
+      "name": "Green Banner",
+      "tags": []
+    },
+    {
+      "name": "Green Bed",
+      "tags": []
+    },
+    {
+      "name": "Green Candle",
+      "tags": []
+    },
+    {
+      "name": "Green Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Green Carpet",
+      "tags": []
+    },
+    {
+      "name": "Green Concrete",
+      "tags": []
+    },
+    {
+      "name": "Green Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Green Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Green Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Green Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Green Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Green Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Green Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Green Wool",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Bed",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Candle",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Carpet",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Concrete",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Wool",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Bed",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Candle",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Carpet",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Concrete",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Wool",
+      "tags": []
+    },
+    {
+      "name": "Lime Banner",
+      "tags": []
+    },
+    {
+      "name": "Lime Bed",
+      "tags": []
+    },
+    {
+      "name": "Lime Candle",
+      "tags": []
+    },
+    {
+      "name": "Lime Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Lime Carpet",
+      "tags": []
+    },
+    {
+      "name": "Lime Concrete",
+      "tags": []
+    },
+    {
+      "name": "Lime Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Lime Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Lime Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Lime Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Lime Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Lime Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Lime Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Lime Wool",
+      "tags": []
+    },
+    {
+      "name": "Magenta Banner",
+      "tags": []
+    },
+    {
+      "name": "Magenta Bed",
+      "tags": []
+    },
+    {
+      "name": "Magenta Candle",
+      "tags": []
+    },
+    {
+      "name": "Magenta Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Magenta Carpet",
+      "tags": []
+    },
+    {
+      "name": "Magenta Concrete",
+      "tags": []
+    },
+    {
+      "name": "Magenta Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Magenta Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Magenta Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Magenta Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Magenta Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Magenta Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Magenta Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Magenta Wool",
+      "tags": []
+    },
+    {
+      "name": "Moss Carpet",
+      "tags": []
+    },
+    {
+      "name": "Orange Banner",
+      "tags": []
+    },
+    {
+      "name": "Orange Bed",
+      "tags": []
+    },
+    {
+      "name": "Orange Candle",
+      "tags": []
+    },
+    {
+      "name": "Orange Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Orange Carpet",
+      "tags": []
+    },
+    {
+      "name": "Orange Concrete",
+      "tags": []
+    },
+    {
+      "name": "Orange Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Orange Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Orange Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Orange Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Orange Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Orange Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Orange Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Orange Wool",
+      "tags": []
+    },
+    {
+      "name": "Pale Moss Carpet",
+      "tags": []
+    },
+    {
+      "name": "Pink Banner",
+      "tags": []
+    },
+    {
+      "name": "Pink Bed",
+      "tags": []
+    },
+    {
+      "name": "Pink Candle",
+      "tags": []
+    },
+    {
+      "name": "Pink Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Pink Carpet",
+      "tags": []
+    },
+    {
+      "name": "Pink Concrete",
+      "tags": []
+    },
+    {
+      "name": "Pink Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Pink Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Pink Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Pink Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Pink Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Pink Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Pink Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Pink Wool",
+      "tags": []
+    },
+    {
+      "name": "Potatoes",
+      "tags": []
+    },
+    {
+      "name": "Potted Azure Bluet",
+      "tags": []
+    },
+    {
+      "name": "Potted Blue Orchid",
+      "tags": []
+    },
+    {
+      "name": "Potted Cactus",
+      "tags": []
+    },
+    {
+      "name": "Potted Closed Eyeblossom",
+      "tags": []
+    },
+    {
+      "name": "Potted Dandelion",
+      "tags": []
+    },
+    {
+      "name": "Potted Golden Dandelion",
+      "tags": []
+    },
+    {
+      "name": "Potted Open Eyeblossom",
+      "tags": []
+    },
+    {
+      "name": "Potted Oxeye Daisy",
+      "tags": []
+    },
+    {
+      "name": "Potted Poppy",
+      "tags": []
+    },
+    {
+      "name": "Potted Wither Rose",
+      "tags": []
+    },
+    {
+      "name": "Purple Banner",
+      "tags": []
+    },
+    {
+      "name": "Purple Bed",
+      "tags": []
+    },
+    {
+      "name": "Purple Candle",
+      "tags": []
+    },
+    {
+      "name": "Purple Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Purple Carpet",
+      "tags": []
+    },
+    {
+      "name": "Purple Concrete",
+      "tags": []
+    },
+    {
+      "name": "Purple Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Purple Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Purple Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Purple Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Purple Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Purple Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Purple Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Purple Wool",
+      "tags": []
+    },
+    {
+      "name": "Red Banner",
+      "tags": []
+    },
+    {
+      "name": "Red Bed",
+      "tags": []
+    },
+    {
+      "name": "Red Candle",
+      "tags": []
+    },
+    {
+      "name": "Red Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Red Carpet",
+      "tags": []
+    },
+    {
+      "name": "Red Concrete",
+      "tags": []
+    },
+    {
+      "name": "Red Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Red Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Red Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Red Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Red Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Red Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Red Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Red Wool",
+      "tags": []
+    },
+    {
+      "name": "Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Tinted Glass",
+      "tags": []
+    },
+    {
+      "name": "Trapped Chest",
+      "tags": []
+    },
+    {
+      "name": "White Banner",
+      "tags": []
+    },
+    {
+      "name": "White Bed",
+      "tags": []
+    },
+    {
+      "name": "White Candle",
+      "tags": []
+    },
+    {
+      "name": "White Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "White Carpet",
+      "tags": []
+    },
+    {
+      "name": "White Concrete",
+      "tags": []
+    },
+    {
+      "name": "White Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "White Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "White Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "White Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "White Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "White Terracotta",
+      "tags": []
+    },
+    {
+      "name": "White Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "White Wool",
+      "tags": []
+    },
+    {
+      "name": "Yellow Banner",
+      "tags": []
+    },
+    {
+      "name": "Yellow Bed",
+      "tags": []
+    },
+    {
+      "name": "Yellow Candle",
+      "tags": []
+    },
+    {
+      "name": "Yellow Candle Cake",
+      "tags": []
+    },
+    {
+      "name": "Yellow Carpet",
+      "tags": []
+    },
+    {
+      "name": "Yellow Concrete",
+      "tags": []
+    },
+    {
+      "name": "Yellow Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Yellow Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Yellow Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Yellow Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Yellow Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Yellow Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Yellow Wall Banner",
+      "tags": []
+    },
+    {
+      "name": "Yellow Wool",
+      "tags": []
+    }
   ],
-  redstone: [
-    { name: 'Redstone Dust', tags: ['base'] }, { name: 'Repeater', tags: ['base'] }, { name: 'Comparator', tags: ['base'] },
-    { name: 'Observer', tags: ['base'] }, { name: 'Piston', tags: ['base'] }, { name: 'Sticky Piston', tags: ['base'] },
-    { name: 'Piston Head', tags: ['base'] }, { name: 'Moving Piston', tags: ['base'] },
-    { name: 'Dispenser', tags: ['base'] }, { name: 'Dropper', tags: ['base'] }, { name: 'Hopper', tags: ['base'] },
-    { name: 'Activator Rail', tags: ['base'] }, { name: 'Detector Rail', tags: ['base'] }, { name: 'Powered Rail', tags: ['base'] },
-    { name: 'Rail', tags: ['base'] }, { name: 'Lever', tags: ['base'] }, { name: 'Redstone Torch', tags: ['base'] },
-    { name: 'Redstone Wall Torch', tags: ['base'] }, { name: 'Button', tags: ['base'] },
-    { name: 'Stone Button', tags: ['base'] }, { name: 'Oak Button', tags: ['base'] }, { name: 'Spruce Button', tags: ['base'] },
-    { name: 'Birch Button', tags: ['base'] }, { name: 'Jungle Button', tags: ['base'] }, { name: 'Acacia Button', tags: ['base'] },
-    { name: 'Dark Oak Button', tags: ['base'] }, { name: 'Mangrove Button', tags: ['base'] }, { name: 'Cherry Button', tags: ['base'] },
-    { name: 'Bamboo Button', tags: ['base'] }, { name: 'Crimson Button', tags: ['nether','base'] }, { name: 'Warped Button', tags: ['nether','base'] },
-    { name: 'Pressure Plate', tags: ['base'] }, { name: 'Stone Pressure Plate', tags: ['base'] }, { name: 'Oak Pressure Plate', tags: ['base'] },
-    { name: 'Spruce Pressure Plate', tags: ['base'] }, { name: 'Birch Pressure Plate', tags: ['base'] },
-    { name: 'Jungle Pressure Plate', tags: ['base'] }, { name: 'Acacia Pressure Plate', tags: ['base'] },
-    { name: 'Dark Oak Pressure Plate', tags: ['base'] }, { name: 'Mangrove Pressure Plate', tags: ['base'] },
-    { name: 'Cherry Pressure Plate', tags: ['base'] }, { name: 'Bamboo Pressure Plate', tags: ['base'] },
-    { name: 'Crimson Pressure Plate', tags: ['nether','base'] }, { name: 'Warped Pressure Plate', tags: ['nether','base'] },
-    { name: 'Weighted Pressure Plate', tags: ['base'] }, { name: 'Heavy Weighted Pressure Plate', tags: ['base'] },
-    { name: 'Light Weighted Pressure Plate', tags: ['base'] }, { name: 'Daylight Detector', tags: ['base'] },
-    { name: 'Target', tags: ['base'] }, { name: 'Calibrated Sculk Sensor', tags: ['base'] },
-    { name: 'Sculk Sensor', tags: ['base'] }, { name: 'Sculk Shrieker', tags: ['base'] }, { name: 'Sculk', tags: ['base'] },
-    { name: 'Sculk Vein', tags: ['base'] }, { name: 'Sculk Catalyst', tags: ['base'] }, { name: 'Creaking Heart', tags: ['base'] },
-    { name: 'Command Block', tags: ['special','base'] }, { name: 'Chain Command Block', tags: ['special','base'] },
-    { name: 'Repeating Command Block', tags: ['special','base'] }, { name: 'Jigsaw', tags: ['special','base'] },
-    { name: 'Crafter', tags: ['base'] }, { name: 'Lightning Rod', tags: ['base'] }, { name: 'Copper Lightning Rod', tags: ['base'] },
-    { name: 'Exposed Copper Lightning Rod', tags: ['base'] }, { name: 'Weathered Copper Lightning Rod', tags: ['base'] },
-    { name: 'Oxidized Copper Lightning Rod', tags: ['base'] },
+  "redstone": [
+    {
+      "name": "Acacia Button",
+      "tags": []
+    },
+    {
+      "name": "Acacia Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Activator Rail",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Button",
+      "tags": []
+    },
+    {
+      "name": "Bamboo Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Birch Button",
+      "tags": []
+    },
+    {
+      "name": "Birch Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Calibrated Sculk Sensor",
+      "tags": []
+    },
+    {
+      "name": "Cherry Button",
+      "tags": []
+    },
+    {
+      "name": "Cherry Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Comparator",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Button",
+      "tags": []
+    },
+    {
+      "name": "Dark Oak Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Daylight Detector",
+      "tags": []
+    },
+    {
+      "name": "Deepslate Redstone Ore",
+      "tags": []
+    },
+    {
+      "name": "Detector Rail",
+      "tags": []
+    },
+    {
+      "name": "Dispenser",
+      "tags": []
+    },
+    {
+      "name": "Dropper",
+      "tags": []
+    },
+    {
+      "name": "Heavy Weighted Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Hopper",
+      "tags": []
+    },
+    {
+      "name": "Jungle Button",
+      "tags": []
+    },
+    {
+      "name": "Jungle Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Lever",
+      "tags": []
+    },
+    {
+      "name": "Light Weighted Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Button",
+      "tags": []
+    },
+    {
+      "name": "Mangrove Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Moving Piston",
+      "tags": []
+    },
+    {
+      "name": "Oak Button",
+      "tags": []
+    },
+    {
+      "name": "Oak Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Observer",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Button",
+      "tags": []
+    },
+    {
+      "name": "Pale Oak Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Piston",
+      "tags": []
+    },
+    {
+      "name": "Piston Head",
+      "tags": []
+    },
+    {
+      "name": "Powered Rail",
+      "tags": []
+    },
+    {
+      "name": "Rail",
+      "tags": []
+    },
+    {
+      "name": "Redstone Block",
+      "tags": []
+    },
+    {
+      "name": "Redstone Lamp",
+      "tags": []
+    },
+    {
+      "name": "Redstone Ore",
+      "tags": []
+    },
+    {
+      "name": "Redstone Torch",
+      "tags": []
+    },
+    {
+      "name": "Redstone Wall Torch",
+      "tags": []
+    },
+    {
+      "name": "Redstone Wire",
+      "tags": []
+    },
+    {
+      "name": "Repeater",
+      "tags": []
+    },
+    {
+      "name": "Sculk",
+      "tags": []
+    },
+    {
+      "name": "Sculk Catalyst",
+      "tags": []
+    },
+    {
+      "name": "Sculk Sensor",
+      "tags": []
+    },
+    {
+      "name": "Sculk Shrieker",
+      "tags": []
+    },
+    {
+      "name": "Sculk Vein",
+      "tags": []
+    },
+    {
+      "name": "Spruce Button",
+      "tags": []
+    },
+    {
+      "name": "Spruce Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Sticky Piston",
+      "tags": []
+    },
+    {
+      "name": "Stone Button",
+      "tags": []
+    },
+    {
+      "name": "Stone Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Target",
+      "tags": []
+    },
+    {
+      "name": "Tripwire",
+      "tags": []
+    },
+    {
+      "name": "Tripwire Hook",
+      "tags": []
+    }
   ],
-  nether: [
-    { name: 'Netherrack', tags: ['nether','base'] }, { name: 'Magma Block', tags: ['nether','base'] },
-    { name: 'Glowstone', tags: ['nether','base'] }, { name: 'Nether Gold Ore', tags: ['nether','base'] },
-    { name: 'Nether Quartz Ore', tags: ['nether','base'] }, { name: 'Soul Sand', tags: ['nether','base'] },
-    { name: 'Soul Soil', tags: ['nether','base'] }, { name: 'Basalt', tags: ['nether','base'] },
-    { name: 'Polished Basalt', tags: ['nether','base'] }, { name: 'Smooth Basalt', tags: ['nether','base'] },
-    { name: 'Basalt Slab', tags: ['nether','base'] }, { name: 'Basalt Stairs', tags: ['nether','base'] }, { name: 'Basalt Wall', tags: ['nether','base'] },
-    { name: 'Blackstone', tags: ['nether','base'] }, { name: 'Polished Blackstone', tags: ['nether','base'] },
-    { name: 'Polished Blackstone Bricks', tags: ['nether','base'] }, { name: 'Cracked Polished Blackstone Bricks', tags: ['nether','base'] },
-    { name: 'Blackstone Slab', tags: ['nether','base'] }, { name: 'Blackstone Stairs', tags: ['nether','base'] }, { name: 'Blackstone Wall', tags: ['nether','base'] },
-    { name: 'Gilded Blackstone', tags: ['nether','base'] }, { name: 'Nether Bricks', tags: ['nether','base'] },
-    { name: 'Red Nether Bricks', tags: ['nether','base'] }, { name: 'Cracked Nether Bricks', tags: ['nether','base'] },
-    { name: 'Chiseled Nether Bricks', tags: ['nether','base'] }, { name: 'Nether Brick Slab', tags: ['nether','base'] },
-    { name: 'Nether Brick Stairs', tags: ['nether','base'] }, { name: 'Nether Brick Wall', tags: ['nether','base'] },
-    { name: 'Crimson Nylium', tags: ['nether','base'] }, { name: 'Warped Nylium', tags: ['nether','base'] },
-    { name: 'Crimson Stem', tags: ['nether','base'] }, { name: 'Stripped Crimson Stem', tags: ['nether','base'] },
-    { name: 'Warped Stem', tags: ['nether','base'] }, { name: 'Stripped Warped Stem', tags: ['nether','base'] },
-    { name: 'Crimson Hyphae', tags: ['nether','base'] }, { name: 'Warped Hyphae', tags: ['nether','base'] },
-    { name: 'Crimson Planks', tags: ['nether','base'] }, { name: 'Crimson Slab', tags: ['nether','base'] },
-    { name: 'Crimson Stairs', tags: ['nether','base'] }, { name: 'Crimson Wall', tags: ['nether','base'] },
-    { name: 'Crimson Fence', tags: ['nether','base'] }, { name: 'Crimson Fence Gate', tags: ['nether','base'] },
-    { name: 'Crimson Door', tags: ['nether','base'] }, { name: 'Crimson Trapdoor', tags: ['nether','base'] },
-    { name: 'Warped Planks', tags: ['nether','base'] }, { name: 'Warped Slab', tags: ['nether','base'] },
-    { name: 'Warped Stairs', tags: ['nether','base'] }, { name: 'Warped Wall', tags: ['nether','base'] },
-    { name: 'Warped Fence', tags: ['nether','base'] }, { name: 'Warped Fence Gate', tags: ['nether','base'] },
-    { name: 'Warped Door', tags: ['nether','base'] }, { name: 'Warped Trapdoor', tags: ['nether','base'] },
-    { name: 'Crimson Roots', tags: ['nether','base'] }, { name: 'Warped Roots', tags: ['nether','base'] },
-    { name: 'Crimson Fungus', tags: ['nether','base'] }, { name: 'Warped Fungus', tags: ['nether','base'] },
-    { name: 'Crimson Pressure Plate', tags: ['nether','base'] }, { name: 'Crimson Button', tags: ['nether','base'] },
-    { name: 'Warped Pressure Plate', tags: ['nether','base'] }, { name: 'Warped Button', tags: ['nether','base'] },
-    { name: 'Crimson Sign', tags: ['nether','base'] }, { name: 'Crimson Hanging Sign', tags: ['nether','base'] },
-    { name: 'Crimson Wall Sign', tags: ['nether','base'] }, { name: 'Crimson Wall Hanging Sign', tags: ['nether','base'] },
-    { name: 'Crimson Shelf', tags: ['nether','base'] }, { name: 'Warped Sign', tags: ['nether','base'] },
-    { name: 'Warped Hanging Sign', tags: ['nether','base'] }, { name: 'Warped Wall Sign', tags: ['nether','base'] },
-    { name: 'Warped Wall Hanging Sign', tags: ['nether','base'] }, { name: 'Warped Shelf', tags: ['nether','base'] },
-    { name: 'Shroomlight', tags: ['nether','base'] }, { name: 'Nether Wart Block', tags: ['nether','base'] },
-    { name: 'Warped Wart Block', tags: ['nether','base'] }, { name: 'Bone Block', tags: ['nether','base'] },
-    { name: 'Crying Obsidian', tags: ['nether','base'] }, { name: 'Soul Sand', tags: ['nether','base'] },
-    { name: 'Soul Soil', tags: ['nether','base'] }, { name: 'Soul Torch', tags: ['nether','base'] },
-    { name: 'Soul Wall Torch', tags: ['nether','base'] },
+  "nether": [
+    {
+      "name": "Basalt",
+      "tags": []
+    },
+    {
+      "name": "Blackstone",
+      "tags": []
+    },
+    {
+      "name": "Blackstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Blackstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Blackstone Wall",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Nether Bricks",
+      "tags": []
+    },
+    {
+      "name": "Chiseled Polished Blackstone",
+      "tags": []
+    },
+    {
+      "name": "Cracked Nether Bricks",
+      "tags": []
+    },
+    {
+      "name": "Cracked Polished Blackstone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Crimson Button",
+      "tags": []
+    },
+    {
+      "name": "Crimson Door",
+      "tags": []
+    },
+    {
+      "name": "Crimson Fence",
+      "tags": []
+    },
+    {
+      "name": "Crimson Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Crimson Fungus",
+      "tags": []
+    },
+    {
+      "name": "Crimson Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Crimson Hyphae",
+      "tags": []
+    },
+    {
+      "name": "Crimson Nylium",
+      "tags": []
+    },
+    {
+      "name": "Crimson Planks",
+      "tags": []
+    },
+    {
+      "name": "Crimson Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Crimson Roots",
+      "tags": []
+    },
+    {
+      "name": "Crimson Shelf",
+      "tags": []
+    },
+    {
+      "name": "Crimson Sign",
+      "tags": []
+    },
+    {
+      "name": "Crimson Slab",
+      "tags": []
+    },
+    {
+      "name": "Crimson Stairs",
+      "tags": []
+    },
+    {
+      "name": "Crimson Stem",
+      "tags": []
+    },
+    {
+      "name": "Crimson Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Crimson Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Crimson Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Dried Ghast",
+      "tags": []
+    },
+    {
+      "name": "Gilded Blackstone",
+      "tags": []
+    },
+    {
+      "name": "Glowstone",
+      "tags": []
+    },
+    {
+      "name": "Magma Block",
+      "tags": []
+    },
+    {
+      "name": "Nether Brick Fence",
+      "tags": []
+    },
+    {
+      "name": "Nether Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Nether Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Nether Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Nether Bricks",
+      "tags": []
+    },
+    {
+      "name": "Nether Gold Ore",
+      "tags": []
+    },
+    {
+      "name": "Nether Portal",
+      "tags": []
+    },
+    {
+      "name": "Nether Quartz Ore",
+      "tags": []
+    },
+    {
+      "name": "Nether Sprouts",
+      "tags": []
+    },
+    {
+      "name": "Nether Wart",
+      "tags": []
+    },
+    {
+      "name": "Nether Wart Block",
+      "tags": []
+    },
+    {
+      "name": "Netherite Block",
+      "tags": []
+    },
+    {
+      "name": "Netherrack",
+      "tags": []
+    },
+    {
+      "name": "Polished Basalt",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Button",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Slab",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Stairs",
+      "tags": []
+    },
+    {
+      "name": "Polished Blackstone Wall",
+      "tags": []
+    },
+    {
+      "name": "Potted Crimson Fungus",
+      "tags": []
+    },
+    {
+      "name": "Potted Crimson Roots",
+      "tags": []
+    },
+    {
+      "name": "Potted Warped Fungus",
+      "tags": []
+    },
+    {
+      "name": "Potted Warped Roots",
+      "tags": []
+    },
+    {
+      "name": "Red Nether Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "Red Nether Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "Red Nether Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "Red Nether Bricks",
+      "tags": []
+    },
+    {
+      "name": "Smooth Basalt",
+      "tags": []
+    },
+    {
+      "name": "Soul Campfire",
+      "tags": []
+    },
+    {
+      "name": "Soul Fire",
+      "tags": []
+    },
+    {
+      "name": "Soul Lantern",
+      "tags": []
+    },
+    {
+      "name": "Soul Sand",
+      "tags": []
+    },
+    {
+      "name": "Soul Soil",
+      "tags": []
+    },
+    {
+      "name": "Soul Torch",
+      "tags": []
+    },
+    {
+      "name": "Soul Wall Torch",
+      "tags": []
+    },
+    {
+      "name": "Stripped Crimson Hyphae",
+      "tags": []
+    },
+    {
+      "name": "Stripped Crimson Stem",
+      "tags": []
+    },
+    {
+      "name": "Stripped Warped Hyphae",
+      "tags": []
+    },
+    {
+      "name": "Stripped Warped Stem",
+      "tags": []
+    },
+    {
+      "name": "Warped Button",
+      "tags": []
+    },
+    {
+      "name": "Warped Door",
+      "tags": []
+    },
+    {
+      "name": "Warped Fence",
+      "tags": []
+    },
+    {
+      "name": "Warped Fence Gate",
+      "tags": []
+    },
+    {
+      "name": "Warped Fungus",
+      "tags": []
+    },
+    {
+      "name": "Warped Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Warped Hyphae",
+      "tags": []
+    },
+    {
+      "name": "Warped Nylium",
+      "tags": []
+    },
+    {
+      "name": "Warped Planks",
+      "tags": []
+    },
+    {
+      "name": "Warped Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Warped Roots",
+      "tags": []
+    },
+    {
+      "name": "Warped Shelf",
+      "tags": []
+    },
+    {
+      "name": "Warped Sign",
+      "tags": []
+    },
+    {
+      "name": "Warped Slab",
+      "tags": []
+    },
+    {
+      "name": "Warped Stairs",
+      "tags": []
+    },
+    {
+      "name": "Warped Stem",
+      "tags": []
+    },
+    {
+      "name": "Warped Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Warped Wall Hanging Sign",
+      "tags": []
+    },
+    {
+      "name": "Warped Wall Sign",
+      "tags": []
+    },
+    {
+      "name": "Warped Wart Block",
+      "tags": []
+    }
   ],
-  end: [
-    { name: 'End Stone', tags: ['end','base'] }, { name: 'End Stone Bricks', tags: ['end','base'] },
-    { name: 'End Stone Brick Slab', tags: ['end','base'] }, { name: 'End Stone Brick Stairs', tags: ['end','base'] },
-    { name: 'End Stone Brick Wall', tags: ['end','base'] },
-    { name: 'End Portal Frame', tags: ['end','special','base'] }, { name: 'End Portal', tags: ['end','special','base'] },
-    { name: 'Dragon Egg', tags: ['end','special','base'] }, { name: 'Dragon Head', tags: ['end','special','base'] },
-    { name: 'Dragon Wall Head', tags: ['end','special','base'] }, { name: 'End Rod', tags: ['end','base'] },
-    { name: 'Purpur Block', tags: ['end','base'] }, { name: 'Purpur Pillar', tags: ['end','base'] },
-    { name: 'Purpur Slab', tags: ['end','base'] }, { name: 'Purpur Stairs', tags: ['end','base'] },
-    { name: 'Chorus Plant', tags: ['end','base'] }, { name: 'Chorus Flower', tags: ['end','base'] },
-    { name: 'Ender Chest', tags: ['end','special','base'] },
+  "end": [
+    {
+      "name": "Chorus Flower",
+      "tags": []
+    },
+    {
+      "name": "Chorus Plant",
+      "tags": []
+    },
+    {
+      "name": "Dragon Egg",
+      "tags": []
+    },
+    {
+      "name": "Dragon Head",
+      "tags": []
+    },
+    {
+      "name": "Dragon Wall Head",
+      "tags": []
+    },
+    {
+      "name": "End Gateway",
+      "tags": []
+    },
+    {
+      "name": "End Portal",
+      "tags": []
+    },
+    {
+      "name": "End Portal Frame",
+      "tags": []
+    },
+    {
+      "name": "End Rod",
+      "tags": []
+    },
+    {
+      "name": "End Stone",
+      "tags": []
+    },
+    {
+      "name": "End Stone Brick Slab",
+      "tags": []
+    },
+    {
+      "name": "End Stone Brick Stairs",
+      "tags": []
+    },
+    {
+      "name": "End Stone Brick Wall",
+      "tags": []
+    },
+    {
+      "name": "End Stone Bricks",
+      "tags": []
+    },
+    {
+      "name": "Ender Chest",
+      "tags": []
+    },
+    {
+      "name": "Purpur Block",
+      "tags": []
+    },
+    {
+      "name": "Purpur Pillar",
+      "tags": []
+    },
+    {
+      "name": "Purpur Slab",
+      "tags": []
+    },
+    {
+      "name": "Purpur Stairs",
+      "tags": []
+    }
   ],
-  especiales: [
-    { name: 'Bedrock', tags: ['special','base'] }, { name: 'Barrier', tags: ['special','base'] },
-    { name: 'Structure Block', tags: ['special','base'] }, { name: 'Jigsaw', tags: ['special','base'] },
-    { name: 'Light', tags: ['special','base'] }, { name: 'Spawner', tags: ['special','base'] },
-    { name: 'Beacon', tags: ['special','base'] }, { name: 'Conduit', tags: ['special','base'] },
-    { name: 'Heavy Core', tags: ['special','base'] }, { name: 'Trial Spawner', tags: ['special','base'] },
-    { name: 'Vault', tags: ['special','base'] }, { name: 'Mob Spawner', tags: ['special','base'] },
-    { name: 'End Portal Frame', tags: ['end','special','base'] },
-  ],
-  variantes: [
-    { name: 'Polished Andesite Slab', tags: ['base'] }, { name: 'Polished Andesite Stairs', tags: ['base'] },
-    { name: 'Polished Basalt Slab', tags: ['nether','base'] }, { name: 'Polished Basalt Stairs', tags: ['nether','base'] },
-    { name: 'Polished Blackstone Slab', tags: ['nether','base'] }, { name: 'Polished Blackstone Stairs', tags: ['nether','base'] },
-    { name: 'Polished Deepslate Slab', tags: ['base'] }, { name: 'Polished Deepslate Stairs', tags: ['base'] },
-    { name: 'Polished Diorite Slab', tags: ['base'] }, { name: 'Polished Diorite Stairs', tags: ['base'] },
-    { name: 'Polished Granite Slab', tags: ['base'] }, { name: 'Polished Granite Stairs', tags: ['base'] },
-    { name: 'Polished Tuff Slab', tags: ['base'] }, { name: 'Polished Tuff Stairs', tags: ['base'] },
-    { name: 'Cut Copper Slab', tags: ['base'] }, { name: 'Cut Copper Stairs', tags: ['base'] },
-    { name: 'Exposed Copper Slab', tags: ['base'] }, { name: 'Exposed Copper Stairs', tags: ['base'] },
-    { name: 'Weathered Copper Slab', tags: ['base'] }, { name: 'Weathered Copper Stairs', tags: ['base'] },
-    { name: 'Oxidized Copper Slab', tags: ['base'] }, { name: 'Oxidized Copper Stairs', tags: ['base'] },
-    { name: 'Copper Block Slab', tags: ['base'] }, { name: 'Copper Block Stairs', tags: ['base'] },
-    { name: 'Copper Ore Deepslate Variant', tags: ['base'] }, { name: 'Copper Ingot Block', tags: ['base'] },
-    { name: 'Raw Copper Block', tags: ['base'] }, { name: 'Copper Grate Slab', tags: ['base'] },
-    { name: 'Copper Grate Stairs', tags: ['base'] },
-    { name: 'Stone Double Slab', tags: ['base'] }, { name: 'Cobblestone Double Slab', tags: ['base'] },
-    { name: 'Sandstone Double Slab', tags: ['base'] }, { name: 'Red Sandstone Double Slab', tags: ['base'] },
-    { name: 'Quartz Double Slab', tags: ['base'] }, { name: 'Brick Double Slab', tags: ['base'] },
-    { name: 'Nether Brick Double Slab', tags: ['nether','base'] }, { name: 'Blackstone Double Slab', tags: ['nether','base'] },
-    { name: 'Basalt Double Slab', tags: ['nether','base'] }, { name: 'Deepslate Double Slab', tags: ['base'] },
-    { name: 'Tuff Double Slab', tags: ['base'] }, { name: 'Granite Double Slab', tags: ['base'] },
-    { name: 'Diorite Double Slab', tags: ['base'] }, { name: 'Andesite Double Slab', tags: ['base'] },
-    { name: 'Polished Granite Double Slab', tags: ['base'] }, { name: 'Polished Diorite Double Slab', tags: ['base'] },
-    { name: 'Polished Andesite Double Slab', tags: ['base'] }, { name: 'Smooth Stone Double Slab', tags: ['base'] },
-    { name: 'End Stone Double Slab', tags: ['end','base'] }, { name: 'Purpur Double Slab', tags: ['end','base'] },
-    { name: 'Oak Double Slab', tags: ['base'] }, { name: 'Spruce Double Slab', tags: ['base'] },
-    { name: 'Birch Double Slab', tags: ['base'] }, { name: 'Jungle Double Slab', tags: ['base'] },
-    { name: 'Acacia Double Slab', tags: ['base'] }, { name: 'Dark Oak Double Slab', tags: ['base'] },
-    { name: 'Mangrove Double Slab', tags: ['base'] }, { name: 'Cherry Double Slab', tags: ['base'] },
-    { name: 'Bamboo Double Slab', tags: ['base'] }, { name: 'Crimson Double Slab', tags: ['nether','base'] },
-    { name: 'Warped Double Slab', tags: ['nether','base'] },
-    { name: 'Copper Double Slab', tags: ['base'] }, { name: 'Copper Cut Double Slab', tags: ['base'] },
-    { name: 'Copper Exposed Double Slab', tags: ['base'] }, { name: 'Copper Weathered Double Slab', tags: ['base'] },
-    { name: 'Copper Oxidized Double Slab', tags: ['base'] },
-    { name: 'Stone Stairs Inner Left', tags: ['base'] }, { name: 'Stone Stairs Inner Right', tags: ['base'] },
-    { name: 'Stone Stairs Outer Left', tags: ['base'] }, { name: 'Stone Stairs Outer Right', tags: ['base'] },
-    { name: 'Cobblestone Stairs Inner Left', tags: ['base'] }, { name: 'Cobblestone Stairs Inner Right', tags: ['base'] },
-    { name: 'Brick Stairs Inner Left', tags: ['base'] }, { name: 'Brick Stairs Inner Right', tags: ['base'] },
-    { name: 'Sandstone Stairs Inner Left', tags: ['base'] }, { name: 'Sandstone Stairs Inner Right', tags: ['base'] },
-    { name: 'Red Sandstone Stairs Inner Left', tags: ['base'] }, { name: 'Red Sandstone Stairs Inner Right', tags: ['base'] },
-    { name: 'Nether Brick Stairs Inner Left', tags: ['nether','base'] }, { name: 'Nether Brick Stairs Inner Right', tags: ['nether','base'] },
-    { name: 'Blackstone Stairs Inner Left', tags: ['nether','base'] }, { name: 'Blackstone Stairs Inner Right', tags: ['nether','base'] },
-    { name: 'Basalt Stairs Inner Left', tags: ['nether','base'] }, { name: 'Basalt Stairs Inner Right', tags: ['nether','base'] },
-    { name: 'Quartz Stairs Inner Left', tags: ['base'] }, { name: 'Quartz Stairs Inner Right', tags: ['base'] },
-    { name: 'End Stone Stairs Inner Left', tags: ['end','base'] }, { name: 'End Stone Stairs Inner Right', tags: ['end','base'] },
-    { name: 'Deepslate Stairs Inner Left', tags: ['base'] }, { name: 'Deepslate Stairs Inner Right', tags: ['base'] },
-    { name: 'Oak Stairs Inner Left', tags: ['base'] }, { name: 'Oak Stairs Inner Right', tags: ['base'] },
-    { name: 'Spruce Stairs Inner Left', tags: ['base'] }, { name: 'Spruce Stairs Inner Right', tags: ['base'] },
-    { name: 'Birch Stairs Inner Left', tags: ['base'] }, { name: 'Birch Stairs Inner Right', tags: ['base'] },
-    { name: 'Jungle Stairs Inner Left', tags: ['base'] }, { name: 'Jungle Stairs Inner Right', tags: ['base'] },
-    { name: 'Acacia Stairs Inner Left', tags: ['base'] }, { name: 'Acacia Stairs Inner Right', tags: ['base'] },
-    { name: 'Dark Oak Stairs Inner Left', tags: ['base'] }, { name: 'Dark Oak Stairs Inner Right', tags: ['base'] },
-    { name: 'Mangrove Stairs Inner Left', tags: ['base'] }, { name: 'Mangrove Stairs Inner Right', tags: ['base'] },
-    { name: 'Cherry Stairs Inner Left', tags: ['base'] }, { name: 'Cherry Stairs Inner Right', tags: ['base'] },
-    { name: 'Bamboo Stairs Inner Left', tags: ['base'] }, { name: 'Bamboo Stairs Inner Right', tags: ['base'] },
-    { name: 'Crimson Stairs Inner Left', tags: ['nether','base'] }, { name: 'Crimson Stairs Inner Right', tags: ['nether','base'] },
-    { name: 'Warped Stairs Inner Left', tags: ['nether','base'] }, { name: 'Warped Stairs Inner Right', tags: ['nether','base'] },
-    { name: 'Copper Stairs Inner Left', tags: ['base'] }, { name: 'Copper Stairs Inner Right', tags: ['base'] },
-    { name: 'Copper Cut Stairs Inner Left', tags: ['base'] }, { name: 'Copper Cut Stairs Inner Right', tags: ['base'] },
-    { name: 'Copper Exposed Stairs Inner Left', tags: ['base'] }, { name: 'Copper Exposed Stairs Inner Right', tags: ['base'] },
-    { name: 'Copper Weathered Stairs Inner Left', tags: ['base'] }, { name: 'Copper Weathered Stairs Inner Right', tags: ['base'] },
-    { name: 'Copper Oxidized Stairs Inner Left', tags: ['base'] }, { name: 'Copper Oxidized Stairs Inner Right', tags: ['base'] },
-    { name: 'Tuff Stairs Inner Left', tags: ['base'] }, { name: 'Tuff Stairs Inner Right', tags: ['base'] },
-    { name: 'Granite Stairs Inner Left', tags: ['base'] }, { name: 'Granite Stairs Inner Right', tags: ['base'] },
-    { name: 'Diorite Stairs Inner Left', tags: ['base'] }, { name: 'Diorite Stairs Inner Right', tags: ['base'] },
-    { name: 'Andesite Stairs Inner Left', tags: ['base'] }, { name: 'Andesite Stairs Inner Right', tags: ['base'] },
-    { name: 'Stone Wall Corner Left', tags: ['base'] }, { name: 'Stone Wall Corner Right', tags: ['base'] },
-    { name: 'Cobblestone Wall Corner Left', tags: ['base'] }, { name: 'Cobblestone Wall Corner Right', tags: ['base'] },
-    { name: 'Brick Wall Corner Left', tags: ['base'] }, { name: 'Brick Wall Corner Right', tags: ['base'] },
-    { name: 'Sandstone Wall Corner Left', tags: ['base'] }, { name: 'Sandstone Wall Corner Right', tags: ['base'] },
-    { name: 'Red Sandstone Wall Corner Left', tags: ['base'] }, { name: 'Red Sandstone Wall Corner Right', tags: ['base'] },
-    { name: 'Nether Brick Wall Corner Left', tags: ['nether','base'] }, { name: 'Nether Brick Wall Corner Right', tags: ['nether','base'] },
-    { name: 'Blackstone Wall Corner Left', tags: ['nether','base'] }, { name: 'Blackstone Wall Corner Right', tags: ['nether','base'] },
-    { name: 'End Stone Wall Corner Left', tags: ['end','base'] }, { name: 'End Stone Wall Corner Right', tags: ['end','base'] },
-    { name: 'Basalt Wall Corner Left', tags: ['nether','base'] }, { name: 'Basalt Wall Corner Right', tags: ['nether','base'] },
-    { name: 'Quartz Wall Corner Left', tags: ['base'] }, { name: 'Quartz Wall Corner Right', tags: ['base'] },
-    { name: 'Tuff Wall Corner Left', tags: ['base'] }, { name: 'Tuff Wall Corner Right', tags: ['base'] },
-    { name: 'Granite Wall Corner Left', tags: ['base'] }, { name: 'Granite Wall Corner Right', tags: ['base'] },
-    { name: 'Diorite Wall Corner Left', tags: ['base'] }, { name: 'Diorite Wall Corner Right', tags: ['base'] },
-    { name: 'Andesite Wall Corner Left', tags: ['base'] }, { name: 'Andesite Wall Corner Right', tags: ['base'] },
-    { name: 'Stone Wall Post', tags: ['base'] }, { name: 'Cobblestone Wall Post', tags: ['base'] },
-    { name: 'Brick Wall Post', tags: ['base'] }, { name: 'Sandstone Wall Post', tags: ['base'] },
-    { name: 'Red Sandstone Wall Post', tags: ['base'] }, { name: 'Nether Brick Wall Post', tags: ['nether','base'] },
-    { name: 'Blackstone Wall Post', tags: ['nether','base'] }, { name: 'Basalt Wall Post', tags: ['nether','base'] },
-    { name: 'End Stone Wall Post', tags: ['end','base'] }, { name: 'Quartz Wall Post', tags: ['base'] },
-    { name: 'Granite Wall Post', tags: ['base'] }, { name: 'Diorite Wall Post', tags: ['base'] },
-    { name: 'Andesite Wall Post', tags: ['base'] }, { name: 'Tuff Wall Post', tags: ['base'] },
-    { name: 'Copper Slab Weathered Cut', tags: ['base'] }, { name: 'Copper Slab Oxidized Cut', tags: ['base'] },
-    { name: 'Copper Stairs Weathered Cut', tags: ['base'] }, { name: 'Copper Stairs Oxidized Cut', tags: ['base'] },
-    { name: 'Copper Block Slab Weathered', tags: ['base'] }, { name: 'Copper Block Stairs Weathered', tags: ['base'] },
-    { name: 'Copper Block Slab Oxidized', tags: ['base'] }, { name: 'Copper Block Stairs Oxidized', tags: ['base'] },
-    { name: 'Copper Chain Weathered', tags: ['base'] }, { name: 'Copper Chain Oxidized', tags: ['base'] },
-    { name: 'Copper Grate Weathered', tags: ['base'] }, { name: 'Copper Grate Oxidized', tags: ['base'] },
-    { name: 'Copper Lantern Weathered', tags: ['base'] }, { name: 'Copper Lantern Oxidized', tags: ['base'] },
-    { name: 'Copper Torch Weathered', tags: ['base'] }, { name: 'Copper Torch Oxidized', tags: ['base'] },
-    { name: 'Copper Wall Torch Weathered', tags: ['base'] }, { name: 'Copper Wall Torch Oxidized', tags: ['base'] },
-    { name: 'Copper Door Weathered', tags: ['base'] }, { name: 'Copper Door Oxidized', tags: ['base'] },
-    { name: 'Copper Trapdoor Weathered', tags: ['base'] }, { name: 'Copper Trapdoor Oxidized', tags: ['base'] },
-    { name: 'Copper Chest Weathered', tags: ['base'] }, { name: 'Copper Chest Oxidized', tags: ['base'] },
-    { name: 'Copper Golem Statue Weathered', tags: ['base'] }, { name: 'Copper Golem Statue Oxidized', tags: ['base'] },
-    { name: 'Copper Bars Weathered', tags: ['base'] }, { name: 'Copper Bars Oxidized', tags: ['base'] },
-    { name: 'Copper Bulb Weathered', tags: ['base'] }, { name: 'Copper Bulb Oxidized', tags: ['base'] },
-    { name: 'Copper Grate Slab Weathered', tags: ['base'] }, { name: 'Copper Grate Slab Oxidized', tags: ['base'] },
-    { name: 'Copper Grate Stairs Weathered', tags: ['base'] }, { name: 'Copper Grate Stairs Oxidized', tags: ['base'] },
-
-    { name: 'Redstone Wire Cross', tags: ['base'] }, { name: 'Redstone Wire T Shape', tags: ['base'] },
-    { name: 'Redstone Wire Corner', tags: ['base'] }, { name: 'Redstone Wire Dot', tags: ['base'] },
-    { name: 'Repeater Locked', tags: ['base'] }, { name: 'Repeater Unlocked', tags: ['base'] },
-    { name: 'Comparator Subtract Mode', tags: ['base'] }, { name: 'Comparator Compare Mode', tags: ['base'] },
-    { name: 'Observer Facing Up', tags: ['base'] }, { name: 'Observer Facing Down', tags: ['base'] },
-    { name: 'Observer Facing North', tags: ['base'] }, { name: 'Observer Facing South', tags: ['base'] },
-    { name: 'Observer Facing East', tags: ['base'] }, { name: 'Observer Facing West', tags: ['base'] },
-    { name: 'Piston Extended', tags: ['base'] }, { name: 'Piston Retracted', tags: ['base'] },
-    { name: 'Sticky Piston Extended', tags: ['base'] }, { name: 'Sticky Piston Retracted', tags: ['base'] },
- { name: 'Copper Lantern Hanging', tags: ['base'] },
-    { name: 'Copper Torch Hanging', tags: ['base'] }, { name: 'Copper Wall Torch Hanging', tags: ['base'] },
-    { name: 'Extra Variant 1', tags: ['base'] },
-    { name: 'Extra Variant 2', tags: ['base'] },
-    { name: 'Extra Variant 3', tags: ['base'] },
-    { name: 'Extra Variant 4', tags: ['base'] },
-    { name: 'Extra Variant 5', tags: ['base'] },
-    { name: 'Extra Variant 6', tags: ['base'] },
-    { name: 'Extra Variant 7', tags: ['base'] },
-    { name: 'Extra Variant 8', tags: ['base'] },
-    { name: 'Extra Variant 9', tags: ['base'] },
-    { name: 'Extra Variant 10', tags: ['base'] },
-    { name: 'Extra Variant 11', tags: ['base'] },
-    { name: 'Extra Variant 12', tags: ['base'] },
-    { name: 'Extra Variant 13', tags: ['base'] },
-    { name: 'Extra Variant 14', tags: ['base'] },
-    { name: 'Extra Variant 15', tags: ['base'] },
-    { name: 'Extra Variant 16', tags: ['base'] },
-    { name: 'Extra Variant 17', tags: ['base'] },
-    { name: 'Extra Variant 18', tags: ['base'] },
-    { name: 'Extra Variant 19', tags: ['base'] },
-    { name: 'Extra Variant 20', tags: ['base'] },
-    { name: 'Extra Variant 21', tags: ['base'] },
-    { name: 'Extra Variant 22', tags: ['base'] },
-    { name: 'Extra Variant 23', tags: ['base'] },
-    { name: 'Extra Variant 24', tags: ['base'] },
-    { name: 'Extra Variant 25', tags: ['base'] },
-    { name: 'Extra Variant 26', tags: ['base'] },
-    { name: 'Extra Variant 27', tags: ['base'] },
-    { name: 'Extra Variant 28', tags: ['base'] },
-    { name: 'Extra Variant 29', tags: ['base'] },
-    { name: 'Extra Variant 30', tags: ['base'] },
-    { name: 'Extra Variant 31', tags: ['base'] },
-    { name: 'Extra Variant 32', tags: ['base'] },
-    { name: 'Extra Variant 33', tags: ['base'] },
-    { name: 'Extra Variant 34', tags: ['base'] },
-    { name: 'Extra Variant 35', tags: ['base'] },
-    { name: 'Extra Variant 36', tags: ['base'] },
-    { name: 'Extra Variant 37', tags: ['base'] },
-    { name: 'Extra Variant 38', tags: ['base'] },
-    { name: 'Extra Variant 39', tags: ['base'] },
-    { name: 'Extra Variant 40', tags: ['base'] },
-    { name: 'Extra Variant 41', tags: ['base'] },
-    { name: 'Extra Variant 42', tags: ['base'] },
-    { name: 'Extra Variant 43', tags: ['base'] },
-    { name: 'Extra Variant 44', tags: ['base'] },
-    { name: 'Extra Variant 45', tags: ['base'] },
-    { name: 'Extra Variant 46', tags: ['base'] },
-    { name: 'Extra Variant 47', tags: ['base'] },
-    { name: 'Extra Variant 48', tags: ['base'] },
-    { name: 'Extra Variant 49', tags: ['base'] },
-    { name: 'Extra Variant 50', tags: ['base'] },
-    { name: 'Extra Variant 51', tags: ['base'] },
-    { name: 'Extra Variant 52', tags: ['base'] },
-    { name: 'Extra Variant 53', tags: ['base'] },
-    { name: 'Extra Variant 54', tags: ['base'] },
-    { name: 'Extra Variant 55', tags: ['base'] },
-    { name: 'Extra Variant 56', tags: ['base'] },
-    { name: 'Extra Variant 57', tags: ['base'] },
-    { name: 'Extra Variant 58', tags: ['base'] },
-    { name: 'Extra Variant 59', tags: ['base'] },
-    { name: 'Extra Variant 60', tags: ['base'] },
-    { name: 'Extra Variant 61', tags: ['base'] },
-    { name: 'Extra Variant 62', tags: ['base'] },
-    { name: 'Extra Variant 63', tags: ['base'] },
-    { name: 'Extra Variant 64', tags: ['base'] },
-    { name: 'Extra Variant 65', tags: ['base'] },
-    { name: 'Extra Variant 66', tags: ['base'] },
-    { name: 'Extra Variant 67', tags: ['base'] },
-    { name: 'Extra Variant 68', tags: ['base'] },
-    { name: 'Extra Variant 69', tags: ['base'] },
-    { name: 'Extra Variant 70', tags: ['base'] },
-    { name: 'Extra Variant 71', tags: ['base'] },
-    { name: 'Extra Variant 72', tags: ['base'] },
-    { name: 'Extra Variant 73', tags: ['base'] },
-    { name: 'Extra Variant 74', tags: ['base'] },
-    { name: 'Extra Variant 75', tags: ['base'] },
-    { name: 'Extra Variant 76', tags: ['base'] },
-    { name: 'Extra Variant 77', tags: ['base'] },
-    { name: 'Extra Variant 78', tags: ['base'] },
-    { name: 'Extra Variant 79', tags: ['base'] },
-    { name: 'Extra Variant 80', tags: ['base'] },
-    { name: 'Extra Variant 81', tags: ['base'] },
-    { name: 'Extra Variant 82', tags: ['base'] },
-    { name: 'Extra Variant 83', tags: ['base'] },
-    { name: 'Extra Variant 84', tags: ['base'] },
-    { name: 'Extra Variant 85', tags: ['base'] },
-    { name: 'Extra Variant 86', tags: ['base'] },
-    { name: 'Extra Variant 87', tags: ['base'] },
-    { name: 'Extra Variant 88', tags: ['base'] },
-    { name: 'Extra Variant 89', tags: ['base'] },
-    { name: 'Extra Variant 90', tags: ['base'] },
-    { name: 'Extra Variant 91', tags: ['base'] },
-    { name: 'Extra Variant 92', tags: ['base'] },
-    { name: 'Extra Variant 93', tags: ['base'] },
-    { name: 'Extra Variant 94', tags: ['base'] },
-    { name: 'Extra Variant 95', tags: ['base'] },
-    { name: 'Extra Variant 96', tags: ['base'] },
-    { name: 'Extra Variant 97', tags: ['base'] },
-    { name: 'Extra Variant 98', tags: ['base'] },
-    { name: 'Extra Variant 99', tags: ['base'] },
-    { name: 'Extra Variant 100', tags: ['base'] },
-    { name: 'Extra Variant 101', tags: ['base'] },
-    { name: 'Extra Variant 102', tags: ['base'] },
-    { name: 'Extra Variant 103', tags: ['base'] },
-    { name: 'Extra Variant 104', tags: ['base'] },
-    { name: 'Extra Variant 105', tags: ['base'] },
-    { name: 'Extra Variant 106', tags: ['base'] },
-    { name: 'Extra Variant 107', tags: ['base'] },
-    { name: 'Extra Variant 108', tags: ['base'] },
-    { name: 'Extra Variant 109', tags: ['base'] },
-    { name: 'Extra Variant 110', tags: ['base'] },
-    { name: 'Extra Variant 111', tags: ['base'] },
-    { name: 'Extra Variant 112', tags: ['base'] },
-    { name: 'Extra Variant 113', tags: ['base'] },
-    { name: 'Extra Variant 114', tags: ['base'] },
-    { name: 'Extra Variant 115', tags: ['base'] },
-    { name: 'Extra Variant 116', tags: ['base'] },
-    { name: 'Extra Variant 117', tags: ['base'] },
-    { name: 'Extra Variant 118', tags: ['base'] },
-    { name: 'Extra Variant 119', tags: ['base'] },
-    { name: 'Extra Variant 120', tags: ['base'] },
-    { name: 'Extra Variant 121', tags: ['base'] },
-    { name: 'Extra Variant 122', tags: ['base'] },
-    { name: 'Extra Variant 123', tags: ['base'] },
-    { name: 'Extra Variant 124', tags: ['base'] },
-    { name: 'Extra Variant 125', tags: ['base'] },
-    { name: 'Extra Variant 126', tags: ['base'] },
-    { name: 'Extra Variant 127', tags: ['base'] },
-    { name: 'Extra Variant 128', tags: ['base'] },
-    { name: 'Extra Variant 129', tags: ['base'] },
-    { name: 'Extra Variant 130', tags: ['base'] },
-    { name: 'Extra Variant 131', tags: ['base'] },
-    { name: 'Extra Variant 132', tags: ['base'] },
-    { name: 'Extra Variant 133', tags: ['base'] },
-    { name: 'Extra Variant 134', tags: ['base'] },
-    { name: 'Extra Variant 135', tags: ['base'] },
-    { name: 'Extra Variant 136', tags: ['base'] },
-    { name: 'Extra Variant 137', tags: ['base'] },
-    { name: 'Extra Variant 138', tags: ['base'] },
-    { name: 'Extra Variant 139', tags: ['base'] },
-    { name: 'Extra Variant 140', tags: ['base'] },
-    { name: 'Extra Variant 141', tags: ['base'] },
-    { name: 'Extra Variant 142', tags: ['base'] },
-    { name: 'Extra Variant 143', tags: ['base'] },
-    { name: 'Extra Variant 144', tags: ['base'] },
-    { name: 'Extra Variant 145', tags: ['base'] },
-    { name: 'Extra Variant 146', tags: ['base'] },
-    { name: 'Extra Variant 147', tags: ['base'] },
-    { name: 'Extra Variant 148', tags: ['base'] },
-    { name: 'Extra Variant 149', tags: ['base'] },
-    { name: 'Extra Variant 150', tags: ['base'] },
-    { name: 'Extra Variant 151', tags: ['base'] },
-    { name: 'Extra Variant 152', tags: ['base'] },
-    { name: 'Extra Variant 153', tags: ['base'] },
-    { name: 'Extra Variant 154', tags: ['base'] },
-    { name: 'Extra Variant 155', tags: ['base'] },
-    { name: 'Extra Variant 156', tags: ['base'] },
-    { name: 'Extra Variant 157', tags: ['base'] },
-    { name: 'Extra Variant 158', tags: ['base'] },
-    { name: 'Extra Variant 159', tags: ['base'] },
-    { name: 'Extra Variant 160', tags: ['base'] },
-    { name: 'Extra Variant 161', tags: ['base'] },
-    { name: 'Extra Variant 162', tags: ['base'] },
-    { name: 'Extra Variant 163', tags: ['base'] },
-    { name: 'Extra Variant 164', tags: ['base'] },
-    { name: 'Extra Variant 165', tags: ['base'] },
-    { name: 'Extra Variant 166', tags: ['base'] },
-    { name: 'Extra Variant 167', tags: ['base'] },
-    { name: 'Extra Variant 168', tags: ['base'] },
-    { name: 'Extra Variant 169', tags: ['base'] },
-    { name: 'Extra Variant 170', tags: ['base'] },
-    { name: 'Extra Variant 171', tags: ['base'] },
-    { name: 'Extra Variant 172', tags: ['base'] },
-    { name: 'Extra Variant 173', tags: ['base'] },
-    { name: 'Extra Variant 174', tags: ['base'] },
-    { name: 'Extra Variant 175', tags: ['base'] },
-    { name: 'Extra Variant 176', tags: ['base'] },
-    { name: 'Extra Variant 177', tags: ['base'] },
-    { name: 'Extra Variant 178', tags: ['base'] },
-    { name: 'Extra Variant 179', tags: ['base'] },
-    { name: 'Extra Variant 180', tags: ['base'] },
-    { name: 'Extra Variant 181', tags: ['base'] },
-    { name: 'Extra Variant 182', tags: ['base'] },
-    { name: 'Extra Variant 183', tags: ['base'] },
-  ],
-}
+  "especiales": [
+    {
+      "name": "Anvil",
+      "tags": []
+    },
+    {
+      "name": "Barrier",
+      "tags": []
+    },
+    {
+      "name": "Beacon",
+      "tags": []
+    },
+    {
+      "name": "Chain Command Block",
+      "tags": []
+    },
+    {
+      "name": "Chipped Anvil",
+      "tags": []
+    },
+    {
+      "name": "Command Block",
+      "tags": []
+    },
+    {
+      "name": "Conduit",
+      "tags": []
+    },
+    {
+      "name": "Damaged Anvil",
+      "tags": []
+    },
+    {
+      "name": "Enchanting Table",
+      "tags": []
+    },
+    {
+      "name": "Iron Door",
+      "tags": []
+    },
+    {
+      "name": "Iron Trapdoor",
+      "tags": []
+    },
+    {
+      "name": "Jigsaw",
+      "tags": []
+    },
+    {
+      "name": "Lodestone",
+      "tags": []
+    },
+    {
+      "name": "Repeating Command Block",
+      "tags": []
+    },
+    {
+      "name": "Spawner",
+      "tags": []
+    },
+    {
+      "name": "Structure Block",
+      "tags": []
+    },
+    {
+      "name": "Structure Void",
+      "tags": []
+    },
+    {
+      "name": "Trial Spawner",
+      "tags": []
+    }
+  ]
+};
 
 /* ── State ──────────────────────────────────────────────────── */
 let currentLang = 'es';
