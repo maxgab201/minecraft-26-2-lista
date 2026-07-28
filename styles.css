@@ -134,3 +134,10 @@
   .footer strong { color: var(--mc-accent); }
   @media print { .hero { padding: 30px 10px 20px; } .actions-top { display: none; } .search-wrap { display: none; } .card { break-inside: avoid; } }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .actions-top { flex-direction: column; align-items: flex-start; } }
+
+/* Family Grouping Styles */
+.family-group { margin-bottom: 24px; }
+.family-title { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--mc-text-muted); border-bottom: 1px solid var(--mc-border); padding-bottom: 4px; margin-bottom: 12px; margin-top: 0; font-weight: 600; }
+.family-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+
+.family-group { grid-column: 1 / -1; }

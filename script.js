@@ -6253,55 +6253,99 @@ function onCheckboxChange() {
 }
 
 /* ── Render ──────────────────────────────────────────────────── */
+function getFamily(name) {
+  // Strip variant keywords to find the base "family" name
+  let family = name;
+  const modifiers = [
+    ' Slab', ' Stairs', ' Wall', ' Fence Gate', ' Fence', ' Door', ' Trapdoor',
+    ' Pressure Plate', ' Button', ' Hanging Sign', ' Sign', ' Shelf',
+    ' Log', ' Wood', ' Planks', ' Leaves', ' Sapling', ' Block', ' Bricks', ' Brick',
+    ' Stripped ', ' Polished ', ' Chiseled ', ' Cut ', ' Smooth ', ' Mossy ', ' Cracked ',
+    ' Waxed ', ' Exposed ', ' Weathered ', ' Oxidized '
+  ];
+  
+  for (const mod of modifiers) {
+    if (mod.startsWith(' ')) {
+      if (family.endsWith(mod)) family = family.substring(0, family.length - mod.length);
+    } else if (mod.endsWith(' ')) {
+      if (family.startsWith(mod)) family = family.substring(mod.length);
+    } else {
+      family = family.replace(mod, '');
+    }
+  }
+  
+  // Special cases or manual mapping could be added here
+  if (!family) family = name;
+  return family.trim();
+}
+
 function render() {
-  // Save current checkbox state before re-render
   const savedState = getAllCheckedState();
 
   for (const [key, list] of Object.entries(categoriesData)) {
     const container = document.getElementById('cat-' + key);
     if (!container) continue;
     container.innerHTML = '';
-
+    
+    // Group blocks by family
+    const families = {};
     list.forEach((item, idx) => {
-      const tagsHTML = item.tags
-        .filter(t => t !== 'base') // hide useless "base" tag
-        .map(t => getTagHTML(t))
-        .filter(Boolean)
-        .join('');
-
-      const cardId = 'chk-' + key + '-' + idx;
-      const originalName = item.name; // always use EN name as key
-      const displayName = translateBlockName(item.name);
-
-      const card = document.createElement('label');
-      card.className = 'card';
-      card.setAttribute('data-name', originalName); // stable key!
-      card.innerHTML = `
-        <input type="checkbox" id="${cardId}">
-        <div class="info">
-          <span class="name">${displayName}</span>
-          ${tagsHTML ? `<div class="tags">${tagsHTML}</div>` : ''}
-        </div>`;
-
-      // Attach event listener (not inline onclick)
-      card.querySelector('input').addEventListener('change', onCheckboxChange);
-
-      container.appendChild(card);
+      const family = getFamily(item.name);
+      if (!families[family]) families[family] = [];
+      families[family].push({ item, idx });
     });
+
+    for (const [family, items] of Object.entries(families)) {
+      const groupDiv = document.createElement('div');
+      groupDiv.className = 'family-group';
+      
+      const title = document.createElement('h3');
+      title.className = 'family-title';
+      title.textContent = translateBlockName(family); // translate the family name if possible
+      groupDiv.appendChild(title);
+      
+      const cardsDiv = document.createElement('div');
+      cardsDiv.className = 'family-cards';
+      
+      items.forEach(({item, idx}) => {
+        const tagsHTML = item.tags
+          .filter(t => t !== 'base')
+          .map(t => getTagHTML(t))
+          .filter(Boolean)
+          .join('');
+
+        const cardId = 'chk-' + key + '-' + idx;
+        const originalName = item.name;
+        const displayName = translateBlockName(item.name);
+
+        const card = document.createElement('label');
+        card.className = 'card';
+        card.setAttribute('data-name', originalName);
+        card.innerHTML = `
+          <input type="checkbox" id="${cardId}">
+          <div class="info">
+            <span class="name">${displayName}</span>
+            ${tagsHTML ? `<div class="tags">${tagsHTML}</div>` : ''}
+          </div>`;
+
+        card.querySelector('input').addEventListener('change', onCheckboxChange);
+        cardsDiv.appendChild(card);
+      });
+      
+      groupDiv.appendChild(cardsDiv);
+      container.appendChild(groupDiv);
+    }
   }
 
-  // Restore checkbox state after render
   if (Object.keys(savedState).length > 0) {
     applyCheckedState(savedState);
   } else {
-    // First render: load from localStorage
     const stored = loadCheckedFromStorage();
     if (Object.keys(stored).length > 0) applyCheckedState(stored);
   }
 
   updateAllCounts();
 
-  // Update badge with real count
   const badgeTotalEl = document.querySelector('[data-i18n="badge_total"]');
   if (badgeTotalEl) {
     let globalTotal = 0;
