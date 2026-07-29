@@ -39,6 +39,8 @@ const i18n = {
     cat_end_desc: 'Bloques del End: piedra del End, ladrillos, purpur, corus, portal, huevo de dragón, cabeza de dragón, etc.',
     cat_special_title: 'ESPECIALES / MECÁNICOS',
     cat_special_desc: 'Bloques funcionales únicos: beacon, spawner, jigsaw, barrera, bedrock, bloque de estructura, núcleo pesado, etc.',
+    cat_inobtenibles_title: 'ADMIN / INOBTENIBLES',
+    cat_inobtenibles_desc: 'Bloques imposibles de conseguir en el modo supervivencia clásico (bedrock, barreras, bloques de comandos).',
     cat_variant_title: 'VARIANTES COMPLETAS',
     cat_variant_desc: 'Losas (slab), escaleras (stairs), muros (wall), ladrillos (brick), pulidos (polished), tallados (chiseled) y derivados de todos los bloques.',
     footer_line1: '<strong>Minecraft 26.2 — Chaos Cubed</strong> · Lista completa de bloques con todas sus variantes.',
@@ -82,6 +84,8 @@ const i18n = {
     cat_end_desc: 'End blocks: end stone, bricks, purpur, chorus, portal, dragon egg, dragon head, etc.',
     cat_special_title: 'SPECIAL / MECHANICAL',
     cat_special_desc: 'Unique functional blocks: beacon, spawner, jigsaw, barrier, bedrock, structure block, heavy core, etc.',
+    cat_inobtenibles_title: 'ADMIN / UNOBTAINABLE',
+    cat_inobtenibles_desc: 'Blocks impossible to get in classic survival mode (bedrock, barriers, command blocks).',
     cat_variant_title: 'FULL VARIANTS',
     cat_variant_desc: 'Slabs, stairs, walls, bricks, polished, chiseled and derived forms of all blocks.',
     footer_line1: '<strong>Minecraft 26.2 — Chaos Cubed</strong> · Complete block list with all variants.',
@@ -111,8 +115,6 @@ const namesTranslationEs = {
   "Acacia Slab": "Baldosa de acacia",
   "Acacia Stairs": "Escaleras de acacia",
   "Acacia Trapdoor": "Escotilla de acacia",
-  "Acacia Wall Hanging Sign": "Cartel colgante de acacia en pared",
-  "Acacia Wall Sign": "Cartel de acacia en pared",
   "Acacia Wood": "Leño de acacia",
   "Activator Rail": "Vía activadora",
   "Air": "Aire",
@@ -148,8 +150,6 @@ const namesTranslationEs = {
   "Bamboo Slab": "Baldosa de bambú",
   "Bamboo Stairs": "Escaleras de bambú",
   "Bamboo Trapdoor": "Escotilla de bambú",
-  "Bamboo Wall Hanging Sign": "Cartel colgante de bambú en pared",
-  "Bamboo Wall Sign": "Cartel de bambú en pared",
   "Barrel": "Barril",
   "Barrier": "Barrera",
   "Basalt": "Basalto",
@@ -176,13 +176,10 @@ const namesTranslationEs = {
   "Birch Slab": "Baldosa de abedul",
   "Birch Stairs": "Escaleras de abedul",
   "Birch Trapdoor": "Escotilla de abedul",
-  "Birch Wall Hanging Sign": "Cartel colgante de abedul en pared",
-  "Birch Wall Sign": "Cartel de abedul en pared",
   "Birch Wood": "Leño de abedul",
   "Black Banner": "Estandarte negro",
   "Black Bed": "Cama negra",
   "Black Candle": "Vela negra",
-  "Black Candle Cake": "Torta con vela negra",
   "Black Carpet": "Alfombra negra",
   "Black Concrete": "Concreto negro",
   "Black Concrete Powder": "Cemento negro",
@@ -191,7 +188,6 @@ const namesTranslationEs = {
   "Black Stained Glass": "Vidrio negro",
   "Black Stained Glass Pane": "Panel de vidrio negro",
   "Black Terracotta": "Terracota negra",
-  "Black Wall Banner": "Estandarte negro",
   "Black Wool": "Lana negra",
   "Blackstone": "Piedra negra",
   "Blackstone Slab": "Baldosa de piedra negra",
@@ -201,7 +197,6 @@ const namesTranslationEs = {
   "Blue Banner": "Estandarte azul",
   "Blue Bed": "Cama azul",
   "Blue Candle": "Vela azul",
-  "Blue Candle Cake": "Torta con vela azul",
   "Blue Carpet": "Alfombra azul",
   "Blue Concrete": "Concreto azul",
   "Blue Concrete Powder": "Cemento azul",
@@ -212,14 +207,12 @@ const namesTranslationEs = {
   "Blue Stained Glass": "Vidrio azul",
   "Blue Stained Glass Pane": "Panel de vidrio azul",
   "Blue Terracotta": "Terracota azul",
-  "Blue Wall Banner": "Estandarte azul",
   "Blue Wool": "Lana azul",
   "Bone Block": "Bloque de huesos",
   "Bookshelf": "Biblioteca",
   "Brain Coral": "Coral de cerebro",
   "Brain Coral Block": "Bloque de coral de cerebro",
   "Brain Coral Fan": "Gorgonia de cerebro",
-  "Brain Coral Wall Fan": "Gorgonia de cerebro en pared",
   "Brewing Stand": "Destiladora",
   "Brick Slab": "Baldosa de ladrillos",
   "Brick Stairs": "Escaleras de ladrillos",
@@ -228,7 +221,6 @@ const namesTranslationEs = {
   "Brown Banner": "Estandarte marrón",
   "Brown Bed": "Cama marrón",
   "Brown Candle": "Vela marrón",
-  "Brown Candle Cake": "Torta con vela marrón",
   "Brown Carpet": "Alfombra marrón",
   "Brown Concrete": "Concreto marrón",
   "Brown Concrete Powder": "Cemento marrón",
@@ -239,13 +231,11 @@ const namesTranslationEs = {
   "Brown Stained Glass": "Vidrio marrón",
   "Brown Stained Glass Pane": "Panel de vidrio marrón",
   "Brown Terracotta": "Terracota marrón",
-  "Brown Wall Banner": "Estandarte marrón",
   "Brown Wool": "Lana marrón",
   "Bubble Column": "Columna de burbujas",
   "Bubble Coral": "Coral de burbuja",
   "Bubble Coral Block": "Bloque de coral de burbuja",
   "Bubble Coral Fan": "Gorgonia de burbuja",
-  "Bubble Coral Wall Fan": "Gorgonia de burbuja en pared",
   "Budding Amethyst": "Brotador de amatista",
   "Bush": "Arbusto",
   "Cactus": "Cactus",
@@ -279,8 +269,6 @@ const namesTranslationEs = {
   "Cherry Slab": "Baldosa de cerezo",
   "Cherry Stairs": "Escaleras de cerezo",
   "Cherry Trapdoor": "Escotilla de cerezo",
-  "Cherry Wall Hanging Sign": "Cartel colgante de cerezo en pared",
-  "Cherry Wall Sign": "Cartel de cerezo en pared",
   "Cherry Wood": "Leño de cerezo",
   "Chest": "Cofre",
   "Chipped Anvil": "Yunque dañado",
@@ -339,7 +327,6 @@ const namesTranslationEs = {
   "Copper Ore": "Mineral de cobre",
   "Copper Torch": "Antorcha de cobre",
   "Copper Trapdoor": "Escotilla de cobre",
-  "Copper Wall Torch": "Antorcha de cobre en pared",
   "Cornflower": "Aciano",
   "Cracked Deepslate Bricks": "Ladrillos de pizarra profunda quebrados",
   "Cracked Deepslate Tiles": "Losetas de pizarra profunda quebradas",
@@ -350,7 +337,6 @@ const namesTranslationEs = {
   "Crafting Table": "Mesa de crafteo",
   "Creaking Heart": "Corazón de crujidor",
   "Creeper Head": "Cabeza de creeper",
-  "Creeper Wall Head": "Cabeza de creeper en pared",
   "Crimson Button": "Botón carmesí",
   "Crimson Door": "Puerta carmesí",
   "Crimson Fence": "Valla carmesí",
@@ -368,8 +354,6 @@ const namesTranslationEs = {
   "Crimson Stairs": "Escaleras carmesí",
   "Crimson Stem": "Tallo carmesí",
   "Crimson Trapdoor": "Escotilla carmesí",
-  "Crimson Wall Hanging Sign": "Cartel colgante carmesí en pared",
-  "Crimson Wall Sign": "Cartel carmesí en pared",
   "Crying Obsidian": "Obsidiana llorosa",
   "Cut Copper": "Cobre cortado",
   "Cut Copper Slab": "Baldosa de cobre cortado",
@@ -381,7 +365,6 @@ const namesTranslationEs = {
   "Cyan Banner": "Estandarte cian",
   "Cyan Bed": "Cama cian",
   "Cyan Candle": "Vela cian",
-  "Cyan Candle Cake": "Torta con vela cian",
   "Cyan Carpet": "Alfombra cian",
   "Cyan Concrete": "Concreto cian",
   "Cyan Concrete Powder": "Cemento cian",
@@ -390,7 +373,6 @@ const namesTranslationEs = {
   "Cyan Stained Glass": "Vidrio cian",
   "Cyan Stained Glass Pane": "Panel de vidrio cian",
   "Cyan Terracotta": "Terracota cian",
-  "Cyan Wall Banner": "Estandarte cian",
   "Cyan Wool": "Lana cian",
   "Damaged Anvil": "Yunque muy dañado",
   "Dandelion": "Diente de león",
@@ -409,8 +391,6 @@ const namesTranslationEs = {
   "Dark Oak Slab": "Baldosa de roble oscuro",
   "Dark Oak Stairs": "Escaleras de roble oscuro",
   "Dark Oak Trapdoor": "Escotilla de roble oscuro",
-  "Dark Oak Wall Hanging Sign": "Cartel colgante de roble oscuro en pared",
-  "Dark Oak Wall Sign": "Cartel de roble oscuro en pared",
   "Dark Oak Wood": "Leño de roble oscuro",
   "Dark Prismarine": "Prismarina oscura",
   "Dark Prismarine Slab": "Baldosa de prismarina oscura",
@@ -419,24 +399,19 @@ const namesTranslationEs = {
   "Dead Brain Coral": "Coral de cerebro muerto",
   "Dead Brain Coral Block": "Bloque de coral de cerebro muerto",
   "Dead Brain Coral Fan": "Gorgonia de cerebro muerta",
-  "Dead Brain Coral Wall Fan": "Gorgonia de cerebro muerta en pared",
   "Dead Bubble Coral": "Coral de burbuja muerto",
   "Dead Bubble Coral Block": "Bloque de coral de burbuja muerto",
   "Dead Bubble Coral Fan": "Gorgonia de burbuja muerta",
-  "Dead Bubble Coral Wall Fan": "Gorgonia de burbuja muerta en pared",
   "Dead Bush": "Arbusto muerto",
   "Dead Fire Coral": "Coral de fuego muerto",
   "Dead Fire Coral Block": "Bloque de coral de fuego muerto",
   "Dead Fire Coral Fan": "Gorgonia de fuego muerta",
-  "Dead Fire Coral Wall Fan": "Gorgonia de fuego muerta en pared",
   "Dead Horn Coral": "Coral de cuerno muerto",
   "Dead Horn Coral Block": "Bloque de coral de cuerno muerto",
   "Dead Horn Coral Fan": "Gorgonia de cuerno muerta",
-  "Dead Horn Coral Wall Fan": "Gorgonia de cuerno muerta en pared",
   "Dead Tube Coral": "Coral de tubo muerto",
   "Dead Tube Coral Block": "Bloque de coral de tubo muerto",
   "Dead Tube Coral Fan": "Gorgonia de tubo muerta",
-  "Dead Tube Coral Wall Fan": "Gorgonia de tubo muerta en pared",
   "Decorated Pot": "Maceta decorada",
   "Deepslate": "Pizarra profunda",
   "Deepslate Brick Slab": "Baldosa de ladrillos de pizarra profunda",
@@ -467,7 +442,6 @@ const namesTranslationEs = {
   "Dispenser": "Dispensador",
   "Dragon Egg": "Huevo de dragón",
   "Dragon Head": "Cabeza de dragón",
-  "Dragon Wall Head": "Cabeza de dragón en pared",
   "Dried Ghast": "Ghast seco",
   "Dried Kelp Block": "Bloque de algas secas",
   "Dripstone Block": "Bloque de espeleotema",
@@ -506,7 +480,6 @@ const namesTranslationEs = {
   "Fire Coral": "Coral de fuego",
   "Fire Coral Block": "Bloque de coral de fuego",
   "Fire Coral Fan": "Gorgonia de fuego",
-  "Fire Coral Wall Fan": "Gorgonia de fuego en pared",
   "Firefly Bush": "Arbusto de luciérnagas",
   "Fletching Table": "Mesa de arquería",
   "Flower Pot": "Maceta",
@@ -532,7 +505,6 @@ const namesTranslationEs = {
   "Gray Banner": "Estandarte gris",
   "Gray Bed": "Cama gris",
   "Gray Candle": "Vela gris",
-  "Gray Candle Cake": "Torta con vela gris",
   "Gray Carpet": "Alfombra gris",
   "Gray Concrete": "Concreto gris",
   "Gray Concrete Powder": "Cemento gris",
@@ -541,12 +513,10 @@ const namesTranslationEs = {
   "Gray Stained Glass": "Vidrio gris",
   "Gray Stained Glass Pane": "Panel de vidrio gris",
   "Gray Terracotta": "Terracota gris",
-  "Gray Wall Banner": "Estandarte gris",
   "Gray Wool": "Lana gris",
   "Green Banner": "Estandarte verde",
   "Green Bed": "Cama verde",
   "Green Candle": "Vela verde",
-  "Green Candle Cake": "Torta con vela verde",
   "Green Carpet": "Alfombra verde",
   "Green Concrete": "Concreto verde",
   "Green Concrete Powder": "Cemento verde",
@@ -555,7 +525,6 @@ const namesTranslationEs = {
   "Green Stained Glass": "Vidrio verde",
   "Green Stained Glass Pane": "Panel de vidrio verde",
   "Green Terracotta": "Terracota verde",
-  "Green Wall Banner": "Estandarte verde",
   "Green Wool": "Lana verde",
   "Grindstone": "Afiladora",
   "Hanging Roots": "Raíces colgantes",
@@ -568,7 +537,6 @@ const namesTranslationEs = {
   "Horn Coral": "Coral de cuerno",
   "Horn Coral Block": "Bloque de coral de cuerno",
   "Horn Coral Fan": "Gorgonia de cuerno",
-  "Horn Coral Wall Fan": "Gorgonia de cuerno en pared",
   "Ice": "Hielo",
   "Infested Chiseled Stone Bricks": "Ladrillos de piedra cincelados infestados",
   "Infested Cobblestone": "Adoquín infestado",
@@ -601,8 +569,6 @@ const namesTranslationEs = {
   "Jungle Slab": "Baldosa de jungla",
   "Jungle Stairs": "Escaleras de jungla",
   "Jungle Trapdoor": "Escotilla de jungla",
-  "Jungle Wall Hanging Sign": "Cartel colgante de jungla en pared",
-  "Jungle Wall Sign": "Cartel de jungla en pared",
   "Jungle Wood": "Leño de jungla",
   "Kelp": "Alga",
   "Kelp Plant": "Tallo de alga",
@@ -613,7 +579,6 @@ const namesTranslationEs = {
   "Large Amethyst Bud": "Brote de amatista grande",
   "Large Fern": "Helecho alto",
   "Lava": "Lava",
-  "Lava Cauldron": "Caldero con lava",
   "Leaf Litter": "Hojas secas",
   "Lectern": "Atril",
   "Lever": "Palanca",
@@ -621,7 +586,6 @@ const namesTranslationEs = {
   "Light Blue Banner": "Estandarte celeste",
   "Light Blue Bed": "Cama celeste",
   "Light Blue Candle": "Vela celeste",
-  "Light Blue Candle Cake": "Torta con vela celeste",
   "Light Blue Carpet": "Alfombra celeste",
   "Light Blue Concrete": "Concreto celeste",
   "Light Blue Concrete Powder": "Cemento celeste",
@@ -630,12 +594,10 @@ const namesTranslationEs = {
   "Light Blue Stained Glass": "Vidrio celeste",
   "Light Blue Stained Glass Pane": "Panel de vidrio celeste",
   "Light Blue Terracotta": "Terracota celeste",
-  "Light Blue Wall Banner": "Estandarte celeste",
   "Light Blue Wool": "Lana celeste",
   "Light Gray Banner": "Estandarte gris claro",
   "Light Gray Bed": "Cama gris claro",
   "Light Gray Candle": "Vela gris claro",
-  "Light Gray Candle Cake": "Torta con vela gris claro",
   "Light Gray Carpet": "Alfombra gris claro",
   "Light Gray Concrete": "Concreto gris claro",
   "Light Gray Concrete Powder": "Cemento gris claro",
@@ -644,7 +606,6 @@ const namesTranslationEs = {
   "Light Gray Stained Glass": "Vidrio gris claro",
   "Light Gray Stained Glass Pane": "Panel de vidrio gris claro",
   "Light Gray Terracotta": "Terracota gris claro",
-  "Light Gray Wall Banner": "Estandarte gris claro",
   "Light Gray Wool": "Lana gris claro",
   "Light Weighted Pressure Plate": "Placa de presión ponderada (ligera)",
   "Lightning Rod": "Pararrayos",
@@ -654,7 +615,6 @@ const namesTranslationEs = {
   "Lime Banner": "Estandarte verde lima",
   "Lime Bed": "Cama verde lima",
   "Lime Candle": "Vela verde lima",
-  "Lime Candle Cake": "Torta con vela verde lima",
   "Lime Carpet": "Alfombra verde lima",
   "Lime Concrete": "Concreto verde lima",
   "Lime Concrete Powder": "Cemento verde lima",
@@ -663,14 +623,12 @@ const namesTranslationEs = {
   "Lime Stained Glass": "Vidrio verde lima",
   "Lime Stained Glass Pane": "Panel de vidrio verde lima",
   "Lime Terracotta": "Terracota verde lima",
-  "Lime Wall Banner": "Estandarte verde lima",
   "Lime Wool": "Lana verde lima",
   "Lodestone": "Magnetita",
   "Loom": "Máquina de telar",
   "Magenta Banner": "Estandarte magenta",
   "Magenta Bed": "Cama magenta",
   "Magenta Candle": "Vela magenta",
-  "Magenta Candle Cake": "Torta con vela magenta",
   "Magenta Carpet": "Alfombra magenta",
   "Magenta Concrete": "Concreto magenta",
   "Magenta Concrete Powder": "Cemento magenta",
@@ -679,7 +637,6 @@ const namesTranslationEs = {
   "Magenta Stained Glass": "Vidrio magenta",
   "Magenta Stained Glass Pane": "Panel de vidrio magenta",
   "Magenta Terracotta": "Terracota magenta",
-  "Magenta Wall Banner": "Estandarte magenta",
   "Magenta Wool": "Lana magenta",
   "Magma Block": "Bloque de magma",
   "Mangrove Button": "Botón de mangle",
@@ -698,8 +655,6 @@ const namesTranslationEs = {
   "Mangrove Slab": "Baldosa de mangle",
   "Mangrove Stairs": "Escaleras de mangle",
   "Mangrove Trapdoor": "Escotilla de mangle",
-  "Mangrove Wall Hanging Sign": "Cartel colgante de mangle en pared",
-  "Mangrove Wall Sign": "Cartel de mangle en pared",
   "Mangrove Wood": "Leño de mangle",
   "Medium Amethyst Bud": "Brote de amatista mediano",
   "Melon": "Sandía",
@@ -752,8 +707,6 @@ const namesTranslationEs = {
   "Oak Slab": "Baldosa de roble",
   "Oak Stairs": "Escaleras de roble",
   "Oak Trapdoor": "Escotilla de roble",
-  "Oak Wall Hanging Sign": "Cartel colgante de roble en pared",
-  "Oak Wall Sign": "Cartel de roble en pared",
   "Oak Wood": "Leño de roble",
   "Observer": "Observador",
   "Obsidian": "Obsidiana",
@@ -762,7 +715,6 @@ const namesTranslationEs = {
   "Orange Banner": "Estandarte naranja",
   "Orange Bed": "Cama naranja",
   "Orange Candle": "Vela naranja",
-  "Orange Candle Cake": "Torta con vela naranja",
   "Orange Carpet": "Alfombra naranja",
   "Orange Concrete": "Concreto naranja",
   "Orange Concrete Powder": "Cemento naranja",
@@ -772,7 +724,6 @@ const namesTranslationEs = {
   "Orange Stained Glass Pane": "Panel de vidrio naranja",
   "Orange Terracotta": "Terracota naranja",
   "Orange Tulip": "Tulipán naranja",
-  "Orange Wall Banner": "Estandarte naranja",
   "Orange Wool": "Lana naranja",
   "Oxeye Daisy": "Margarita",
   "Oxidized Chiseled Copper": "Cobre cincelado oxidado",
@@ -810,18 +761,14 @@ const namesTranslationEs = {
   "Pale Oak Slab": "Baldosa de roble pálido",
   "Pale Oak Stairs": "Escaleras de roble pálido",
   "Pale Oak Trapdoor": "Escotilla de roble pálido",
-  "Pale Oak Wall Hanging Sign": "Cartel colgante de roble pálido en pared",
-  "Pale Oak Wall Sign": "Cartel de roble pálido en pared",
   "Pale Oak Wood": "Leño de roble pálido",
   "Pearlescent Froglight": "Luzapo perlada",
   "Peony": "Peonía",
   "Petrified Oak Slab": "Baldosa de roble petrificada",
   "Piglin Head": "Cabeza de piglin",
-  "Piglin Wall Head": "Cabeza de piglin en pared",
   "Pink Banner": "Estandarte rosa",
   "Pink Bed": "Cama rosa",
   "Pink Candle": "Vela rosada",
-  "Pink Candle Cake": "Torta con vela rosada",
   "Pink Carpet": "Alfombra rosa",
   "Pink Concrete": "Concreto rosa",
   "Pink Concrete Powder": "Cemento rosa",
@@ -832,14 +779,12 @@ const namesTranslationEs = {
   "Pink Stained Glass Pane": "Panel de vidrio rosa",
   "Pink Terracotta": "Terracota rosa",
   "Pink Tulip": "Tulipán rosa",
-  "Pink Wall Banner": "Estandarte rosa",
   "Pink Wool": "Lana rosa",
   "Piston": "Pistón",
   "Piston Head": "Cabeza de pistón",
   "Pitcher Crop": "Cultivo de odre",
   "Pitcher Plant": "Planta odre",
   "Player Head": "Cabeza de jugador",
-  "Player Wall Head": "Cabeza de jugador en pared",
   "Podzol": "Podsol",
   "Pointed Dripstone": "Espeleotema puntiagudo",
   "Polished Andesite": "Andesita pulida",
@@ -881,46 +826,7 @@ const namesTranslationEs = {
   "Poppy": "Amapola",
   "Potatoes": "Papas",
   "Potent Sulfur": "Azufre potente",
-  "Potted Acacia Sapling": "Maceta con brote de acacia",
-  "Potted Allium": "Maceta con allium",
-  "Potted Azalea Bush": "Maceta con azalea",
-  "Potted Azure Bluet": "Maceta con rubiácea",
-  "Potted Bamboo": "Maceta con bambú",
-  "Potted Birch Sapling": "Maceta con brote de abedul",
-  "Potted Blue Orchid": "Maceta con orquídea azul",
-  "Potted Brown Mushroom": "Maceta con hongo marrón",
-  "Potted Cactus": "Maceta con cactus",
-  "Potted Cherry Sapling": "Jarrón con brote de cerezo",
-  "Potted Closed Eyeblossom": "Maceta con miraflor cerrada",
-  "Potted Cornflower": "Maceta con aciano",
-  "Potted Crimson Fungus": "Maceta con hongo carmesí",
-  "Potted Crimson Roots": "Maceta con yuyos carmesí",
-  "Potted Dandelion": "Maceta con diente de león",
-  "Potted Dark Oak Sapling": "Maceta con brote de roble oscuro",
-  "Potted Dead Bush": "Maceta con arbusto muerto",
-  "Potted Fern": "Maceta con helecho",
-  "Potted Flowering Azalea Bush": "Maceta con azalea florida",
-  "Potted Golden Dandelion": "Maceta con diente de león dorado",
-  "Potted Jungle Sapling": "Maceta con brote de jungla",
-  "Potted Lily of The Valley": "Maceta con lirio del valle",
-  "Potted Mangrove Propagule": "Maceta con propágulo de mangle",
-  "Potted Oak Sapling": "Maceta con brote de roble",
-  "Potted Open Eyeblossom": "Maceta con miraflor abierta",
-  "Potted Orange Tulip": "Maceta con tulipán naranja",
-  "Potted Oxeye Daisy": "Maceta con margarita",
-  "Potted Pale Oak Sapling": "Maceta con brote de roble pálido",
-  "Potted Pink Tulip": "Maceta con tulipán rosa",
-  "Potted Poppy": "Maceta con amapola",
-  "Potted Red Mushroom": "Maceta con hongo rojo",
-  "Potted Red Tulip": "Maceta con tulipán rojo",
-  "Potted Spruce Sapling": "Maceta con brote de abeto",
-  "Potted Torchflower": "Maceta con anflorcha",
-  "Potted Warped Fungus": "Maceta con hongo distorsionado",
-  "Potted Warped Roots": "Maceta con yuyos distorsionados",
-  "Potted White Tulip": "Maceta con tulipán blanco",
-  "Potted Wither Rose": "Maceta con rosa del Wither",
   "Powder Snow": "Nieve polvo",
-  "Powder Snow Cauldron": "Caldero con nieve polvo",
   "Powered Rail": "Vía propulsora",
   "Prismarine": "Prismarina",
   "Prismarine Brick Slab": "Baldosa de ladrillos de prismarina",
@@ -934,7 +840,6 @@ const namesTranslationEs = {
   "Purple Banner": "Estandarte violeta",
   "Purple Bed": "Cama violeta",
   "Purple Candle": "Vela violeta",
-  "Purple Candle Cake": "Torta con vela violeta",
   "Purple Carpet": "Alfombra violeta",
   "Purple Concrete": "Concreto violeta",
   "Purple Concrete Powder": "Cemento violeta",
@@ -943,7 +848,6 @@ const namesTranslationEs = {
   "Purple Stained Glass": "Vidrio violeta",
   "Purple Stained Glass Pane": "Panel de vidrio violeta",
   "Purple Terracotta": "Terracota violeta",
-  "Purple Wall Banner": "Estandarte violeta",
   "Purple Wool": "Lana violeta",
   "Purpur Block": "Purpur",
   "Purpur Pillar": "Columna de purpur",
@@ -961,7 +865,6 @@ const namesTranslationEs = {
   "Red Banner": "Estandarte rojo",
   "Red Bed": "Cama roja",
   "Red Candle": "Vela roja",
-  "Red Candle Cake": "Torta con vela roja",
   "Red Carpet": "Alfombra roja",
   "Red Concrete": "Concreto rojo",
   "Red Concrete Powder": "Cemento rojo",
@@ -982,13 +885,11 @@ const namesTranslationEs = {
   "Red Stained Glass Pane": "Panel de vidrio rojo",
   "Red Terracotta": "Terracota roja",
   "Red Tulip": "Tulipán rojo",
-  "Red Wall Banner": "Estandarte rojo",
   "Red Wool": "Lana roja",
   "Redstone Block": "Bloque de redstone",
   "Redstone Lamp": "Lámpara de redstone",
   "Redstone Ore": "Mineral de redstone",
   "Redstone Torch": "Antorcha de redstone",
-  "Redstone Wall Torch": "Antorcha de redstone en pared",
   "Redstone Wire": "Cable de redstone",
   "Reinforced Deepslate": "Pizarra profunda reforzada",
   "Repeater": "Repetidor de redstone",
@@ -1021,7 +922,6 @@ const namesTranslationEs = {
   "Shroomlight": "Hongo luminoso",
   "Shulker Box": "Caja de shulker",
   "Skeleton Skull": "Cráneo de esqueleto",
-  "Skeleton Wall Skull": "Cráneo de esqueleto en pared",
   "Slime Block": "Bloque de slime",
   "Small Amethyst Bud": "Brote de amatista pequeño",
   "Small Dripleaf": "Plantaforma pequeña",
@@ -1048,7 +948,6 @@ const namesTranslationEs = {
   "Soul Sand": "Arena de almas",
   "Soul Soil": "Tierra de almas",
   "Soul Torch": "Antorcha de almas",
-  "Soul Wall Torch": "Antorcha de almas en pared",
   "Spawner": "Generador de criaturas",
   "Sponge": "Esponja",
   "Spore Blossom": "Flor de esporas",
@@ -1067,8 +966,6 @@ const namesTranslationEs = {
   "Spruce Slab": "Baldosa de abeto",
   "Spruce Stairs": "Escaleras de abeto",
   "Spruce Trapdoor": "Escotilla de abeto",
-  "Spruce Wall Hanging Sign": "Cartel colgante de abeto en pared",
-  "Spruce Wall Sign": "Cartel de abeto en pared",
   "Spruce Wood": "Leño de abeto",
   "Sticky Piston": "Pistón pegajoso",
   "Stone": "Piedra",
@@ -1139,7 +1036,6 @@ const namesTranslationEs = {
   "Tube Coral": "Coral de tubo",
   "Tube Coral Block": "Bloque de coral de tubo",
   "Tube Coral Fan": "Gorgonia de tubo",
-  "Tube Coral Wall Fan": "Gorgonia de tubo en pared",
   "Tuff": "Toba",
   "Tuff Brick Slab": "Baldosa de ladrillos de toba",
   "Tuff Brick Stairs": "Escaleras de ladrillos de toba",
@@ -1173,71 +1069,8 @@ const namesTranslationEs = {
   "Warped Stairs": "Escaleras distorsionadas",
   "Warped Stem": "Tallo distorsionado",
   "Warped Trapdoor": "Escotilla distorsionada",
-  "Warped Wall Hanging Sign": "Cartel colgante distorsionado en pared",
-  "Warped Wall Sign": "Cartel distorsionado en pared",
   "Warped Wart Block": "Bloque de verrugas distorsionadas",
   "Water": "Agua",
-  "Water Cauldron": "Caldero con agua",
-  "Waxed Chiseled Copper": "Cobre cincelado encerado",
-  "Waxed Copper Bars": "Barrotes de cobre encerado",
-  "Waxed Copper Block": "Bloque de cobre encerado",
-  "Waxed Copper Bulb": "Lámpara de cobre encerado",
-  "Waxed Copper Chain": "Cadena de cobre encerado",
-  "Waxed Copper Chest": "Cofre de cobre encerado",
-  "Waxed Copper Door": "Puerta de cobre encerado",
-  "Waxed Copper Golem Statue": "Estatua de gólem de cobre encerado",
-  "Waxed Copper Grate": "Rejilla de cobre encerado",
-  "Waxed Copper Lantern": "Farol de cobre encerado",
-  "Waxed Copper Trapdoor": "Escotilla de cobre encerado",
-  "Waxed Cut Copper": "Cobre cortado encerado",
-  "Waxed Cut Copper Slab": "Baldosa de cobre cortado encerado",
-  "Waxed Cut Copper Stairs": "Escaleras de cobre cortado encerado",
-  "Waxed Exposed Chiseled Copper": "Cobre cincelado expuesto encerado",
-  "Waxed Exposed Copper": "Cobre expuesto encerado",
-  "Waxed Exposed Copper Bars": "Barrotes de cobre expuesto encerado",
-  "Waxed Exposed Copper Bulb": "Lámpara de cobre expuesto encerado",
-  "Waxed Exposed Copper Chain": "Cadena de cobre expuesto encerado",
-  "Waxed Exposed Copper Chest": "Cofre de cobre expuesto encerado",
-  "Waxed Exposed Copper Door": "Puerta de cobre expuesto encerado",
-  "Waxed Exposed Copper Golem Statue": "Estatua de gólem de cobre expuesto encerado",
-  "Waxed Exposed Copper Grate": "Rejilla de cobre expuesto encerado",
-  "Waxed Exposed Copper Lantern": "Farol de cobre expuesto encerado",
-  "Waxed Exposed Copper Trapdoor": "Escotilla de cobre expuesto encerado",
-  "Waxed Exposed Cut Copper": "Cobre cortado expuesto encerado",
-  "Waxed Exposed Cut Copper Slab": "Baldosa de cobre cortado expuesto encerado",
-  "Waxed Exposed Cut Copper Stairs": "Escaleras de cobre cortado expuesto encerado",
-  "Waxed Exposed Lightning Rod": "Pararrayos expuesto encerado",
-  "Waxed Lightning Rod": "Pararrayos encerado",
-  "Waxed Oxidized Chiseled Copper": "Cobre cincelado oxidado encerado",
-  "Waxed Oxidized Copper": "Cobre oxidado encerado",
-  "Waxed Oxidized Copper Bars": "Barrotes de cobre oxidado encerado",
-  "Waxed Oxidized Copper Bulb": "Lámpara de cobre oxidado encerado",
-  "Waxed Oxidized Copper Chain": "Cadena de cobre oxidado encerado",
-  "Waxed Oxidized Copper Chest": "Cofre de cobre oxidado encerado",
-  "Waxed Oxidized Copper Door": "Puerta de cobre oxidado encerado",
-  "Waxed Oxidized Copper Golem Statue": "Estatua de gólem de cobre oxidado encerado",
-  "Waxed Oxidized Copper Grate": "Rejilla de cobre oxidado encerado",
-  "Waxed Oxidized Copper Lantern": "Farol de cobre oxidado encerado",
-  "Waxed Oxidized Copper Trapdoor": "Escotilla de cobre oxidado encerado",
-  "Waxed Oxidized Cut Copper": "Cobre cortado oxidado encerado",
-  "Waxed Oxidized Cut Copper Slab": "Baldosa de cobre cortado oxidado encerado",
-  "Waxed Oxidized Cut Copper Stairs": "Escaleras de cobre cortado oxidado encerado",
-  "Waxed Oxidized Lightning Rod": "Pararrayos oxidado encerado",
-  "Waxed Weathered Chiseled Copper": "Cobre cincelado degradado encerado",
-  "Waxed Weathered Copper": "Cobre degradado encerado",
-  "Waxed Weathered Copper Bars": "Barrotes de cobre degradado encerado",
-  "Waxed Weathered Copper Bulb": "Lámpara de cobre degradado encerado",
-  "Waxed Weathered Copper Chain": "Cadena de cobre degradado encerado",
-  "Waxed Weathered Copper Chest": "Cofre de cobre degradado encerado",
-  "Waxed Weathered Copper Door": "Puerta de cobre degradado encerado",
-  "Waxed Weathered Copper Golem Statue": "Estatua de gólem de cobre degradado encerado",
-  "Waxed Weathered Copper Grate": "Rejilla de cobre degradado encerado",
-  "Waxed Weathered Copper Lantern": "Farol de cobre degradado encerado",
-  "Waxed Weathered Copper Trapdoor": "Escotilla de cobre degradado encerado",
-  "Waxed Weathered Cut Copper": "Cobre cortado degradado encerado",
-  "Waxed Weathered Cut Copper Slab": "Baldosa de cobre cortado degradado encerado",
-  "Waxed Weathered Cut Copper Stairs": "Escaleras de cobre cortado degradado encerado",
-  "Waxed Weathered Lightning Rod": "Pararrayos degradado encerado",
   "Weathered Chiseled Copper": "Cobre cincelado degradado",
   "Weathered Copper": "Cobre degradado",
   "Weathered Copper Bars": "Barrotes de cobre degradado",
@@ -1260,7 +1093,6 @@ const namesTranslationEs = {
   "White Banner": "Estandarte blanco",
   "White Bed": "Cama blanca",
   "White Candle": "Vela blanca",
-  "White Candle Cake": "Torta con vela blanca",
   "White Carpet": "Alfombra blanca",
   "White Concrete": "Concreto blanco",
   "White Concrete Powder": "Cemento blanco",
@@ -1270,16 +1102,13 @@ const namesTranslationEs = {
   "White Stained Glass Pane": "Panel de vidrio blanco",
   "White Terracotta": "Terracota blanca",
   "White Tulip": "Tulipán blanco",
-  "White Wall Banner": "Estandarte blanco",
   "White Wool": "Lana blanca",
   "Wildflowers": "Flores silvestres",
   "Wither Rose": "Rosa del Wither",
   "Wither Skeleton Skull": "Cráneo de esqueleto del Wither",
-  "Wither Skeleton Wall Skull": "Cráneo de esqueleto del Wither en pared",
   "Yellow Banner": "Estandarte amarillo",
   "Yellow Bed": "Cama amarilla",
   "Yellow Candle": "Vela amarilla",
-  "Yellow Candle Cake": "Torta con vela amarilla",
   "Yellow Carpet": "Alfombra amarilla",
   "Yellow Concrete": "Concreto amarillo",
   "Yellow Concrete Powder": "Cemento amarillo",
@@ -1288,10 +1117,8 @@ const namesTranslationEs = {
   "Yellow Stained Glass": "Vidrio amarillo",
   "Yellow Stained Glass Pane": "Panel de vidrio amarillo",
   "Yellow Terracotta": "Terracota amarilla",
-  "Yellow Wall Banner": "Estandarte amarillo",
   "Yellow Wool": "Lana amarilla",
-  "Zombie Head": "Cabeza de zombi",
-  "Zombie Wall Head": "Cabeza de zombi en pared"
+  "Zombie Head": "Cabeza de zombi"
 };
 
 const categoriesData = {
@@ -1651,10 +1478,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Creeper Wall Head",
-      "tags": []
-    },
-    {
       "name": "Crying Obsidian",
       "tags": []
     },
@@ -1728,10 +1551,6 @@ const categoriesData = {
     },
     {
       "name": "Dripstone Block",
-      "tags": []
-    },
-    {
-      "name": "Exposed Lightning Rod",
       "tags": []
     },
     {
@@ -1855,23 +1674,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Lava Cauldron",
-      "tags": []
-    },
-    {
       "name": "Leaf Litter",
       "tags": []
     },
     {
       "name": "Lectern",
-      "tags": []
-    },
-    {
-      "name": "Light",
-      "tags": []
-    },
-    {
-      "name": "Lightning Rod",
       "tags": []
     },
     {
@@ -1951,19 +1758,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Ochre Froglight",
-      "tags": []
-    },
-    {
       "name": "Open Eyeblossom",
       "tags": []
     },
     {
       "name": "Oxeye Daisy",
-      "tags": []
-    },
-    {
-      "name": "Oxidized Lightning Rod",
       "tags": []
     },
     {
@@ -1979,19 +1778,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Pearlescent Froglight",
-      "tags": []
-    },
-    {
       "name": "Peony",
       "tags": []
     },
     {
       "name": "Piglin Head",
-      "tags": []
-    },
-    {
-      "name": "Piglin Wall Head",
       "tags": []
     },
     {
@@ -2004,10 +1795,6 @@ const categoriesData = {
     },
     {
       "name": "Player Head",
-      "tags": []
-    },
-    {
-      "name": "Player Wall Head",
       "tags": []
     },
     {
@@ -2139,10 +1926,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Reinforced Deepslate",
-      "tags": []
-    },
-    {
       "name": "Resin Block",
       "tags": []
     },
@@ -2183,15 +1966,7 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Shroomlight",
-      "tags": []
-    },
-    {
       "name": "Skeleton Skull",
-      "tags": []
-    },
-    {
-      "name": "Skeleton Wall Skull",
       "tags": []
     },
     {
@@ -2327,10 +2102,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Verdant Froglight",
-      "tags": []
-    },
-    {
       "name": "Void Air",
       "tags": []
     },
@@ -2340,30 +2111,6 @@ const categoriesData = {
     },
     {
       "name": "Water",
-      "tags": []
-    },
-    {
-      "name": "Water Cauldron",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Lightning Rod",
-      "tags": []
-    },
-    {
-      "name": "Waxed Lightning Rod",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Lightning Rod",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Lightning Rod",
-      "tags": []
-    },
-    {
-      "name": "Weathered Lightning Rod",
       "tags": []
     },
     {
@@ -2379,15 +2126,7 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Wither Skeleton Wall Skull",
-      "tags": []
-    },
-    {
       "name": "Zombie Head",
-      "tags": []
-    },
-    {
-      "name": "Zombie Wall Head",
       "tags": []
     }
   ],
@@ -2442,14 +2181,6 @@ const categoriesData = {
     },
     {
       "name": "Acacia Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Acacia Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Acacia Wall Sign",
       "tags": []
     },
     {
@@ -2521,14 +2252,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Bamboo Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Bamboo Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Birch Door",
       "tags": []
     },
@@ -2578,14 +2301,6 @@ const categoriesData = {
     },
     {
       "name": "Birch Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Birch Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Birch Wall Sign",
       "tags": []
     },
     {
@@ -2645,14 +2360,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Cherry Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Cherry Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Cherry Wood",
       "tags": []
     },
@@ -2709,14 +2416,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Dark Oak Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Dark Oak Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Dark Oak Wood",
       "tags": []
     },
@@ -2770,14 +2469,6 @@ const categoriesData = {
     },
     {
       "name": "Jungle Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Jungle Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Jungle Wall Sign",
       "tags": []
     },
     {
@@ -2841,14 +2532,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Mangrove Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Mangrove Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Mangrove Wood",
       "tags": []
     },
@@ -2909,14 +2592,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Oak Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Oak Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Oak Wood",
       "tags": []
     },
@@ -2973,59 +2648,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Pale Oak Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Pale Oak Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Pale Oak Wood",
       "tags": []
     },
     {
       "name": "Petrified Oak Slab",
-      "tags": []
-    },
-    {
-      "name": "Potted Acacia Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Bamboo",
-      "tags": []
-    },
-    {
-      "name": "Potted Birch Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Cherry Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Dark Oak Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Jungle Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Mangrove Propagule",
-      "tags": []
-    },
-    {
-      "name": "Potted Oak Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Pale Oak Sapling",
-      "tags": []
-    },
-    {
-      "name": "Potted Spruce Sapling",
       "tags": []
     },
     {
@@ -3078,14 +2705,6 @@ const categoriesData = {
     },
     {
       "name": "Spruce Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Spruce Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Spruce Wall Sign",
       "tags": []
     },
     {
@@ -3203,10 +2822,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Brain Coral Wall Fan",
-      "tags": []
-    },
-    {
       "name": "Brown Mushroom",
       "tags": []
     },
@@ -3224,10 +2839,6 @@ const categoriesData = {
     },
     {
       "name": "Bubble Coral Fan",
-      "tags": []
-    },
-    {
-      "name": "Bubble Coral Wall Fan",
       "tags": []
     },
     {
@@ -3295,10 +2906,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Dead Brain Coral Wall Fan",
-      "tags": []
-    },
-    {
       "name": "Dead Bubble Coral",
       "tags": []
     },
@@ -3308,10 +2915,6 @@ const categoriesData = {
     },
     {
       "name": "Dead Bubble Coral Fan",
-      "tags": []
-    },
-    {
-      "name": "Dead Bubble Coral Wall Fan",
       "tags": []
     },
     {
@@ -3331,10 +2934,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Dead Fire Coral Wall Fan",
-      "tags": []
-    },
-    {
       "name": "Dead Horn Coral",
       "tags": []
     },
@@ -3347,10 +2946,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Dead Horn Coral Wall Fan",
-      "tags": []
-    },
-    {
       "name": "Dead Tube Coral",
       "tags": []
     },
@@ -3360,10 +2955,6 @@ const categoriesData = {
     },
     {
       "name": "Dead Tube Coral Fan",
-      "tags": []
-    },
-    {
-      "name": "Dead Tube Coral Wall Fan",
       "tags": []
     },
     {
@@ -3392,10 +2983,6 @@ const categoriesData = {
     },
     {
       "name": "Fire Coral Fan",
-      "tags": []
-    },
-    {
-      "name": "Fire Coral Wall Fan",
       "tags": []
     },
     {
@@ -3436,10 +3023,6 @@ const categoriesData = {
     },
     {
       "name": "Horn Coral Fan",
-      "tags": []
-    },
-    {
-      "name": "Horn Coral Wall Fan",
       "tags": []
     },
     {
@@ -3495,67 +3078,7 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Potted Allium",
-      "tags": []
-    },
-    {
-      "name": "Potted Azalea Bush",
-      "tags": []
-    },
-    {
-      "name": "Potted Brown Mushroom",
-      "tags": []
-    },
-    {
-      "name": "Potted Cornflower",
-      "tags": []
-    },
-    {
-      "name": "Potted Dead Bush",
-      "tags": []
-    },
-    {
-      "name": "Potted Fern",
-      "tags": []
-    },
-    {
-      "name": "Potted Flowering Azalea Bush",
-      "tags": []
-    },
-    {
-      "name": "Potted Lily of The Valley",
-      "tags": []
-    },
-    {
-      "name": "Potted Orange Tulip",
-      "tags": []
-    },
-    {
-      "name": "Potted Pink Tulip",
-      "tags": []
-    },
-    {
-      "name": "Potted Red Mushroom",
-      "tags": []
-    },
-    {
-      "name": "Potted Red Tulip",
-      "tags": []
-    },
-    {
-      "name": "Potted Torchflower",
-      "tags": []
-    },
-    {
-      "name": "Potted White Tulip",
-      "tags": []
-    },
-    {
       "name": "Powder Snow",
-      "tags": []
-    },
-    {
-      "name": "Powder Snow Cauldron",
       "tags": []
     },
     {
@@ -3723,10 +3246,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Tube Coral Wall Fan",
-      "tags": []
-    },
-    {
       "name": "Twisting Vines",
       "tags": []
     },
@@ -3826,10 +3345,6 @@ const categoriesData = {
     },
     {
       "name": "Copper Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Copper Wall Torch",
       "tags": []
     },
     {
@@ -4057,230 +3572,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Waxed Chiseled Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Bars",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Block",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Bulb",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Chain",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Chest",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Door",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Golem Statue",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Grate",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Lantern",
-      "tags": []
-    },
-    {
-      "name": "Waxed Copper Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Waxed Cut Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Cut Copper Slab",
-      "tags": []
-    },
-    {
-      "name": "Waxed Cut Copper Stairs",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Chiseled Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Bars",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Bulb",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Chain",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Chest",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Door",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Golem Statue",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Grate",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Lantern",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Copper Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Cut Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Cut Copper Slab",
-      "tags": []
-    },
-    {
-      "name": "Waxed Exposed Cut Copper Stairs",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Chiseled Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Bars",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Bulb",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Chain",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Chest",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Door",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Golem Statue",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Grate",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Lantern",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Copper Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Cut Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Cut Copper Slab",
-      "tags": []
-    },
-    {
-      "name": "Waxed Oxidized Cut Copper Stairs",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Chiseled Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Bars",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Bulb",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Chain",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Chest",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Door",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Golem Statue",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Grate",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Lantern",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Copper Trapdoor",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Cut Copper",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Cut Copper Slab",
-      "tags": []
-    },
-    {
-      "name": "Waxed Weathered Cut Copper Stairs",
-      "tags": []
-    },
-    {
       "name": "Weathered Chiseled Copper",
       "tags": []
     },
@@ -4343,10 +3634,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Bedrock",
-      "tags": []
-    },
-    {
       "name": "Black Banner",
       "tags": []
     },
@@ -4356,10 +3643,6 @@ const categoriesData = {
     },
     {
       "name": "Black Candle",
-      "tags": []
-    },
-    {
-      "name": "Black Candle Cake",
       "tags": []
     },
     {
@@ -4395,10 +3678,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Black Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Black Wool",
       "tags": []
     },
@@ -4412,10 +3691,6 @@ const categoriesData = {
     },
     {
       "name": "Blue Candle",
-      "tags": []
-    },
-    {
-      "name": "Blue Candle Cake",
       "tags": []
     },
     {
@@ -4451,10 +3726,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Blue Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Blue Wool",
       "tags": []
     },
@@ -4468,10 +3739,6 @@ const categoriesData = {
     },
     {
       "name": "Brown Candle",
-      "tags": []
-    },
-    {
-      "name": "Brown Candle Cake",
       "tags": []
     },
     {
@@ -4507,10 +3774,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Brown Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Brown Wool",
       "tags": []
     },
@@ -4536,10 +3799,6 @@ const categoriesData = {
     },
     {
       "name": "Cyan Candle",
-      "tags": []
-    },
-    {
-      "name": "Cyan Candle Cake",
       "tags": []
     },
     {
@@ -4575,10 +3834,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Cyan Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Cyan Wool",
       "tags": []
     },
@@ -4604,10 +3859,6 @@ const categoriesData = {
     },
     {
       "name": "Gray Candle",
-      "tags": []
-    },
-    {
-      "name": "Gray Candle Cake",
       "tags": []
     },
     {
@@ -4643,10 +3894,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Gray Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Gray Wool",
       "tags": []
     },
@@ -4660,10 +3907,6 @@ const categoriesData = {
     },
     {
       "name": "Green Candle",
-      "tags": []
-    },
-    {
-      "name": "Green Candle Cake",
       "tags": []
     },
     {
@@ -4699,123 +3942,7 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Green Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Green Wool",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Banner",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Bed",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Candle",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Candle Cake",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Carpet",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Concrete",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Concrete Powder",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Glazed Terracotta",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Shulker Box",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Stained Glass",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Stained Glass Pane",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Terracotta",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Wall Banner",
-      "tags": []
-    },
-    {
-      "name": "Light Blue Wool",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Banner",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Bed",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Candle",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Candle Cake",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Carpet",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Concrete",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Concrete Powder",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Glazed Terracotta",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Shulker Box",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Stained Glass",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Stained Glass Pane",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Terracotta",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Wall Banner",
-      "tags": []
-    },
-    {
-      "name": "Light Gray Wool",
       "tags": []
     },
     {
@@ -4828,10 +3955,6 @@ const categoriesData = {
     },
     {
       "name": "Lime Candle",
-      "tags": []
-    },
-    {
-      "name": "Lime Candle Cake",
       "tags": []
     },
     {
@@ -4867,10 +3990,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Lime Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Lime Wool",
       "tags": []
     },
@@ -4884,10 +4003,6 @@ const categoriesData = {
     },
     {
       "name": "Magenta Candle",
-      "tags": []
-    },
-    {
-      "name": "Magenta Candle Cake",
       "tags": []
     },
     {
@@ -4923,10 +4038,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Magenta Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Magenta Wool",
       "tags": []
     },
@@ -4944,10 +4055,6 @@ const categoriesData = {
     },
     {
       "name": "Orange Candle",
-      "tags": []
-    },
-    {
-      "name": "Orange Candle Cake",
       "tags": []
     },
     {
@@ -4983,10 +4090,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Orange Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Orange Wool",
       "tags": []
     },
@@ -5004,10 +4107,6 @@ const categoriesData = {
     },
     {
       "name": "Pink Candle",
-      "tags": []
-    },
-    {
-      "name": "Pink Candle Cake",
       "tags": []
     },
     {
@@ -5043,55 +4142,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Pink Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Pink Wool",
       "tags": []
     },
     {
       "name": "Potatoes",
-      "tags": []
-    },
-    {
-      "name": "Potted Azure Bluet",
-      "tags": []
-    },
-    {
-      "name": "Potted Blue Orchid",
-      "tags": []
-    },
-    {
-      "name": "Potted Cactus",
-      "tags": []
-    },
-    {
-      "name": "Potted Closed Eyeblossom",
-      "tags": []
-    },
-    {
-      "name": "Potted Dandelion",
-      "tags": []
-    },
-    {
-      "name": "Potted Golden Dandelion",
-      "tags": []
-    },
-    {
-      "name": "Potted Open Eyeblossom",
-      "tags": []
-    },
-    {
-      "name": "Potted Oxeye Daisy",
-      "tags": []
-    },
-    {
-      "name": "Potted Poppy",
-      "tags": []
-    },
-    {
-      "name": "Potted Wither Rose",
       "tags": []
     },
     {
@@ -5104,10 +4159,6 @@ const categoriesData = {
     },
     {
       "name": "Purple Candle",
-      "tags": []
-    },
-    {
-      "name": "Purple Candle Cake",
       "tags": []
     },
     {
@@ -5143,10 +4194,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Purple Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Purple Wool",
       "tags": []
     },
@@ -5160,10 +4207,6 @@ const categoriesData = {
     },
     {
       "name": "Red Candle",
-      "tags": []
-    },
-    {
-      "name": "Red Candle Cake",
       "tags": []
     },
     {
@@ -5199,10 +4242,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Red Wall Banner",
-      "tags": []
-    },
-    {
       "name": "Red Wool",
       "tags": []
     },
@@ -5232,10 +4271,6 @@ const categoriesData = {
     },
     {
       "name": "White Candle",
-      "tags": []
-    },
-    {
-      "name": "White Candle Cake",
       "tags": []
     },
     {
@@ -5271,10 +4306,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "White Wall Banner",
-      "tags": []
-    },
-    {
       "name": "White Wool",
       "tags": []
     },
@@ -5288,10 +4319,6 @@ const categoriesData = {
     },
     {
       "name": "Yellow Candle",
-      "tags": []
-    },
-    {
-      "name": "Yellow Candle Cake",
       "tags": []
     },
     {
@@ -5324,10 +4351,6 @@ const categoriesData = {
     },
     {
       "name": "Yellow Terracotta",
-      "tags": []
-    },
-    {
-      "name": "Yellow Wall Banner",
       "tags": []
     },
     {
@@ -5389,10 +4412,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Daylight Detector",
-      "tags": []
-    },
-    {
       "name": "Deepslate Redstone Ore",
       "tags": []
     },
@@ -5426,10 +4445,6 @@ const categoriesData = {
     },
     {
       "name": "Lever",
-      "tags": []
-    },
-    {
-      "name": "Light Weighted Pressure Plate",
       "tags": []
     },
     {
@@ -5494,10 +4509,6 @@ const categoriesData = {
     },
     {
       "name": "Redstone Torch",
-      "tags": []
-    },
-    {
-      "name": "Redstone Wall Torch",
       "tags": []
     },
     {
@@ -5667,14 +4678,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Crimson Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Crimson Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Dried Ghast",
       "tags": []
     },
@@ -5787,22 +4790,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Potted Crimson Fungus",
-      "tags": []
-    },
-    {
-      "name": "Potted Crimson Roots",
-      "tags": []
-    },
-    {
-      "name": "Potted Warped Fungus",
-      "tags": []
-    },
-    {
-      "name": "Potted Warped Roots",
-      "tags": []
-    },
-    {
       "name": "Red Nether Brick Slab",
       "tags": []
     },
@@ -5844,10 +4831,6 @@ const categoriesData = {
     },
     {
       "name": "Soul Torch",
-      "tags": []
-    },
-    {
-      "name": "Soul Wall Torch",
       "tags": []
     },
     {
@@ -5935,14 +4918,6 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Warped Wall Hanging Sign",
-      "tags": []
-    },
-    {
-      "name": "Warped Wall Sign",
-      "tags": []
-    },
-    {
       "name": "Warped Wart Block",
       "tags": []
     }
@@ -5962,22 +4937,6 @@ const categoriesData = {
     },
     {
       "name": "Dragon Head",
-      "tags": []
-    },
-    {
-      "name": "Dragon Wall Head",
-      "tags": []
-    },
-    {
-      "name": "End Gateway",
-      "tags": []
-    },
-    {
-      "name": "End Portal",
-      "tags": []
-    },
-    {
-      "name": "End Portal Frame",
       "tags": []
     },
     {
@@ -6031,23 +4990,11 @@ const categoriesData = {
       "tags": []
     },
     {
-      "name": "Barrier",
-      "tags": []
-    },
-    {
       "name": "Beacon",
       "tags": []
     },
     {
-      "name": "Chain Command Block",
-      "tags": []
-    },
-    {
       "name": "Chipped Anvil",
-      "tags": []
-    },
-    {
-      "name": "Command Block",
       "tags": []
     },
     {
@@ -6071,15 +5018,181 @@ const categoriesData = {
       "tags": []
     },
     {
+      "name": "Lodestone",
+      "tags": []
+    }
+  ],
+  "inobtenibles": [
+    {
+      "name": "Barrier",
+      "tags": []
+    },
+    {
+      "name": "Bedrock",
+      "tags": []
+    },
+    {
+      "name": "Chain Command Block",
+      "tags": []
+    },
+    {
+      "name": "Command Block",
+      "tags": []
+    },
+    {
+      "name": "Daylight Detector",
+      "tags": []
+    },
+    {
+      "name": "End Gateway",
+      "tags": []
+    },
+    {
+      "name": "End Portal",
+      "tags": []
+    },
+    {
+      "name": "End Portal Frame",
+      "tags": []
+    },
+    {
+      "name": "Exposed Lightning Rod",
+      "tags": []
+    },
+    {
       "name": "Jigsaw",
       "tags": []
     },
     {
-      "name": "Lodestone",
+      "name": "Light",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Bed",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Candle",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Carpet",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Concrete",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Blue Wool",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Banner",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Bed",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Candle",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Carpet",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Concrete",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Concrete Powder",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Glazed Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Shulker Box",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Stained Glass",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Stained Glass Pane",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Terracotta",
+      "tags": []
+    },
+    {
+      "name": "Light Gray Wool",
+      "tags": []
+    },
+    {
+      "name": "Light Weighted Pressure Plate",
+      "tags": []
+    },
+    {
+      "name": "Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Ochre Froglight",
+      "tags": []
+    },
+    {
+      "name": "Oxidized Lightning Rod",
+      "tags": []
+    },
+    {
+      "name": "Pearlescent Froglight",
+      "tags": []
+    },
+    {
+      "name": "Reinforced Deepslate",
       "tags": []
     },
     {
       "name": "Repeating Command Block",
+      "tags": []
+    },
+    {
+      "name": "Shroomlight",
       "tags": []
     },
     {
@@ -6096,6 +5209,14 @@ const categoriesData = {
     },
     {
       "name": "Trial Spawner",
+      "tags": []
+    },
+    {
+      "name": "Verdant Froglight",
+      "tags": []
+    },
+    {
+      "name": "Weathered Lightning Rod",
       "tags": []
     }
   ]
@@ -6280,6 +5401,11 @@ function getFamily(name) {
   if (n.includes('banner')) return 'Estandartes';
   if (n.includes('candle')) return 'Velas';
   if (n.includes('dirt') || n.includes('grass') || n.includes('podzol') || n.includes('mycelium')) return 'Tierra y Pasto';
+  
+  // Nuevas Agrupaciones
+  if (n.includes('head') || n.includes('skull')) return 'Cabezas';
+  if (n.includes('anvil')) return 'Yunques';
+  if (n.includes('table') || n.includes('loom') || n.includes('stonecutter') || n.includes('grindstone')) return 'Mesas de Trabajo';
   
   // Madera
   const woods = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark oak', 'mangrove', 'cherry', 'bamboo', 'crimson', 'warped', 'pale oak'];
