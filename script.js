@@ -6254,7 +6254,42 @@ function onCheckboxChange() {
 
 /* ── Render ──────────────────────────────────────────────────── */
 function getFamily(name) {
-  // Strip variant keywords to find the base "family" name
+  const n = name.toLowerCase();
+  
+  // Agrupaciones generales pedidas
+  if (n.includes('quartz')) return 'Cuarzo';
+  if (n.includes('coral') || n.includes('sea pickle')) return 'Corales';
+  if (n.includes('kelp') || n.includes('seagrass') || n.includes('algae') || n.includes('lily pad')) return 'Vegetación Marina';
+  if (n.includes('tulip') || n.includes('orchid') || n.includes('allium') || n.includes('daisy') || n.includes('dandelion') || n.includes('bluet') || n.includes('rose') || n.includes('lilac') || n.includes('peony') || n.includes('sunflower') || n.includes('cornflower') || n.includes('lily') || n.includes('wither rose') || n.includes('spore blossom') || n.includes('pitcher plant')) return 'Flores';
+  if (n.includes('mushroom') || n.includes('fungus')) return 'Hongos';
+  if (n.includes('copper')) return 'Cobre';
+  if (n.includes('sandstone') || n.includes('red sandstone')) return 'Sandstone';
+  if (n.includes('blackstone')) return 'Blackstone';
+  if (n.includes('basalt')) return 'Basalto';
+  if (n.includes('purpur')) return 'Purpur';
+  if (n.includes('end stone')) return 'Piedra del End';
+  if (n.includes('nether brick') || n.includes('netherrack')) return 'Bloques del Nether';
+  if (n.includes('amethyst')) return 'Amatista';
+  if (n.includes('prismarine') || n.includes('sea lantern')) return 'Prismarina';
+  if (n.includes('concrete')) return 'Concreto';
+  if (n.includes('terracotta')) return 'Terracota';
+  if (n.includes('glass')) return 'Vidrio';
+  if (n.includes('wool') || n.includes('carpet')) return 'Lana y Alfombras';
+  if (n.includes('bed ') || n.endsWith('bed')) return 'Camas';
+  if (n.includes('shulker box')) return 'Cajas de Shulker';
+  if (n.includes('banner')) return 'Estandartes';
+  if (n.includes('candle')) return 'Velas';
+  if (n.includes('dirt') || n.includes('grass') || n.includes('podzol') || n.includes('mycelium')) return 'Tierra y Pasto';
+  
+  // Madera
+  const woods = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark oak', 'mangrove', 'cherry', 'bamboo', 'crimson', 'warped', 'pale oak'];
+  for (const w of woods) {
+    if (n.includes(w)) {
+      return w.split(' ').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
+    }
+  }
+
+  // Si no está en las agrupaciones grandes, quitarle los modificadores como antes
   let family = name;
   const modifiers = [
     ' Slab', ' Stairs', ' Wall', ' Fence Gate', ' Fence', ' Door', ' Trapdoor',
@@ -6274,7 +6309,6 @@ function getFamily(name) {
     }
   }
   
-  // Special cases or manual mapping could be added here
   if (!family) family = name;
   return family.trim();
 }
